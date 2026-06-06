@@ -12,7 +12,9 @@
   h1{font-size:20px;margin:0 0 4px}
   .sub{color:var(--muted);font-size:13px;margin-bottom:18px}
   .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-width:110px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-width:110px;cursor:pointer;user-select:none}
+  .stat:hover{border-color:var(--blue)}
+  .stat.active{border-color:var(--blue);box-shadow:0 0 0 2px var(--blue) inset}
   .stat .n{font-size:22px;font-weight:700}
   .stat .l{font-size:12px;color:var(--muted)}
   .stat.amber .n{color:var(--amber)}.stat.green .n{color:var(--green)}.stat.gray .n{color:var(--muted)}.stat.blue .n{color:var(--blue)}
@@ -10263,6 +10265,8 @@ function sortedItems(){
   return arr;
 }
 
+var statusFilter="all";
+function setFilter(s){ statusFilter = (statusFilter===s ? "all" : s); render(); }
 function render(){
   var tb = document.getElementById("rows");
   tb.innerHTML = "";
@@ -10272,6 +10276,7 @@ function render(){
     if(s==="listed") nL++; else if(s==="ready") nR++; else if(s==="pending") nP++; else nS++;
   }
   var list = sortedItems();
+  if(statusFilter!=="all"){ list = list.filter(function(it){ return it.status===statusFilter; }); }
   for(var i=0;i<list.length;i++){
     var it = list[i];
     var pct = cheaperPct(it);
@@ -10328,11 +10333,12 @@ function render(){
     tb.appendChild(tr);
   }
   document.getElementById("stats").innerHTML =
-    '<div class="stat"><div class="n">'+items.length+'</div><div class="l">総件数</div></div>'+
-    '<div class="stat green"><div class="n">'+nL+'</div><div class="l">出品済み</div></div>'+
-    '<div class="stat blue"><div class="n">'+nR+'</div><div class="l">自動出品OK</div></div>'+
-    '<div class="stat amber"><div class="n">'+nP+'</div><div class="l">要承認</div></div>'+
-    '<div class="stat gray"><div class="n">'+nS+'</div><div class="l">スキップ</div></div>';
+    '<div class="stat'+(statusFilter==="all"?" active":"")+'" data-filter="all"><div class="n">'+items.length+'</div><div class="l">総件数</div></div>'+
+    '<div class="stat green'+(statusFilter==="listed"?" active":"")+'" data-filter="listed"><div class="n">'+nL+'</div><div class="l">出品済み</div></div>'+
+    '<div class="stat blue'+(statusFilter==="ready"?" active":"")+'" data-filter="ready"><div class="n">'+nR+'</div><div class="l">自動出品OK</div></div>'+
+    '<div class="stat amber'+(statusFilter==="pending"?" active":"")+'" data-filter="pending"><div class="n">'+nP+'</div><div class="l">要承認</div></div>'+
+    '<div class="stat gray'+(statusFilter==="skipped"?" active":"")+'" data-filter="skipped"><div class="n">'+nS+'</div><div class="l">スキップ</div></div>';
+  [].forEach.call(document.querySelectorAll("#stats .stat"), function(el){ el.onclick=function(){ setFilter(el.getAttribute("data-filter")); }; });
 }
 
 function onApprove(el,key){ lsSet(key, el.checked); el.nextElementSibling.style.display = el.checked ? "inline" : "none"; }
