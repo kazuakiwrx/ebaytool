@@ -27,8 +27,8 @@
   .legend span{display:inline-flex;align-items:center;gap:5px}
   .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
   .dot.g{background:var(--green)}.dot.b{background:var(--blue)}.dot.a{background:var(--amber)}.dot.s{background:#aab1ba}
-  .tablecard{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-  table{width:100%;border-collapse:collapse}
+  .tablecard{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow-x:auto;overflow-y:visible;-webkit-overflow-scrolling:touch}
+  table{width:100%;min-width:820px;border-collapse:collapse}
   th,td{padding:11px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
   th{background:#fafbfc;font-size:12px;color:var(--muted);font-weight:600;white-space:nowrap}
   tr:last-child td{border-bottom:none}
