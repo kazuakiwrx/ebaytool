@@ -55,3 +55,41 @@
 - **トレーディングカード（ポケモンカード等）**：鑑定（グレーディング：PSA/BGS等）付きに限り出品OK。鑑定なしの生カードは対象外（スキップ）。eBay側・仕入先側ともに鑑定品であることを確認する。
 - **コミック（本・漫画）**：出品禁止（対象外＝スキップ）。
 - **Gucci／Louis Vuitton（ルイヴィトン）**：出品対象（OK）。
+
+---
+
+## 在庫補充タスク 共通手順（アラート版 monodaz-auto-listing ／ Qty0版 monodaz-restock-by-quantity が共通で従う）
+※セラーリサーチ(monodaz-hourly-10listings)はこの手順ではなく各自のプロンプトに従う。
+
+### 環境・操作方針
+- PC起動（スリープ無し）・Chrome起動・拡張「Claude in Chrome」接続・MONODAZ(monodaz.com)にyui_chan_storeでログイン維持・ネット接続が前提。無ければ何も処理せず「MONODAZにyui_chan_storeでログインしてください」と報告し、後片付けして終了（パスワードは絶対に入力しない）。
+- 操作はすべて Claude in Chrome（mcp__Claude_in_Chrome__*）。tabs_context_mcp でタブ確認してから操作。独立した複数操作は browser_batch / 1回のjavascript_tool にまとめて実行。
+- **【DOMファースト・最重要】** 状態確認・要素特定・入力・クリックは原則すべて javascript_tool / find / read_page（DOM）で行い、スクリーンショットは使わない（描画待ち＋画像化＋転送で最も重い）。**スクショは「DOMで判断できない見た目の確認」だけ**＝(a)画像が新仕入先のものへ入れ替わったかの目視、(b)既存写真の「yui_chan_store」ロゴ/ウォーターマーク有無、の2点に限る。DOMで取れない時のみ最小限スクショ。
+- 円→ドル換算レートは 155.8円/$。
+
+### リポジトリ・トラッカー
+- リポジトリ：github.com/kazuakiwrx/ebaytool。トラッカー本体は docs/zaiko_hoju_tracker.html（GitHub Pages：https://kazuakiwrx.github.io/ebaytool/zaiko_hoju_tracker.html 。pushで自動反映）。GitHubトークンは C:\Users\impkk\Claude\Scheduled\catawiki-daily-update\SKILL.md 内のもの（ebaytoolにも有効）。トラッカー編集と git は mcp__workspace__bash で /tmp に ebaytool を git clone --depth 1 して完結。
+
+### 価格差ルール（出品／要承認／スキップ）
+0. **先に除外/高額チェック**：コミック禁止→スキップ。トレカは鑑定付きでなければスキップ。新仕入価格（送料込み）¥100,000以上なら要承認(pending)。
+1. **元の仕入価格が取得できる場合のみ** pct=(元−新)/元×100。pct≥10（新が10%以上安い）→出品しない・pending記録。pct<10→自動出品。
+2. **元の仕入価格が不明**な場合は pct省略し、有効な仕入先（共通ルール満たす即決・¥100,000未満・除外でない）があれば**目標利益率（12〜14%・狙い13%）で自動出品**。¥100,000以上なら要承認。有効仕入先なしならスキップ。
+
+### 出品フロー詳細（共通）
+モーダル要素：仕入先=#itemlist-suppliername、URL=#itemlist-supplierval、取得=#itemlist-modal-getsupply-btn、Price=#price、Quantity=#quantity、SKU=#customlabel、Condition=#conditionid、商品代=#buyprice、送料=#buyshippingprice、出品時送料=#outshippingprice、利益計算=#expectprofitbtn、保存=#item-edit-form-btn（「変更する」）、画像URL入力=#imgchange、画像入替ボタン=「画像入替」。
+1. `window.confirm=()=>true`（画像入替ダイアログ自動許可）。
+2. **【まとめ実行＋ポーリング】** 仕入先サイト選択＋#itemlist-supplierval にURL入力＋#itemlist-modal-getsupply-btn クリックを1回でまとめて実行。その後 #buyprice が埋まるまで約2秒間隔で最大10秒ポーリング（固定待ちしない）。空なら「仕入先取得フォールバック」に従う。
+   - 画像入替は本ファイル「画像（写真）の入替」に従う（自動入替を確認、未入替なら #imgchange で手動入替、yui_chan_storeロゴ写真は維持）。
+3. #buyshippingprice 確認（送料がかかるのに0なら岐阜県宛を入力）。#buyprice+#buyshippingprice が¥100,000以上なら自動出品中止→要承認。
+4. **【まとめ実行】** #quantity=1、#customlabel 末尾に「_AI在庫補充」追記（空/プレースホルダなら短い識別子を基底に）、Shipping Policy=「No 在庫 10日　0~100ドル」（全角スペース・Copyでない先頭）、Payment=「Buy it Now 用」、Return=「free 30 days money back」、Usedなら新仕入先の状態を英訳して Condition Description 設定（Newは変更なし）を1回のJSコールでまとめて実行。#conditionid は変更しない。
+5. **【利益率を12〜14%に合わせる】** #outshippingprice は最低¥3,500（未満なら3500に上書き）。#expectprofitbtn で実値を確認し、利益率が12〜14%に入るまで #price を上下して再計算（回数制限なし。12%未満→値上げ／14%超→値下げ）。
+6. **【保存ガード・重要】** 保存前に①利益率が12〜14%内、②画像が新仕入先のもの（ロゴ例外時のみ既存維持）——両方を必ず確認。①未達/マイナス、または②未入替（ロゴ例外でないのに古い画像）の場合は「変更する」を押さない（①要承認/スキップ、②画像入替後に保存）。OKなら最終確認→`window.confirm=()=>true`で「変更する」保存。
+
+### トラッカー更新（push＝Pages自動反映）
+- /tmp に ebaytool を git clone --depth 1 → docs/zaiko_hoju_tracker.html の items 配列に処理行（listed/pending/skipped）を追記・更新 → commit → git push。フィールドは既存に倣う（id, category, workDate[必ず時刻まで], ebayTitle, ebayUrl, origSite, origUrl, origPrice, newSite, newUrl, newPrice, status, note）。価格ルールのJSは変更せずデータのみ。元価格不明は origPrice:null。途中終了時も処理済み分は必ずpush。承認(i)由来でlistedにしたidは localStorage の approve_<id> も削除。
+
+### 後片付け（実行終了時・必ず）
+- 報告まで終えたら最後に、この実行で使ったブラウザのMCPタブグループを閉じる（tabs_context_mcp→tabs_close_mcp で全タブ）。どの終わり方でも可能な範囲で必ず閉じる。
+
+### 安全・制約
+- 仕入先・出品可否・利益率・画像入替は本ファイル（supplier_rules.md）を正とする。目標利益率は必ず到達・未達/マイナスは保存しない。ログイン切れ・エラーは無理に続行せず報告して終了（終了前にタブグループを閉じる）。パスワードは絶対に入力しない。
