@@ -85,7 +85,13 @@
 6. **【保存ガード・重要】** 保存前に①利益率が12〜14%内、②画像が新仕入先のもの（ロゴ例外時のみ既存維持）——両方を必ず確認。①未達/マイナス、または②未入替（ロゴ例外でないのに古い画像）の場合は「変更する」を押さない（①要承認/スキップ、②画像入替後に保存）。OKなら最終確認→`window.confirm=()=>true`で「変更する」保存。
 
 ### トラッカー更新（push＝Pages自動反映）
-- /tmp に ebaytool を git clone --depth 1 → docs/zaiko_hoju_tracker.html の items 配列に処理行（listed/pending/skipped）を追記・更新 → commit → git push。フィールドは既存に倣う（id, category, workDate[必ず時刻まで], ebayTitle, ebayUrl, origSite, origUrl, origPrice, newSite, newUrl, newPrice, status, note）。価格ルールのJSは変更せずデータのみ。元価格不明は origPrice:null。途中終了時も処理済み分は必ずpush。承認(i)由来でlistedにしたidは localStorage の approve_<id> も削除。
+- /tmp に ebaytool を git clone --depth 1 → docs/zaiko_hoju_tracker.html を更新 → commit → git push（GitHub Pagesが自動反映）。GitHubトークンは catawiki-daily-update/SKILL.md のもの。
+- **【書き込みは必ず安全な方法で・データ破損防止／最重要】** トラッカーの items 配列を壊さないため、次を厳守する：
+  1. 追記は **`var items = [` の直後（配列の先頭）に1行1オブジェクトで挿入**する（新しい行が上に来る）。**`</html>` の後や `<script>` の外、配列の外側には絶対に書かない。**
+  2. 各オブジェクトは**必ず後ろにカンマ**を付ける（`{...},`）。既存の先頭要素との間もカンマで繋ぐ。配列終端は `\n];`（セミコロンは1つ）に保つ。
+  3. 手作業のsed/文字列連結で末尾に貼り付けない。**推奨：mcp__workspace__bash で node/python を使い、ファイルを読み込み→`var items=[...]` を JSON.parse→新オブジェクトを配列 unshift／既存idは更新→`JSON.stringify` で書き戻す**。これなら重複・カンマ抜け・二重貼り付けが起きない。
+  4. **書き込み後に必ず検証**：`var items = [ ... ];` を JSON.parse できるか node で確認し、失敗したら push せずに修正する。壊れたまま push しない。
+- フィールドは既存に倣う（id, itemId, category, workDate[必ず時刻まで], ebayTitle, ebayUrl, origSite, origUrl, origPrice, newSite, newUrl, newPrice, status, note）。status は listed/pending/skipped のいずれか（skip等の表記揺れを使わない）。価格ルールのJSは変更せずデータのみ。元価格不明は origPrice:null。途中終了時も処理済み分は必ずpush。承認(i)由来でlistedにしたidは localStorage の approve_<id> も削除。
 
 ### 後片付け（実行終了時・必ず）
 - 報告まで終えたら最後に、この実行で使ったブラウザのMCPタブグループを閉じる（tabs_context_mcp→tabs_close_mcp で全タブ）。どの終わり方でも可能な範囲で必ず閉じる。
