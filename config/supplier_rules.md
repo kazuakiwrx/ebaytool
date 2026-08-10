@@ -80,9 +80,9 @@
 2. **【まとめ実行＋ポーリング】** 仕入先サイト選択＋#itemlist-supplierval にURL入力＋#itemlist-modal-getsupply-btn クリックを1回でまとめて実行。その後 #buyprice が埋まるまで約2秒間隔で最大10秒ポーリング（固定待ちしない）。空なら「仕入先取得フォールバック」に従う。
    - 画像入替は本ファイル「画像（写真）の入替」に従う（自動入替を確認、未入替なら #imgchange で手動入替、yui_chan_storeロゴ写真は維持）。
 3. #buyshippingprice 確認（送料がかかるのに0なら岐阜県宛を入力）。#buyprice+#buyshippingprice が¥100,000以上なら自動出品中止→要承認。
-4. **【まとめ実行】** #quantity=1、#customlabel 末尾に「_AI在庫補充」追記（空/プレースホルダなら短い識別子を基底に）、Shipping Policy=「No 在庫 10日　0~100ドル」（全角スペース・Copyでない先頭）、Payment=「Buy it Now 用」、Return=「free 30 days money back」、Usedなら新仕入先の状態を英訳して Condition Description 設定（Newは変更なし）を1回のJSコールでまとめて実行。#conditionid は変更しない。
-5. **【利益率を12〜14%に合わせる】** #outshippingprice は最低¥3,500（未満なら3500に上書き）。#expectprofitbtn で実値を確認し、利益率が12〜14%に入るまで #price を上下して再計算（回数制限なし。12%未満→値上げ／14%超→値下げ）。
-6. **【保存ガード・重要】** 保存前に①利益率が12〜14%内、②画像が新仕入先のもの（ロゴ例外時のみ既存維持）——両方を必ず確認。①未達/マイナス、または②未入替（ロゴ例外でないのに古い画像）の場合は「変更する」を押さない（①要承認/スキップ、②画像入替後に保存）。OKなら最終確認→`window.confirm=()=>true`で「変更する」保存。
+4. **【まとめ実行】** #quantity=1、#customlabel 末尾に「_AI在庫補充」追記（空/プレースホルダなら短い識別子を基底に）、Shipping Policy=**出品価格(USD)が入る金額レンジのポリシー**を選ぶ（「No 在庫 10日　◯~◯ドル」の◯~◯に最終出品価格が収まるもの。全角スペース・「Copy」の付かない先頭を優先）。例：$95→「No 在庫 10日　0~100ドル」／$120→「101~125ドル」／$140→「126~150ドル」。※出品価格は手順5で確定するため、ここでは仮に現行価格のレンジを選び、**価格確定後（手順5）に最終価格が入るレンジへ選び直す**、Payment=「Buy it Now 用」、Return=「free 30 days money back」、Usedなら新仕入先の状態を英訳して Condition Description 設定（Newは変更なし）を1回のJSコールでまとめて実行。#conditionid は変更しない。
+5. **【利益率を12〜14%に合わせる】** #outshippingprice は最低¥3,500（未満なら3500に上書き）。#expectprofitbtn で実値を確認し、利益率が12〜14%に入るまで #price を上下して再計算（回数制限なし。12%未満→値上げ／14%超→値下げ）。**価格が確定したら、Shipping Policy を最終出品価格が入る金額レンジ「No 在庫 10日　◯~◯ドル」へ選び直す**（最終価格 P が 下限 ≤ P ≤ 上限 を満たすレンジ。境界やレンジ間で該当が無い場合は、上限が P 以上で最小のレンジ＝価格を含む最も近い上位レンジを選ぶ。全角スペース・「Copy」の付かない先頭を優先）。
+6. **【保存ガード・重要】** 保存前に①利益率が12〜14%内、②画像が新仕入先のもの（ロゴ例外時のみ既存維持）、③Shipping Policy が最終出品価格の入る金額レンジ「No 在庫 10日　◯~◯ドル」——3点を必ず確認。①未達/マイナス、または②未入替（ロゴ例外でないのに古い画像）の場合は「変更する」を押さない（①要承認/スキップ、②画像入替後に保存）。OKなら最終確認→`window.confirm=()=>true`で「変更する」保存。
 
 ### トラッカー更新（push＝Pages自動反映）
 - /tmp に ebaytool を git clone --depth 1 → docs/zaiko_hoju_tracker.html を更新 → commit → git push（GitHub Pagesが自動反映）。GitHubトークンは catawiki-daily-update/SKILL.md のもの。
