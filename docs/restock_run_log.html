@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在庫補充 実行ログ</title>
+<style>
+  :root{--bg:#f5f6f8;--card:#fff;--line:#e3e6ea;--text:#1f2733;--muted:#6b7480;--blue:#2f6fed;--green:#1aa260;--amber:#e08a00;--red:#d23f3f;--bar:#c9dbff;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;padding:20px}
+  h1{font-size:20px;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+  .cards{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-width:120px}
+  .kpi .n{font-size:22px;font-weight:700}
+  .kpi .l{font-size:12px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+  th:first-child,td:first-child,th.l,td.l{text-align:left}
+  th{background:#eef1f5;color:var(--muted);font-weight:600;position:sticky;top:0}
+  tr:last-child td{border-bottom:none}
+  .listed{color:var(--green);font-weight:700}
+  .pending{color:var(--amber);font-weight:700}
+  .skipped{color:var(--muted)}
+  .barwrap{background:#eef1f5;border-radius:4px;height:10px;width:120px;display:inline-block;vertical-align:middle;overflow:hidden}
+  .bar{background:var(--bar);height:100%}
+  .note{color:var(--muted);font-size:12px;max-width:360px;white-space:normal;text-align:left}
+  .err{color:var(--red)}
+  button{background:var(--blue);color:#fff;border:none;border-radius:8px;padding:8px 14px;font-size:13px;cursor:pointer;margin-bottom:12px}
+</style>
+</head>
+<body>
+<h1>在庫補充 実行ログ <span style="font-size:13px;color:var(--muted)">monodaz-auto-listing</span></h1>
+<div class="sub">各実行の所要時間・処理件数（docs/restock_run_log.json）</div>
+<button onclick="load()">再読み込み</button>
+<div class="cards" id="kpis"></div>
+<div id="tablewrap"></div>
+<script>
+async function load(){
+  let data=[];
+  try{
+    const r=await fetch('restock_run_log.json?t='+Date.now());
+    data=await r.json();
+  }catch(e){ document.getElementById('tablewrap').innerHTML='<p class="err">読み込み失敗: '+e+'</p>'; return; }
+  render(data);
+}
+function num(v){return (v===null||v===undefined)?null:v;}
+function render(data){
+  const withDur=data.filter(d=>typeof d.durationMin==='number');
+  const totListed=data.reduce((a,d)=>a+(d.listed||0),0);
+  const totProc=data.reduce((a,d)=>a+(d.processed||0),0);
+  const avgDur=withDur.length?(withDur.reduce((a,d)=>a+d.durationMin,0)/withDur.length):null;
+  const avgItemSecs=data.filter(d=>typeof d.avgSecPerItem==='number');
+  const avgSec=avgItemSecs.length?Math.round(avgItemSecs.reduce((a,d)=>a+d.avgSecPerItem,0)/avgItemSecs.length):null;
+  const kpi=[
+    ['実行回数',data.length],
+    ['累計出品',totListed],
+    ['累計処理',totProc],
+    ['平均実行(分)',avgDur!==null?avgDur.toFixed(1):'—'],
+    ['平均/件(秒)',avgSec!==null?avgSec:'—'],
+  ];
+  document.getElementById('kpis').innerHTML=kpi.map(k=>`<div class="kpi"><div class="n">${k[1]}</div><div class="l">${k[0]}</div></div>`).join('');
+  const maxDur=Math.max(1,...withDur.map(d=>d.durationMin));
+  const rows=data.map(d=>{
+    const dur=num(d.durationMin);
+    const bar=dur!==null?`<span class="barwrap"><span class="bar" style="width:${Math.round(dur/maxDur*100)}%"></span></span> ${dur.toFixed(1)}`:'—';
+    return `<tr>
+      <td class="l">${d.date||''}</td>
+      <td class="l">${(d.startAt||'').slice(11)||'—'}〜${(d.endAt||'').slice(11)||'—'}</td>
+      <td>${bar}</td>
+      <td class="listed">${d.listed||0}</td>
+      <td class="pending">${d.pending||0}</td>
+      <td class="skipped">${d.skipped||0}</td>
+      <td>${d.processed||0}</td>
+      <td>${num(d.avgSecPerItem)!==null?d.avgSecPerItem:'—'}</td>
+      <td>${num(d.alertsRemaining)!==null?d.alertsRemaining:'—'}</td>
+      <td class="note">${(d.note||'').replace(/</g,'&lt;')}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('tablewrap').innerHTML=`<table>
+    <thead><tr><th class="l">日付</th><th class="l">時間帯</th><th>所要(分)</th><th>出品</th><th>要承認</th><th>スキップ</th><th>処理</th><th>平均/件(秒)</th><th>残ｱﾗｰﾄ</th><th class="l">メモ</th></tr></thead>
+    <tbody>${rows}</tbody></table>`;
+}
+load();
+</script>
+</body>
+</html>

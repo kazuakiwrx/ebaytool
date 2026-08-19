@@ -91,7 +91,15 @@
   2. 各オブジェクトは**必ず後ろにカンマ**を付ける（`{...},`）。既存の先頭要素との間もカンマで繋ぐ。配列終端は `\n];`（セミコロンは1つ）に保つ。
   3. 手作業のsed/文字列連結で末尾に貼り付けない。**推奨：mcp__workspace__bash で node/python を使い、ファイルを読み込み→`var items=[...]` を JSON.parse→新オブジェクトを配列 unshift／既存idは更新→`JSON.stringify` で書き戻す**。これなら重複・カンマ抜け・二重貼り付けが起きない。
   4. **書き込み後に必ず検証**：`var items = [ ... ];` を JSON.parse できるか node で確認し、失敗したら push せずに修正する。壊れたまま push しない。
-- フィールドは既存に倣う（id, itemId, category, workDate[必ず時刻まで], ebayTitle, ebayUrl, origSite, origUrl, origPrice, newSite, newUrl, newPrice, status, note）。status は listed/pending/skipped のいずれか（skip等の表記揺れを使わない）。価格ルールのJSは変更せずデータのみ。元価格不明は origPrice:null。途中終了時も処理済み分は必ずpush。承認(i)由来でlistedにしたidは localStorage の approve_<id> も削除。
+- フィールドは既存に倣う（id, itemId, category, workDate[必ず時刻まで], ebayTitle, ebayUrl, origSite, origUrl, origPrice, newSite, newUrl, newPrice, status, note, durSec[この商品の処理秒数・任意]）。status は listed/pending/skipped のいずれか（skip等の表記揺れを使わない）。価格ルールのJSは変更せずデータのみ。元価格不明は origPrice:null。途中終了時も処理済み分は必ずpush。承認(i)由来でlistedにしたidは localStorage の approve_<id> も削除。
+
+### 処理時間の記録（run log・必須）
+- **実行の所要時間と件数を必ず記録する。** 時刻は `mcp__workspace__bash` の `date +"%Y-%m-%d %H:%M:%S"`（必要に応じ `date +%s` のエポック秒）で取得する（エージェントの体感でなく実クロックを使う）。
+- **実行開始時**に開始時刻を控える（clone直後などタスク冒頭で1回）。
+- **1商品ごと**：その商品の処理を始める直前のエポック秒と、トラッカーへ書き込む直前のエポック秒の差を `durSec`（整数秒）としてその商品のトラッカー項目に入れる。重い/軽い商品の切り分けに使う。
+- **実行終了時（後片付けの直前）**：`docs/restock_run_log.json`（配列・無ければ `[]` で新規作成）の**先頭に1件 unshift** し、tracker と同じ commit で push する。壊さないため node/python で JSON.parse→unshift→JSON.stringify で書き戻し、書き込み後に JSON.parse で検証する（失敗したら push しない）。
+- run-log の1件のフィールド：`{task, date, startAt, endAt, durationMin, listed, pending, skipped, processed, avgSecPerItem, alertsRemaining, note}`。processed=listed+pending+skipped、avgSecPerItem は記録した durSec の平均（無ければ null）。
+- 閲覧用ページ：https://kazuakiwrx.github.io/ebaytool/restock_run_log.html （push で自動反映）。
 
 ### 後片付け（実行終了時・必ず）
 - 報告まで終えたら最後に、この実行で使ったブラウザのMCPタブグループを閉じる（tabs_context_mcp→tabs_close_mcp で全タブ）。どの終わり方でも可能な範囲で必ず閉じる。
