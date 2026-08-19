@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-20",
+  "startAt": "2026-08-20 02:33:00",
+  "endAt": "2026-08-20 02:36:57",
+  "durationMin": null,
+  "listed": 3,
+  "pending": 2,
+  "skipped": 0,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 380,
+  "note": "Phase B restock. Listed: Samurai Champloo Nujabes vinyl box $181(12.8%), BE@RBRICK 400%+100% Seven-Eleven $142(12.89%), SMP Wolkaiser $171(12.75%). Pending(alert kept): Neo Blythe Welcome Winter (eBay Used vs New-shops supplier mismatch/high price), SHINee Odd Type-A (random-photocard match ambiguous). Suppliers all メルカリ free-ship, images replaced. Partial run - many alerts remain for next run."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-20",
   "startAt": "2026-08-20 01:05:00",
