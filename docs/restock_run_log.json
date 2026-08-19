@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-19",
+  "startAt": "2026-08-19 19:00",
+  "endAt": "2026-08-19 19:26",
+  "durationMin": null,
+  "listed": 1,
+  "pending": 1,
+  "skipped": 2,
+  "processed": 4,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "Phase A: approved=0. Phase B部分処理(ブラウザ不安定/大量キューのため一部): MITSUBISHI ZENTOペン出品(margin13.65%); 本/漫画2件をカテゴリ除外でskip+alert削除; Moominマグは仕入高でpending維持。残りアラート363件は次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-19",
   "startAt": "2026-08-19 18:26:00",
   "endAt": "2026-08-19 18:48:30",
   "durationMin": 22.5,
