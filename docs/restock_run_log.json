@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-alert",
+    "date": "2026-08-20",
+    "startAt": null,
+    "endAt": "2026-08-20 00:37",
+    "durationMin": null,
+    "listed": 4,
+    "pending": 3,
+    "skipped": 0,
+    "processed": 7,
+    "avgSecPerItem": null,
+    "alertsRemaining": 353,
+    "note": "scheduled run; scanned all 8 notice pages; worklist 25 phaseA + 41 phaseB-new. Listed 4 (ES-S002 $190, Godzilla MinusOne $111, MG Zaku F2 $84, DB Broly LastOne $162), 3 phaseA kept pending (supplier cost > maxBuy). Large backlog remains for next runs."
+  },
+  {
     "task": "monodaz-auto-listing (restock-alert)",
     "date": "2026-08-19",
     "startAt": "2026-08-19 22:08:00",
