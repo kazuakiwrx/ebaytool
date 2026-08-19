@@ -1,3 +1,30 @@
 [
-{"task":"monodaz-auto-listing","date":"2026-08-19","startAt":null,"endAt":"2026-08-19 21:47","durationMin":null,"listed":2,"pending":2,"skipped":3,"processed":7,"avgSecPerItem":null,"alertsRemaining":367,"note":"初回シード。出品:SONY BD-RE($248/12.89%),BE@RBRICK GT-R($296/12.56%)。時間は次回実行から計測。"}
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-19",
+  "startAt": "2026-08-19 14:02:34",
+  "endAt": "2026-08-19 14:29:51",
+  "durationMin": 27,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 2,
+  "avgSecPerItem": 540,
+  "alertsRemaining": 376,
+  "note": "Batch run. Listed Majima 1/6 KOTOBUKIYA figure $341 (12.9%, Mercari ¥28,999, images swapped; title was briefly overwritten by cond-desc then restored). Skipped Nier 2B wristwatch (only Mercari match ¥49,999 > maxBuy ~¥33,910; Yahoo no wristwatch). Reviewed 2 high-value pending watches (Swatch x Omega ~¥112k supplier; Hot Toys Clone Trooper set ~¥108k) - both >=¥100k so kept as 要承認. Per-item cost very high due to volatile notice list + flaky modal reopening. Alert-delete buttons were disabled (data-noticeid) and could not be triggered programmatically; both processed items are recorded in tracker so dedup prevents reprocessing."
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-19",
+  "startAt": null,
+  "endAt": "2026-08-19 21:47",
+  "durationMin": null,
+  "listed": 2,
+  "pending": 2,
+  "skipped": 3,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 367,
+  "note": "初回シード。出品:SONY BD-RE($248/12.89%),BE@RBRICK GT-R($296/12.56%)。時間は次回実行から計測。"
+ }
 ]
