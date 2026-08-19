@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing(alert-restock)",
+  "date": "2026-08-19",
+  "startAt": "2026-08-19 21:07:53",
+  "endAt": "2026-08-19 21:24:48",
+  "durationMin": 17,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 300,
+  "alertsRemaining": 362,
+  "note": "大量(A系OOSアラート363・pending177)。今回はパイプライン検証を兼ね高信頼の1件(Beyblade CX-16 Start Dash Set C)を再出品。Ado ABセットは最安¥9,999が原価¥36,000比72%安で要承認相当・Sadako美少女は在庫探索でヒットせず。残りは次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-19",
   "startAt": "2026-08-19 20:07:25",
