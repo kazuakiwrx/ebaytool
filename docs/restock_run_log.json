@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-19",
+  "startAt": "2026-08-19 16:07:15",
+  "endAt": "2026-08-19 16:37:58",
+  "durationMin": 30,
+  "listed": 4,
+  "pending": 0,
+  "skipped": 3,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 368,
+  "note": "Phase A: 承認フラグ有効な保留品なし(18件は失効ID)。Phase B: notice1ページ目の新規7件を処理(既存トラッカー該当42件はスキップ)。出品4(BTS $159/13.3%, ワンピースおちょこ $47.5/13.5%, Francfranc SWツリー $315/13.0%, BABYMETAL FOX FES $229/13.2%)、スキップ3(コープスブライドEmilyドール/ショドウフォンMemorial/ANNA SUI鬼滅ネックレス=一致在庫なし・高すぎ)。ブラウザ2回クラッシュのため2/3ページ以降は未処理・次回継続。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-19",
   "startAt": "2026-08-19 14:02:34",
   "endAt": "2026-08-19 14:29:51",
   "durationMin": 27,
