@@ -63,6 +63,7 @@
 ### 環境・操作方針
 - PC起動（スリープ無し）・Chrome起動・拡張「Claude in Chrome」接続・MONODAZ(monodaz.com)にyui_chan_storeでログイン維持・ネット接続が前提。無ければ何も処理せず「MONODAZにyui_chan_storeでログインしてください」と報告し、後片付けして終了（パスワードは絶対に入力しない）。
 - 操作はすべて Claude in Chrome（mcp__Claude_in_Chrome__*）。tabs_context_mcp でタブ確認してから操作。独立した複数操作は browser_batch / 1回のjavascript_tool にまとめて実行。
+- **【タブ後始末・開始時】実行の冒頭で、既に開いている自分のMCPタブグループがあれば tabs_context_mcp で確認し tabs_close_mcp で全タブ閉じてから、新しいタブを作って作業を始める**（前回が異常終了して残った残骸を毎回リセットする）。
 - **【DOMファースト・最重要】** 状態確認・要素特定・入力・クリックは原則すべて javascript_tool / find / read_page（DOM）で行い、スクリーンショットは使わない（描画待ち＋画像化＋転送で最も重い）。**スクショは「DOMで判断できない見た目の確認」だけ**＝(a)画像が新仕入先のものへ入れ替わったかの目視、(b)既存写真の「yui_chan_store」ロゴ/ウォーターマーク有無、の2点に限る。DOMで取れない時のみ最小限スクショ。
 - 円→ドル換算レートは 155.8円/$。
 
@@ -101,8 +102,10 @@
 - run-log の1件のフィールド：`{task, date, startAt, endAt, durationMin, listed, pending, skipped, processed, avgSecPerItem, alertsRemaining, note}`。processed=listed+pending+skipped、avgSecPerItem は記録した durSec の平均（無ければ null）。
 - 閲覧用ページ：https://kazuakiwrx.github.io/ebaytool/restock_run_log.html （push で自動反映）。
 
-### 後片付け（実行終了時・必ず）
-- 報告まで終えたら最後に、この実行で使ったブラウザのMCPタブグループを閉じる（tabs_context_mcp→tabs_close_mcp で全タブ）。どの終わり方でも可能な範囲で必ず閉じる。
+### 後片付け（実行終了時・必ず／どの終わり方でも）
+- 報告まで終えたら最後に、この実行で使ったブラウザのMCPタブグループを閉じる（tabs_context_mcp→tabs_close_mcp で全タブ）。
+- **正常終了だけでなく、エラー・ログイン切れ・時間切れ・途中中断など「どの終わり方」でも、報告の直前に必ずタブグループを閉じる**（後片付けを最後の必須ステップとして扱い、異常時もここを通す）。中断する場合も「先にタブを閉じてから」報告して終了する。
+- 閉じ残しはグループが溜まる原因になるため、閉じたら tabs_context_mcp で「グループが空（自動削除）」を確認する。
 
 ### 安全・制約
 - 仕入先・出品可否・利益率・画像入替は本ファイル（supplier_rules.md）を正とする。目標利益率は必ず到達・未達/マイナスは保存しない。ログイン切れ・エラーは無理に続行せず報告して終了（終了前にタブグループを閉じる）。パスワードは絶対に入力しない。
