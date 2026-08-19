@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-19",
+  "startAt": "2026-08-19 20:07:25",
+  "endAt": "2026-08-19 20:23:44",
+  "durationMin": 16.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "Triage complete: 198 unique alerts scanned across pages, 30 new (not in tracker), 168 already tracked/pending. Phase A: 18 approve_ flags all stale (none match a current pending item id) -> no human-approved listings. Attempted 1 listing (GRAND SEIKO empty box 307097840637, eBay $111.5): supplier fetch (getsupply) never populated #buyprice via any DOM method; modal renders blank in screenshots (visual/render issue) so coordinate click unavailable. Listing write-path non-functional this run. No listings saved, NO alerts deleted (no data corruption)."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-19",
   "startAt": "2026-08-19 19:00",
