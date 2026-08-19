@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-19",
+  "startAt": "2026-08-19 18:26:00",
+  "endAt": "2026-08-19 18:48:30",
+  "durationMin": 22.5,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 366,
+  "note": "Store=yui_chan_store OK. PhaseA: 18 approve flags all stale (none match current pending items). Enumerated all 366 alerts x8 pages -> 201 unique itemIds, 168 already in tracker (dedup-skip), 33 genuinely NEW. Researched 3 new high-value: uni-ball ZENTO pen $128.6 (no silver/black/gold 3-set under maxBuy -> pending-worthy); Black Lagoon Roberta figure $344.5 New (only Used stock found, condition mismatch -> pending-worthy); Dr.Ci:Labo Aqua Collagen Gel EX 200g $118 New (VALID supplier mercari m28906640018 Y9900, first profit calc = Y2289 = 12.45% within band). BUT MONODAZ expectprofit UI stopped returning values after first computation (client-side, no server error; buyprice cached OK) -> could not re-confirm margin nor set shipping/payment/return policies -> NOT saved per save-guard. 0 listed, 0 alerts deleted this run. Recommend: investigate profit-calc reliability; 33 new items await next run."
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-19",
   "startAt": "2026-08-19 17:06:30",
   "endAt": "2026-08-19 17:24:06",
   "durationMin": 17.6,
