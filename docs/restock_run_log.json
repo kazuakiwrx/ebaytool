@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (alert restock)",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 00:12",
+  "endAt": "2026-08-21 00:24",
+  "durationMin": null,
+  "listed": 0,
+  "pending": 4,
+  "skipped": 0,
+  "processed": 4,
+  "avgSecPerItem": null,
+  "alertsRemaining": 365,
+  "note": "環境/ストア(yui_chan_store)/共通ルール確認済。フェーズB高単価アラートを4件処理:Samurai Champloo Nujabes 7inch($166,在庫¥16,600 BOXで実測~8%→13%到達に$249必要=妥当価格外),Corpse Bride Emily JUN PLANNING Doll($846,在庫候補がMonster High版/別Emilyフィギュアで同一性確証できず),Nier Automata 2B腕時計($322.5,在庫¥49,999のみでmaxBuy¥33,446超),SONY 10BNE3VEPS2 BD-RE XL($248,最安¥31,000でmaxBuy¥24,541超・ブランクメディア値上げ不可)。いずれも12-14%の restock 目標に届かず→要承認相当。保存(出品)・アラート削除・既存listing上書きは一切行わず(不可逆変更ゼロ)。Samurai Champloo は前日08-20に別供給元でlisted済のため下げ処理せず。フェーズA承認フラグ18件は全てlisted済でpending該当なし。残アラート365件は次回以降継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-20",
   "startAt": "2026-08-20 22:07:00",
