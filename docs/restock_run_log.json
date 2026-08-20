@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-auto-listing (restock-alert)",
+    "date": "2026-08-20",
+    "startAt": "2026-08-20 19:06:43",
+    "endAt": "2026-08-20 19:31:48",
+    "durationMin": 25,
+    "listed": 2,
+    "pending": 1,
+    "skipped": 1,
+    "processed": 4,
+    "avgSecPerItem": 500,
+    "alertsRemaining": 370,
+    "note": "手動スケジュール実行。フェーズB(アラート起点)を上位から処理。1件あたりの仕入先同一性検証が重く、時間内に4件のみ処理(出品2/要承認1/スキップ1)。残アラートは次回継続。"
+  },
+  {
     "task": "monodaz-restock-alert",
     "date": "2026-08-20",
     "startAt": "2026-08-20 17:06:46",
