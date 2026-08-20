@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 06:08:15",
+  "endAt": "2026-08-21 06:31:55",
+  "durationMin": 23.7,
+  "listed": 1,
+  "pending": 6,
+  "skipped": 0,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 390,
+  "note": "Phase B restock alerts, top-priced first. 1 listed (Astolfo figure $334/12.9% via Mercari). 6 pending: 2 high-value watches>=100k, 1 uncertain match, 1 New-condition unmatched, 1 too-costly figure, 1 monitoring-ended(needs Sell Similar) + Airwolf no-match. Phase A pending(185) not reached this run."
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 05:00:00",
   "endAt": "2026-08-21 05:28:13",
   "durationMin": 28.2,
