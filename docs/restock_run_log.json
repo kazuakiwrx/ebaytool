@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 01:07:31",
+  "endAt": "2026-08-21 01:27:56",
+  "durationMin": 20,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 420,
+  "alertsRemaining": 369,
+  "note": "アラート起点在庫補充。全stock-outアラート186件中185件は既にトラッカー登録済(重複スキップ)。唯一の新規=Azur Lane大鳳B-styleバニー1/4をヤフオク即決¥16500で再出品($243/13.03%)。フェーズAはapprove一致0件で出品0。"
+ },
+ {
   "task": "monodaz-auto-listing (alert restock)",
   "date": "2026-08-21",
   "startAt": "2026-08-21 00:12",
