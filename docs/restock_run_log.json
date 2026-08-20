@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-20",
+  "startAt": "2026-08-20 10:07:14",
+  "endAt": "2026-08-20 10:21:24",
+  "durationMin": 14,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "yui_chan_store確認済・ログイン維持。共通ルール全文読込。フェーズA:承認フラグ(approve_)18件は全て現行トラッカーitemに不一致(stale)で対象0。フェーズB:notice全7ページ走査、A系(在庫無し/Qty0/監視終了)ユニーク182件は全件トラッカー登録済(新規0件)＝共通dedupルールにより対象外。最高額45 Corpse Bride Emily(JUN PLANNING/Used)を代表サンプルで実検証→メルカリ再検索で同一コレクションドールの確実な在庫一致なし(Monster High/Victoria/ジオラマ等の別物のみ)＝前回同様skip妥当。加えてnotice頁でrendererフリーズ/CDPタイムアウト＆アラート削除ボタンが実効せず、書込フロー不安定。前回run(09:07)もeBay更新HTTP500で保存不可の記録あり。安全のため実出品/削除は行わず本runは0件処理として記録。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-20",
   "startAt": "2026-08-20 09:07:43",
   "endAt": "2026-08-20 09:28:30",
   "durationMin": 21,
