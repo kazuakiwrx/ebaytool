@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-20 16:16",
+  "startAt": "2026-08-20 16:07:32",
+  "endAt": "2026-08-20 16:16:19",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 373,
+  "note": "スケジュール実行(restock-alert)。yui_chan_store確認済・ログイン維持・共通ルール全文読込。フェーズA:approve_フラグ18件は現行pendingと全て不一致(stale)で対象0。origPrice null+新価格<10万のpending92件は既存ノート上いずれも仕入高騰で13%未達(47件)・要承認(21件)等=margin-guardにより出品不可のため据置。フェーズB:notice全373件(page1上位50件を実検証)はすべて既トラッカー重複=新規アラート0件、再チェックはQty0版担当。よって新規出品なし。当日6回超の先行実行と整合。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-20 15:24",
   "startAt": "2026-08-20 15:07:44",
