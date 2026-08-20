@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-20",
+  "startAt": "2026-08-20 12:06:49",
+  "endAt": "2026-08-20 12:23:00",
+  "durationMin": 17,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 3,
+  "processed": 3,
+  "avgSecPerItem": 160,
+  "alertsRemaining": 359,
+  "note": "手動実行。フェーズA(i)承認フラグは現行pendingと不一致で対象なし。フェーズBはアラート上位から高単価順に確認、5件検分し3件を処理(全て在庫は存在するがJP相場がmaxBuy超過で12-14%不成立→スキップ・アラート削除)。Beyblade X BX-00 Cobalt DrakeはSKU(BX-00 vs クリアVer等)同定困難で誤マッチ回避、Star Wars Star Destroyerは商品変更モーダルでレンダラがタイムアウトし中断。残アラート359件・pending181件は次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-20",
   "startAt": "2026-08-20 10:07:14",
