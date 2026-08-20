@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-20",
+  "startAt": "2026-08-20 13:11:37",
+  "endAt": "2026-08-20 13:29:01",
+  "durationMin": 17,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": null,
+  "alertsRemaining": 360,
+  "note": "スケジュール実行(restock-alert)。フェーズA:pending承認フラグ該当0。save-retry対象のPS Vita 64GBメモリカード(307081743763)を再出品成功=$119/利益率13.27%/画像入替/アラート削除。★重要な発見:多くのpendingはeBayの『Shipping service cost exceeds Standard Shipping from outside US maximum(カテゴリの送料上限超過)』が原因。価格レンジのShipping Policyではなく『No 在庫 10日 送料上限あり』を選ぶと保存成功する。フェーズB:新規アラート48件(290ユニーク中/残242はトラッカー重複でskip)。時間の都合で以降は次回継続。新規のSAMANTHA VEGAバッグ(307124915636)はNew×オフホワイトの一致在庫が無く見送り(アラート据置)。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-20",
   "startAt": "2026-08-20 12:06:49",
   "endAt": "2026-08-20 12:23:00",
   "durationMin": 17,
