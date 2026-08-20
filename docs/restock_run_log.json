@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 07:07:38",
+  "endAt": "2026-08-21 07:32:33",
+  "durationMin": 25,
+  "listed": 1,
+  "pending": 2,
+  "skipped": 1,
+  "processed": 4,
+  "avgSecPerItem": 390,
+  "alertsRemaining": 388,
+  "note": "フェーズA/B統合処理。307128432227 Lucy Heartfilia Bunnyを海外並行輸入品¥10,800で$150(13.01%)出品(以前pendingを更新)。307119324800 FE Edelgard 1/7=正規¥55,400のみ赤字でpending維持。307114764563 Amazing Yamaguchi War Machine=一致在庫¥25,800のみ高すぎでpending。307113134967 Uzaki BiCute Bunnies=最安¥5,099>maxBuyでskip。残アラート388。前回runの既処理pending多数のためこのrunは新規/未確定分中心。時間・予算制約で処理分をpushし継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 06:08:15",
   "endAt": "2026-08-21 06:31:55",
   "durationMin": 23.7,
