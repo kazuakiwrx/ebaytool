@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 12:07:43",
+  "endAt": "2026-08-21 12:30:51",
+  "durationMin": 23,
+  "listed": 1,
+  "pending": 1,
+  "skipped": 3,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 373,
+  "note": "時間・処理コスト制約により当回は上位から5件処理(listed:たまごっちUni Angel Festival $168/12.86%、pending:とんがり帽子のアトリエ複製原画集 保存が確定せず要承認、skipped:Roll仕入高騰・鑑定なしトレカ2件)。残アラートは次回継続。MONODAZ保存はTamagotchiは成功、ATELIERは変更するが無反応で未確定。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 11:08:12",
   "endAt": "2026-08-21 11:25:41",
   "durationMin": 17.5,
