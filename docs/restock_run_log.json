@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 20:08:58",
+  "endAt": "2026-08-21 20:20:08",
+  "durationMin": 11.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 373,
+  "note": "Phase A: examined top-priority eligible items (FF9 BRING ARTS $445; Miku Future Tone DX controller $714 New; Corpse Bride Emily doll $845; Ichiban Kuji KH Sora $96 New). All remain pending - cheapest matching in-stock supply on Mercari/Yahoo/PayPay exceeds the 12-14% profitable max (e.g. FF9 supply Y59,212 vs max ~Y45,700; KH Sora Y7,400 vs max ~Y7,200), or New condition can't match cheaper Used stock, or no clean product match (JUN Planning Corpse Bride). No new listings. Backlog: 118 Phase-A eligible (of 184 pending) + 373 alerts remain for next runs."
+ },
+ {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 19:11:27",
   "endAt": "2026-08-21 19:38:32",
   "durationMin": 27.1,
