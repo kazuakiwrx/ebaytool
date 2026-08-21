@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 16:05:00",
+  "endAt": "2026-08-21 16:29:16",
+  "durationMin": 23,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 4,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 372,
+  "note": "Phase A(pending 119 eligible): sampled high/mid/low-value items (Vivienne Westwood tiara, Corpse Bride doll, Nendoroid Umaru #524, ROBOT魂 Zaku) - all un-restockable at 12-14% (supplier>maxBuy / no exact match / listing ended) so left pending. Phase B: notice p1 had 46 stockout alerts, only 2 untracked; listed 1 (Nausicaa Galleria gunship 307106936006 @ $156, 12.97%, mercari m55944048282 15000yen, alert deleted). Backlog remains for next runs."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-21",
   "startAt": "2026-08-21 15:07:43",
