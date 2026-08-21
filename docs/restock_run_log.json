@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 17:08:07",
+  "endAt": "2026-08-21 17:22:32",
+  "durationMin": 14,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 373,
+  "note": "No new restock work. All Active/Qty0 restock alerts already in tracker (steady state). 39 untracked alerts are all ENDED eBay listings (status=End, no henkou button) -> not restockable, skipped without delete. Phase A: 0 actionable (18 approve_ localStorage flags all stale). Pending backlog (~97 origPrice-null<100k) stay pending for valid economics (supplier cost too high for 12-14%). No listings created; no alerts deleted."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
   "startAt": "2026-08-21 16:05:00",
