@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 19:11:27",
+  "endAt": "2026-08-21 19:38:32",
+  "durationMin": 27.1,
+  "listed": 1,
+  "pending": 10,
+  "skipped": 0,
+  "processed": 11,
+  "avgSecPerItem": 195,
+  "alertsRemaining": 373,
+  "note": "新規在庫切れ0件(全177 stock-outは既にトラッカー登録済=重複回避)。フェーズA=eligible pending11件を全件再評価:1件出品(Agnes Tachyon $350/13.75%)、10件は利益率未達/同定リスク/コンディション不一致で要承認維持。フェーズB新規なし。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
   "startAt": "2026-08-21 18:07:47",
