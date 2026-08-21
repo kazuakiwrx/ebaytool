@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 18:07:47",
+  "endAt": "2026-08-21 18:21:12",
+  "durationMin": 13.4,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 374,
+  "note": "stockout alerts: 292 unique. 179 restockable (商品変更あり) but ALL already in tracker -> skipped per dedup rule. 37 untracked alerts are ended listings (Sell Similarのみ・商品変更なし) -> restock不可。今回新規restock対象なし。37件はSell Similarでの手動再出品要検討。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-21",
   "startAt": "2026-08-21 17:08:07",
