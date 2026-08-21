@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 22:05",
+  "endAt": "2026-08-21 22:25",
+  "durationMin": 20,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 371,
+  "note": "Both processed items were already in tracker (duplicate re-fired alerts); Casio ECB-2300HR-1AJR re-listed $611@12.97% via Mercari, Azur Lane Taiho figure re-confirmed skipped (no genuine stock). Lingering alerts cleared. Backlog not fully processed due to per-item research cost; continue next run."
+ },
+ {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-21",
   "startAt": "2026-08-21 20:08:58",
