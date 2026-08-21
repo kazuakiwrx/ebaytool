@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 14:07:54",
+  "durationMin": 22,
+  "listed": 4,
+  "pending": 0,
+  "skipped": 4,
+  "processed": 8,
+  "avgSecPerItem": 495,
+  "alertsRemaining": null,
+  "note": "部分実行(予算/時間により8件処理)。フェーズB(notice在庫切れ)を高単価順に処理。フェーズAは今回未着手。要承認0。",
+  "endAt": "2026-08-21 14:29:55"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 13:07:52",
   "endAt": "2026-08-21 13:15:01",
   "durationMin": 7,
