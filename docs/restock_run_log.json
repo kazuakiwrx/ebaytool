@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-21",
+  "startAt": "2026-08-21 15:07:43",
+  "endAt": "2026-08-21 15:27:08",
+  "durationMin": 19.4,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 3,
+  "processed": 4,
+  "avgSecPerItem": 165,
+  "alertsRemaining": 376,
+  "note": "Phase A/B page1: 1 listed, 3 skipped (unprofitable/mismatch), 4 pending kept (Airwolf/artbook/Miku ctrl/Emily doll: supplier too costly or condition/identity mismatch). Partial run; ~376 alerts remain for next run."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
   "startAt": "2026-08-21 14:07:54",
