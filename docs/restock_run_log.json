@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-21",
+  "startAt": "2026-08-21 13:07:52",
+  "endAt": "2026-08-21 13:15:01",
+  "durationMin": 7,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 1,
+  "avgSecPerItem": 430,
+  "alertsRemaining": 373,
+  "note": "高負荷キュー(pending185/アラート374)。今回はサンプル高額品(Azur Lane大鳳$243)を3サイト精査→正規仕入先なしでskip。1ターン予算では全件処理不可、次回継続。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-21",
   "startAt": "2026-08-21 12:07:43",
   "endAt": "2026-08-21 12:30:51",
   "durationMin": 23,
