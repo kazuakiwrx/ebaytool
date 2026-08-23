@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock alert Phase B)",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 06:05:00",
+  "endAt": "2026-08-24 06:25:30",
+  "durationMin": 20,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 18,
+  "processed": 18,
+  "avgSecPerItem": null,
+  "alertsRemaining": 445,
+  "note": "Store=yui_chan_store確認済み。PhaseA: pending196件レビュー→approve_=1なし・origPrice-null候補は全て既評価(非競争/要人手/Sell Similar要)で新規出品対象なし。PhaseB: 全445アラート(9ページ)走査。itemId+タイトル二重dedupで真の新規は18件のみ。うち1件=コミック(出品禁止)。残り17件は全てeBay listing status=End(終了)で商品変更ボタン無し→Sell Similar要(標準restockフロー対象外)。よって標準フローで出品可能な新規アラートは0。18件を再発見防止のためskipped記録(alertは削除せず残置)。前回04:04-04:52の実行が当日のActiveバッチを処理済み。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock alert Phase B)",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 04:04:00",
   "endAt": "2026-08-24 04:52:57",
   "durationMin": 49,
