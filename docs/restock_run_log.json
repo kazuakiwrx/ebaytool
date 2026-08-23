@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 08:05:00",
+  "endAt": "2026-08-24 08:41:00",
+  "durationMin": 36,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 435,
+  "note": "アラート全435件を9ページ全走査。新規(未トラッカー)約20件は全て『監視終了』=eBay出品終了済みで商品変更ボタン無し(SellSimilarのみ)→在庫補充(revise)スキル対象外のためスキップ。フェーズA:origPrice null pendingは既存note通り高額>¥100k要承認/条件不一致/相場超/同定不能で構造的ブロック。307124919230(Miku FutureToneDXコントローラ,既に人手確認pending)を試行し仕入メルカリ¥19,800・利益率13%$254まで到達も、eBayがreviseを拒否(HTTP500:『Shipping service cost exceeds Standard Shipping from outside US maximum allowed for selected category』=ビデオゲームアクセ category送料上限)→保存不成立・出品変更なし。直前07:10実行で新着6件出品済のため今回は対象なし。listed0/pending0/skipped0。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 07:10:00",
   "endAt": "2026-08-24 07:43:00",
   "durationMin": 33,
