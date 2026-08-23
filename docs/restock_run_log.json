@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
+  "startAt": "2026-08-24 07:10:00",
+  "endAt": "2026-08-24 07:43:00",
+  "durationMin": 33,
+  "listed": 6,
+  "pending": 0,
+  "skipped": 4,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 436,
+  "note": "アラート起点在庫補充。listed6(Sony PS Vita/ MOON豆魚雷/ 虎杖悠仁SHF/ ベイブレードX CX-16/ セーラームーンBlack Lady/ ピクミン一輪挿し)全て利益率12-13%・画像入替済。skipped4は相場上昇でmaxBuy超または同定不能。フェーズA(pending196)は今回未着手・次回継続。"
+ },
+ {
   "task": "monodaz-auto-listing (restock alert Phase B)",
   "date": "2026-08-24",
   "startAt": "2026-08-24 06:05:00",
