@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 07:08:24",
+  "endAt": "2026-08-25 07:25:35",
+  "durationMin": 17,
+  "listed": 0,
+  "pending": 4,
+  "skipped": 1,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 422,
+  "note": "アラート全422件中、上位ページの新規5件のみ処理(残りはトラッカー既登録=重複でスキップ)。フェーズA:承認フラグ該当0・pending226件は既に要承認注記済みで新規出品なし。新規5件=時計G-SHOCK/SEIKO SBDC211(高額・目標未達で要承認)、ARTFXトウコ(送料負けでskip・アラート削除)、PWスネークBD(New条件一致品が高すぎ要承認)、NIKKEウエハースカード(トレカ扱いで自動出品保留・有効在庫¥7,200あり要承認)。listed=0。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-25",
   "startAt": "2026-08-25 05:07:58",
