@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-24",
+  "startAt": "2026-08-24 16:05",
+  "endAt": "2026-08-24 16:38",
+  "durationMin": 33,
+  "listed": 3,
+  "pending": 3,
+  "skipped": 0,
+  "processed": 6,
+  "avgSecPerItem": null,
+  "alertsRemaining": 407,
+  "note": "Phase B alert restock. Listed: Casio ECB-2300HR-1AJR $590/13.09% (PayPay ¥64208), Swatch x Omega Earthphase $576/13.24% (Mercari ¥65000), Beyblade X CX-16 $69/12.72% (Mercari ¥4150). Pending(supply too expensive for 12-14%): Arknights Lappland Premium, Cynthia&Garchomp ARTFX J, S.H.Figuarts Yuji Sukuna Vessel. Popular figures re-source above maxBuy. Partial run; ~407 alerts remain for next run."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
   "startAt": "2026-08-24 15:07:52",
