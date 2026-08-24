@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 10:07:13",
+  "endAt": "2026-08-24 10:48:19",
+  "durationMin": 41.1,
+  "listed": 6,
+  "pending": 3,
+  "skipped": 8,
+  "processed": 17,
+  "avgSecPerItem": 145,
+  "alertsRemaining": 409,
+  "note": "当日2回目の実行。フェーズA:pending該当のTAMIYA他を処理。フェーズB:notice上位のUsed中心に17件処理(出品6/要承認3(New供給不一致・高額¥100k+等でpending維持,アラート残)/スキップ8(在庫なし/仕入高すぎ/別バージョン))。出品はいずれも利益率12〜14%・画像メルカリ入替済。アラート423→409(処理14件削除)。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 09:09:59",
   "endAt": "2026-08-24 09:56:06",
   "durationMin": 46.1,
