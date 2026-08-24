@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 22:06:57",
+  "endAt": "2026-08-24 22:16:55",
+  "durationMin": 10,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 405,
+  "note": "フェーズA: approve_フラグ18件は全て現トラッカー未存在(処理済/除去済)で対象外。origPrice null のpending95件は notes上いずれも12-14%利益率未達で意図的にpending維持のため自動出品対象なし。フェーズB: 在庫切れアラートのユニークOOS ID 344件を全件トラッカーitemIdと突合→新規0件(全て既存)。dedupルールにより開かず飛ばし、アラート削除は行わず。新規出品なし。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 21:07:52",
   "endAt": "2026-08-24 21:13:30",
   "durationMin": 6,
