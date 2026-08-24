@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
+  "startAt": "2026-08-24 21:07:52",
+  "endAt": "2026-08-24 21:13:30",
+  "durationMin": 6,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 405,
+  "note": "新規アラートなし: 復元可能な(商品変更ボタン付き)アラート179件(全9ページ)は全てトラッカー既存=重複のためスキップ。フェーズA(i)承認済みpendingは18件全て既にlisted済みで対象0。フェーズA(ii)stale pending218件は前回要承認事由(仕入先未発見/利益率未達/高額)のため自動再出品は見送り、要承認のまま保持。出品/削除等の書込みなし。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
   "startAt": "2026-08-24 19:07:01",
