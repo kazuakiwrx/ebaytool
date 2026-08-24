@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-24 17:39",
+  "startAt": "2026-08-24 17:09",
+  "endAt": "2026-08-24 17:39",
+  "durationMin": null,
+  "listed": 1,
+  "pending": 6,
+  "skipped": 1,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 405,
+  "note": "Phase1のアラート41件中: 既処理40(listed5/skipped19/pending16)+新規1。処理: LISTED=Lappland APEX昇進2 Premium 1/7($342,12.95%,メルカリShops¥35800,画像入替,alert削除)。SKIPPED=DAISUKE TAJIMA art(供給0件 メルカリ/PayPay,alert削除)。PENDING継続(供給不可/条件不一致)=Onkyo黒執事イヤホンx2(eBay New vs 未使用に近い),Miku Future Tone DXコントローラ(¥38000 New供給あり12.83%だが保存でMONODAZ 500エラー=item固有,logID a129d241),等身大ヤドン(¥92k+>maxBuy),五等分ナイトウェア($95薄利/型違いリスク),FF9 BringArtsエーコ&クイナ(¥59k+>maxBuy要21%値上),Persona4桐条美鶴(アナザーカラー変種不一致)。注意: Miku 307124919230は保存時500継続=eBay revise不可の可能性、要確認。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
   "startAt": "2026-08-24 16:05",
