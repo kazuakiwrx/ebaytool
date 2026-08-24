@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 12:06:53",
+  "endAt": "2026-08-24 12:42:20",
+  "durationMin": 35,
+  "listed": 4,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 4,
+  "avgSecPerItem": null,
+  "alertsRemaining": 391,
+  "note": "4件出品(BTS Jimin hoody$160/figma Demi-fiend$238/どうぶつの森ハトの巣set$163/遊戯王強欲な壺replica$363、全て利益率12.8-13.2%・メルカリ仕入・画像入替・アラート削除・トラッカー更新済)。他7件(Miku PS4コン/相撲直筆色紙/五等分ねまきset/グラブルアニラ枕/等身大ヤドン/Miku PUPヴァンパイア/ニーア2B腕時計)はコンディション一致の黒字仕入先が見つからず(New指定に対し中古のみ/最安仕入が黒字上限超過)未出品でpending据置・アラート保持。フェーズA承認フラグ無し。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 11:09:32",
   "endAt": "2026-08-24 11:56:47",
   "durationMin": 47.2,
