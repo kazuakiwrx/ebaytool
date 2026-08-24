@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 11:09:32",
+  "endAt": "2026-08-24 11:56:47",
+  "durationMin": 47.2,
+  "listed": 12,
+  "pending": 5,
+  "skipped": 2,
+  "processed": 19,
+  "avgSecPerItem": 327,
+  "alertsRemaining": 395,
+  "note": "アラート起点フェーズB。ページ1のフレッシュ対象19件を高単価順で処理。listed12(利益率12-14%狙い13%・画像メルカリ入替)/pending5(高額・新品/版の不確実: BTS韓国版, 強欲な壺陶器, APEXラップランド1/7, ペルソナ桐条美鶴VERTEX x2)/skipped2(有効在庫が赤字: Ball&Chainローソンサンリオ, 東方ふもふも萃香)。フェーズA承認済みpendingは該当なし。残り約395件は次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 10:07:13",
   "endAt": "2026-08-24 10:48:19",
   "durationMin": 41.1,
