@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 14:07:31",
+  "endAt": "2026-08-24 14:36:50",
+  "durationMin": 29,
+  "listed": 4,
+  "pending": 2,
+  "skipped": 3,
+  "processed": 9,
+  "avgSecPerItem": 250,
+  "alertsRemaining": 414,
+  "note": "Phase A: no localStorage approve flags, no cleanly-eligible pending -> none. Phase B: all 9 genuinely-new alerts were on page1; pages2-3 confirmed 0 new (rest already in tracker). 4 listed(G-SHOCK $259.48/Splatoon $66/Emma Millstein $470/BellFine Lucy $164), 3 skipped(unprofitable/unsourceable), 2 pending(Onkyo Sebastian ANIMA condition mismatch, alerts kept). 7 alerts deleted (421->414)."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 13:07:26",
   "endAt": "2026-08-24 13:14:39",
   "durationMin": 7,
