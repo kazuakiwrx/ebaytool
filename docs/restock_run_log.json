@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-24",
+  "startAt": "2026-08-24 09:09:59",
+  "endAt": "2026-08-24 09:56:06",
+  "durationMin": 46.1,
+  "listed": 7,
+  "pending": 3,
+  "skipped": 5,
+  "processed": 15,
+  "avgSecPerItem": 286,
+  "alertsRemaining": 423,
+  "note": "フェーズA:pending該当なし(承認フラグ無し/条件外)。フェーズB:アラート上位から15件処理。出品7(利益率12-14%)、要承認3(条件不一致/高額¥10万超/仕入高)、スキップ5(在庫なし/別物)。アラート435→423(12件削除)。時間の許す範囲で処理し次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
   "startAt": "2026-08-24 08:05:00",
