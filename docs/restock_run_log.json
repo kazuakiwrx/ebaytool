@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 00:07:16",
+  "endAt": "2026-08-25 00:43:35",
+  "durationMin": 36.3,
+  "listed": 3,
+  "pending": 4,
+  "skipped": 9,
+  "processed": 16,
+  "avgSecPerItem": 205.6,
+  "alertsRemaining": 394,
+  "note": "フェーズA:承認pendingトラッカー該当なし(approve flagは全てqty0系で本トラッカーに不在)。フェーズB:16件処理(出品3/要承認4/スキップ9)。スキップ主因は同一商品の仕入がeBay想定利益率12%の上限価格を超過、または正確なエディション/セット構成が在庫なし。要承認は高額NewだがNew(未開封)在庫が上限超で未使用に近い在庫のみ=条件不一致。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
   "startAt": "2026-08-24 23:13:10",
