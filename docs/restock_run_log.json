@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (auto-listing)",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 08:17:19",
+  "endAt": "2026-08-25 08:42:25",
+  "durationMin": 25,
+  "listed": 4,
+  "pending": 3,
+  "skipped": 3,
+  "processed": 10,
+  "avgSecPerItem": 270,
+  "alertsRemaining": 415,
+  "note": "Phase A pending backlog. Listed: CASIO G-SHOCK GW-BX5600 $318, Ado Hibana plush $118, Hot Toys Thanos 1/6 $460, S.H.Figuarts Yuji $118 (all margin 12.7-13.2%, Mercari suppliers, images swapped). Skipped: Sailor Jellyfish pen (no Slim match), One Piece Premium Card Collection (ungraded TCG), Play Arts Kai MGS Snake (eBay New but only Used supply). Kept pending (no delete): Akagi Azur Lane plush (design-match uncertain, $295), Mercedes suitcase (no supplier match, $566), Quintuplets Nightwear set (no complete-set match). SEIKO SBDC211 & ~40 others left pending as >¥100k (need approval). ~164 eligible pending remain for next runs."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-25",
   "startAt": "2026-08-25 07:08:24",
