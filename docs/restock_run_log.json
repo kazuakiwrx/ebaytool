@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
+  "startAt": "2026-08-24 13:07:26",
+  "endAt": "2026-08-24 13:14:39",
+  "durationMin": 7,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 3,
+  "processed": 3,
+  "avgSecPerItem": 17,
+  "alertsRemaining": 392,
+  "note": "全4ページ(約200行)確認。在庫切れアラートの大半は当日早朝の実行(workDate 08-24 11:xx-12:38)で既にトラッカー登録済=重複スキップ。トラッカー未登録は3件のみで、いずれもeBay出品がEnd状態=商品変更ボタン無しで在庫補充モーダル編集不可(2件は29日周期出品終了でPhase B対象外、1件は監視終了)。新規出品/要承認なし。アラート削除は行わず。Phase A: localStorage承認フラグ0件のため出品対象なし。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-24",
   "startAt": "2026-08-24 12:06:53",
