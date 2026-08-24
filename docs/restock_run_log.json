@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 15:07:52",
+  "endAt": "2026-08-24 15:35:51",
+  "durationMin": 28,
+  "listed": 4,
+  "pending": 2,
+  "skipped": 2,
+  "processed": 8,
+  "avgSecPerItem": 437,
+  "alertsRemaining": 409,
+  "note": "yui_chan_store. Phase A: no human-approved(approve_=1) items; re-attempted top pending -> 1 listed(Digimon plush 307132884620), 2 kept pending(Miku controller 307124919230 & Onkyo earphones 307109174766: eBay New but only Used-grade mercari stock). Phase B: 5 page-1 fresh alerts -> 3 listed, 1 skip(no stock), 1 skip(ended listing). Deleted 6 alerts (415->409). Large backlog remains (199 pending + more alert pages) for next runs."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 14:07:31",
   "endAt": "2026-08-24 14:36:50",
   "durationMin": 29,
