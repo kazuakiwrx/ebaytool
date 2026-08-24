@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 00:55",
+  "endAt": "2026-08-25 01:26",
+  "durationMin": 31,
+  "listed": 2,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 2,
+  "avgSecPerItem": 180,
+  "alertsRemaining": 395,
+  "note": "新規アラート2件を出品(figma GuP西住まほ&逸見エリカ $173/13.08%, 一番くじNIKKE CH5ソーダ $161/12.94%)。他314件のアラートは既にトラッカー登録済みのため重複処理せずスキップ。フェーズA:approve_フラグ18件は全て現行pendingに非該当(stale)、pending(origPrice null)197件は全て既研究の要承認/条件不一致/高額¥100k超/利益率未達で自動出品対象なし。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-25",
   "startAt": "2026-08-25 00:07:16",
