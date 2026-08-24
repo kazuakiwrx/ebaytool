@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-24",
+  "startAt": "2026-08-24 23:13:10",
+  "endAt": "2026-08-24 23:22:56",
+  "durationMin": 10,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 405,
+  "note": "フェーズB:notice全9ページ405件のアラートitemIdを全取得、ユニーク約370件は全てトラッカー既存(listed/skipped/pending)=新規アラート0件のため処理対象なし。フェーズA:approve==1の人手承認0件(localStorageのapprove_2件は現pendingのid不一致)。origPrice null&新価格<10万のpending106件のうち、要承認表記/センチネル価格を除く実処理候補5件を精査したが、3件はeBay出品終了で商品変更ボタン無し(在庫補充編集不可・要Sell Similar人手)、1件は商品不一致、1〜2件は12-14%利益率が非現実価格で到達不可。よって自動出品可能な対象なし。listing/alert削除・トラッカーitems変更は行わずrun-logのみ更新。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-24",
   "startAt": "2026-08-24 22:06:57",
   "endAt": "2026-08-24 22:16:55",
   "durationMin": 10,
