@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 04:29:55",
+  "endAt": "2026-08-26 04:41:06",
+  "durationMin": 11.2,
+  "listed": 0,
+  "pending": 1,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 655,
+  "alertsRemaining": 358,
+  "note": "アラート149件(商品変更可)中148件は既にトラッカー登録済のため重複スキップ。新規1件=ねんどろいど789牛島若利のみ処理→仕入価格が最安¥24,999でも12-14%未達につき要承認(pending)・アラート残置。フェーズA:承認済み残pending0件のため出品なし。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26 04:25",
   "startAt": "2026-08-26 03:08",
