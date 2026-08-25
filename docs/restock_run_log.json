@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-25",
+  "startAt": "2026-08-25 13:08",
+  "endAt": "2026-08-25 13:17",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 1,
+  "avgSecPerItem": null,
+  "alertsRemaining": 392,
+  "note": "フェーズA:承認フラグ該当0。origPrice=null pending214件は全て正当保留(高額¥10万+要承認180件/出品終了・利益未達・状態不一致34件)で新規自動出品対象なし。フェーズB:全392アラート(ユニーク315件)中314件は既にトラッカー登録済み→重複処理せずスキップ。新規1件(307137650969)は『在庫復活/Qty1』で在庫切れ対象外かつコミック除外→skipped記録。当日先行実行(07:20-11:08)でキュー消化済み。出品0件。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
   "startAt": "2026-08-25 12:33:18",
   "endAt": "2026-08-25 12:54:36",
   "durationMin": 21.3,
