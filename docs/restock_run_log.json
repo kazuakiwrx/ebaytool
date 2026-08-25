@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26",
+  "startAt": "2026-08-26 06:08:09",
+  "endAt": "2026-08-26 06:33:53",
+  "durationMin": 25.7,
+  "listed": 1,
+  "pending": 3,
+  "skipped": 4,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 353,
+  "note": "yui_chan_store。フェーズB。上位高額から処理。新規出品1(Casio Ring Watch CRW-001-1JR $203/13.19% PayPay¥20,240)。高額≥¥100k要承認3(SEIKO SBDC211/Uma娘どきゅーと超特大/Persona4美鶴)はアラート残置。スキップ4(Steins;Gateセット・Onkyo黒執事イヤホン[New要だが中古のみ]・古手川唯ナースVer×2[欠品/別変種])はalert削除。当日既存レコード6件は重複処理(次回はトラッカー先読みで回避)。フェーズA(承認pending出品)は未実施。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-26",
   "startAt": "2026-08-26 05:07:49",
   "endAt": "2026-08-26 05:17:46",
   "durationMin": 9.9,
