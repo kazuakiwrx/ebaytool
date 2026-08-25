@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 16:07:59",
+  "endAt": "2026-08-25 16:19:25",
+  "durationMin": 11,
+  "listed": 0,
+  "pending": 1,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 300,
+  "alertsRemaining": 415,
+  "note": "全9ページ415アラート(ユニーク337 itemId)をトラッカー(既処理968 itemId)と突合し、未処理は1件のみ(307105283154)。他は本日の先行実行で処理済のためスキップ。1件はeBay=UsedだがUsed即決在庫が無くNewのみのため要承認(pending)。アラート削除は無し。"
+ },
+ {
   "task": "monodaz-restock-alert(auto)",
   "date": "2026-08-25",
   "startAt": "2026-08-25 15:08:17",
