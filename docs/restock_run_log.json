@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 05:07:49",
+  "endAt": "2026-08-26 05:17:46",
+  "durationMin": 9.9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 358,
+  "note": "全8ページ290ユニークのアラートをtrackerと突合し新規0件(全て既登録)。フェーズA承認フラグ該当pending0件。pending要承認は全て¥100,000+(要承認)/仕入>maxBuy(赤字)/在庫希少で自動出品不可。Haikyuu789をメルカリlive確認¥25,999>maxBuy¥23,404で不可を再確認。出品0・アラート削除なし(意図的残置)。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-26",
   "startAt": "2026-08-26 04:29:55",
