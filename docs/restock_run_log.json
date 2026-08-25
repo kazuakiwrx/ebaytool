@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-26",
+  "startAt": null,
+  "endAt": "2026-08-26 00:35:48",
+  "durationMin": null,
+  "listed": 3,
+  "pending": 3,
+  "skipped": 7,
+  "processed": 13,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "Phase A/B combined. Listed: Samurai Champloo Nujabes BOX(162USD), Travelers Notebook 20th(121USD), Granblue Anila plush(52USD). Pending held(alert kept): Uma Musume super-large plush(1989USD), FF9 BringArts(New-only vs Used+highval), SEIKO SBDC211(984USD watch). Skipped 7(no JP stock / cost>maxBuy / set-content mismatch), alerts deleted. ~363 alerts remain for next runs (JP resale often >= eBay comp making 12-14pct infeasible; many high-value items routed to approval)."
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-26",
   "startAt": "2026-08-25 23:09",
