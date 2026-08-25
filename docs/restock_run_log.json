@@ -1,6 +1,20 @@
 [
  {
   "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-26",
+  "startAt": "2026-08-25 23:09",
+  "endAt": "2026-08-26 00:04:52",
+  "durationMin": null,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 4,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 373,
+  "note": "Phase A: no approve flags. Phase B backlog ~228 not-handled-today; processed 5 top items (1 listed Luminasta Choso $56.5/13.16%; 4 skipped: Higurashi Hanyu, Nendoroid #372, S.H.Figuarts Gojo+Geto set, PlayArts Snake). Stopped early: renderer freezes + long session. Remaining backlog continues next run."
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-25",
   "startAt": "2026-08-25 22:11:37",
   "endAt": "2026-08-25 22:57:44",
@@ -74,7 +88,7 @@
   "date": "2026-08-25",
   "startAt": "2026-08-25 15:08:17",
   "endAt": "2026-08-25 15:42:15",
-  "durationMin": 34.0,
+  "durationMin": 34,
   "listed": 2,
   "pending": 10,
   "skipped": 0,
