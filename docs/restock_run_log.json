@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 11:59:47",
+  "endAt": "2026-08-25 12:29:28",
+  "durationMin": 29.7,
+  "listed": 2,
+  "pending": 1,
+  "skipped": 1,
+  "processed": 4,
+  "avgSecPerItem": null,
+  "alertsRemaining": 391,
+  "note": "Store yui_chan_store confirmed. Phase A: no approved-pending items (18 approve_ flags stale/not in tracker). Phase B: listed G-SHOCK GA-2100 TGR $339 (Mercari m96837098393 New ¥36,800, 12.6%) and DRT VARIAL 95 ELECTRIC $400 (PayPay z659135114 New ¥44,980, ~13%); SEIKO SBDC211 kept pending (cheapest in-stock ¥108,800 >¥100k high-value); Akagi Azur Lane plush no confirmed same-item match (only 5周年 different release) -> not listed. Env unstable: frequent renderer freezes, connection drops, aggressive JS-return blocking, and unreliable row-targeting made large-scale processing unsafe; stopped early after verified high-value listings. Remaining alerts continue next run."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-25",
   "startAt": "2026-08-25 10:07:45",
