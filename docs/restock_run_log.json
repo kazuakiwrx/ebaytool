@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 10:07:45",
+  "endAt": "2026-08-25 11:57:20",
+  "durationMin": 109.6,
+  "listed": 18,
+  "pending": 15,
+  "skipped": 35,
+  "processed": 68,
+  "avgSecPerItem": null,
+  "alertsRemaining": 393,
+  "note": "Alert backlog 415; 68 genuinely-new candidates (never restock-processed) worked; other 347 alerts were already pending/skipped/listed in prior runs (skipped per dedup). 31 skips were End-status listings needing Sell Similar (alerts kept). 15 pending = supplier too pricey for 12-14% or ambiguous/set-sourcing. 22 alerts deleted (18 listed + 4 no-supplier)."
+ },
+ {
   "task": "monodaz-restock-alert (auto-listing)",
   "date": "2026-08-25",
   "startAt": "2026-08-25 08:17:19",
