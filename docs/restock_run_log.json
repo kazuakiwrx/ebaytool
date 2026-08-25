@@ -1186,5 +1186,19 @@
   "avgSecPerItem": null,
   "alertsRemaining": 367,
   "note": "初回シード。出品:SONY BD-RE($248/12.89%),BE@RBRICK GT-R($296/12.56%)。時間は次回実行から計測。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
+  "startAt": null,
+  "endAt": "2026-08-25 19:46",
+  "durationMin": null,
+  "listed": 2,
+  "pending": 12,
+  "skipped": 5,
+  "processed": 19,
+  "avgSecPerItem": null,
+  "alertsRemaining": 385,
+  "note": "アラート起点在庫補充。フェーズB高単価優先でページ1の対象19件を処理。出品2件: どこでも真島コンプ6種($303/13.16%,mercari m75851181187 ¥31999), 遊戯王センチュリオンDuelSet YCSJ($101.93/13.00%,mercari m15557680656 ¥8499)。要承認12件(¥100k超高額/仕入高すぎ/同一性不確実/カテゴリ送料上限)。スキップ5件(即決清潔仕入なし2/除外カテゴリ本・トレカ3)。アラート削除7件(出品2+スキップ5)。残りページ2-8は次回継続。"
  }
 ]
