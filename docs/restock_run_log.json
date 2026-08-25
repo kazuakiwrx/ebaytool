@@ -3,15 +3,15 @@
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-25",
   "startAt": "2026-08-25 22:11:37",
-  "endAt": "2026-08-25 22:46:21",
-  "durationMin": 34.7,
-  "listed": 6,
+  "endAt": "2026-08-25 22:57:44",
+  "durationMin": 46.1,
+  "listed": 9,
   "pending": 2,
-  "skipped": 0,
-  "processed": 8,
-  "avgSecPerItem": 340,
-  "alertsRemaining": 382,
-  "note": "PhaseA page1 pending処理: listed 6 (Akagi plush/NIKKE Rapi deluxe/五等分5体/等身大ヤドン/安青錦手形/BTS ARIRANG XL). kept-pending 2: Nujabes 7inch BOX (eBay Records shipping-cost cap) & とんがり帽子複製原画集 (required-field validation). PhaseB new alerts=0 on page1 (all dedup). alerts deleted for 6 listed. pages2-4 not yet processed (~340 alerts, mostly dedup) - next run continues."
+  "skipped": 1,
+  "processed": 12,
+  "avgSecPerItem": 330,
+  "alertsRemaining": 373,
+  "note": "PhaseA pending処理 (notice page1+2). LISTED 9: Akagi plush$195/NIKKE Rapi deluxe$413/五等分5体$83/等身大ヤドン$765/安青錦手形$49/BTS ARIRANG XL$241/貞子1-7$466/トガヒミコ$176/Femiras シャワーヘッド$98 (all margin 12.9-13.7%, img swapped, alerts deleted). KEPT-PENDING 2: Nujabes 7inch BOX (eBay Records shipping-cost cap) & とんがり帽子複製原画集 (required-field validation blocked save). SKIPPED 1: KH一番くじ Sora+Kairi set (supplier ¥32,500>>ceiling). PhaseB new alerts=0 (page1&2 all dedup/pending). pages3-4 (~283 alerts, mostly dedup) not processed - next run continues."
  },
  {
   "task": "monodaz-restock-alert",
