@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26",
+  "startAt": "2026-08-26 07:06",
+  "endAt": "2026-08-26 07:34",
+  "durationMin": 28,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": null,
+  "alertsRemaining": 353,
+  "note": "Phase B: 0 new alerts (all 353 alerts belong to already-tracked items). Phase A: rechecked ~7 pending-eligible items; relisted 1 (307133743305 Nendoroid Ushijima via mercari 21000, P=$212, margin13.1%). Others stay pending: supplier too expensive/condition mismatch/no matching stock/no price improvement."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-26",
   "startAt": "2026-08-26 06:08:09",
   "endAt": "2026-08-26 06:33:53",
   "durationMin": 25.7,
