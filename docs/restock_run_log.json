@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-26",
+  "startAt": "2026-08-26 01:07:42",
+  "endAt": "2026-08-26 01:27:20",
+  "durationMin": 20,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "Alerts全363件(在庫切れ対象283件・全8ページ)を確認。フェーズB:283件すべて既にトラッカー登録済みで新規0件(dedupスキップ)。当日00:35の先行runが処理済みのため。フェーズA:eligible-pending(origP null・仕入<10万)でライブアラートありは21件。先行runがマージン未達で保留した高額・希少品が中心。最上位のPersona4桐条美鶴フィギュアをメルカリ調査→適合在庫は¥198,000(高すぎ)またはアナザーカラー別物¥23,600のみで利益確保できる適合仕入先なし。MONODAZ編集モーダル(#itemlist-modal)が当セッションで描画不安定・AJAX未populateのため安全に出品編集できず。誤出品回避のため出品0・トラッカー変更なし・アラート削除なし。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-26",
   "startAt": null,
   "endAt": "2026-08-26 00:35:48",
   "durationMin": null,
