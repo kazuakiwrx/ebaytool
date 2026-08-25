@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26",
+  "startAt": "2026-08-26 08:05:00",
+  "endAt": "2026-08-26 08:24:59",
+  "durationMin": 20.0,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 353,
+  "note": "yui_chan_store。08:23JST実行。フェーズB:在庫補充系アラート143件(size=400で全件走査)は全てトラッカー既存=新規0件(重複につき処理せず)。フェーズA:承認pending190件中アラート内19件を含め全件、本日先行実行(06:08/07:06)で評価済み・要承認(≥¥100k)/仕入高すぎ(目標12-14%未達=損失)/条件不一致/在庫無しにつき据置。localStorage approve_フラグ無し。唯一の再試行候補PS Vita64GB(307139526114,mercari m30464035476 ¥9960/13%)はMONODAZ出品リスト(sitemid検索)に不在=編集不可・現行アラートにも無し→出品不可。新規出品・据置・スキップ・アラート削除いずれも無し。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-26",
   "startAt": "2026-08-26 07:06",
   "endAt": "2026-08-26 07:34",
   "durationMin": 28,
