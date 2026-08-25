@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 12:33:18",
+  "endAt": "2026-08-25 12:54:36",
+  "durationMin": 21.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 391,
+  "note": "PhaseB: 全391アラート中、商品変更ボタンを持つ133件は全てトラッカー既登録(新規0)。PhaseA: eligible pending(通知内)を高額順・低額順で検証。高額品(Slowpoke $699/送料¥17119, Persona/Dorohedoro等)は仕入原価>>12%maxBuyで不採算。低額品も送料¥3500がマージンを圧迫。最有力のNano Femirasシャワーヘッド($110,送料¥3500,New)はmaxBuy≒¥9,100だが、eBay=New条件に一致するメルカリ新品は最安¥17,444(中古¥7,999は条件不一致)で不採算。よって利益率12-14%を満たす出品可能品なし=損失回避のため出品0。alert削除なし。"
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-25",
   "startAt": "2026-08-25 11:59:47",
