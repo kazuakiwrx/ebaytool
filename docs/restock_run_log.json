@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-25",
+  "startAt": "2026-08-25 21:07:37",
+  "endAt": "2026-08-25 21:14:21",
+  "durationMin": 6.7,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 388,
+  "note": "no new alerts: all 313 unique alert itemIds across 8 pages already tracked (Phase A: 0 approve flags, 221 origPrice-null pendings all previously evaluated as 要承認/unprofitable; Phase B: 0 new)."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-25",
   "startAt": "2026-08-25 20:07:36",
