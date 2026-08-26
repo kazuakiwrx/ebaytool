@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-27 01:30:56",
+  "startAt": 1787760597,
+  "endAt": 1787761856,
+  "durationMin": 21.0,
+  "listed": 0,
+  "pending": 16,
+  "skipped": 2,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 361,
+  "note": "新規アラート2件(Persona5 A賞/Miku韶華)を採算・条件不一致でskip+アラート削除。Phase A対象=アクティブアラート付きpending16件は全て08-26/27に評価済み(12%上限超/在庫なし/コンディション不一致)につき当日重複評価は省略しpending維持。他281アラートは既処理(tracker一致)でdedup。"
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-27",
   "startAt": "2026-08-27 00:07:13",
