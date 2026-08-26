@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-alert (auto)",
+    "date": "2026-08-26",
+    "startAt": "2026-08-26 16:07:34",
+    "endAt": "2026-08-26 16:26:02",
+    "durationMin": 18,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 372,
+    "note": "新規アラートなし(notice全372件はすべてトラッカー既存=Phase B新規0)。Phase A: pending185件中、承認フラグ0・条件(ii)該当119件。うちライブアラート有り11件を再チェックし全件不採算/条件不一致/供給無しでpending維持(0出品)。トラッカーの当該11件はworkDate/note更新済み。"
+  },
+  {
     "task": "monodaz-auto-listing",
     "date": "2026-08-26",
     "startAt": "2026-08-26 15:05:00",
