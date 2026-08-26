@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 23:07:00",
+  "endAt": "2026-08-26 23:16:54",
+  "durationMin": 9.9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 370,
+  "note": "Phase B: all 303 unique alert itemIds already in tracker (0 new). Phase A: 6 qualifying-pending items had live alerts; all re-checked today 16:26 with structural reasons (supplier price above 12% ceiling / condition mismatch / no stock). Spot-verified Osage-chan plush still only Mercari ¥50,000 (unprofitable). 0 new listings; system caught up."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-26",
   "startAt": "2026-08-26 22:06:43",
