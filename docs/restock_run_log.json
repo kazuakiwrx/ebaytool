@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 22:06:43",
+  "endAt": "2026-08-26 22:16:15",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 370,
+  "note": "アラート370件(ユニークitemId303)は全て既にトラッカー登録済みのため、dedup規則により再処理せずスキップ。pending183件はapprove_フラグ無し・origPrice評価済みのため新規出品なし。今回の出品/新規pending/新規skippedは0件。"
+ },
+ {
   "task": "monodaz-restock-alert (auto)",
   "date": "2026-08-26",
   "startAt": "2026-08-26 21:05:00",
