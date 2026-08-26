@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert (auto)",
   "date": "2026-08-26",
+  "startAt": "2026-08-26 19:09:11",
+  "endAt": "2026-08-26 19:20:30",
+  "durationMin": 11,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 372,
+  "note": "Phase B: notice全8ページ/372アラート(307 unique itemId)を全走査、全てトラッカー既存=新規0。Phase A: pending185件中origPrice-null 160件、うちライブアラート有り24件を精査。承認フラグ0。24件=高額品(>=¥100k)要承認12件/12%不採算5件(GSHOCK OOR¥88.9k,Little Busters¥22.7k,Macross YF30¥45,999,Onkyo黒執事¥68k)/該当在庫なし5件。要注目: 307124926717 FamilyMart×Citizen黒白2本セットの新品供給が復活(メルカリ¥19,000〜)も、eBay#conditionid=Pre-owned不一致で自動出品保留(要人手:Newに直せば出品可)。出品0件。"
+ },
+ {
+  "task": "monodaz-restock-alert (auto)",
+  "date": "2026-08-26",
   "startAt": "2026-08-26 18:07:55",
   "endAt": "2026-08-26 18:18:03",
   "durationMin": 10,
