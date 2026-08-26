@@ -2,6 +2,20 @@
   {
     "task": "monodaz-restock-alert (auto)",
     "date": "2026-08-26",
+    "startAt": "2026-08-26 17:08:00",
+    "endAt": "2026-08-26 17:24:30",
+    "durationMin": 16,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 372,
+    "note": "Phase B: notice全アラート(8ページ/約305itemId表示・cnt372)を全走査、すべてトラッカー既存itemIdで新規0(重複スキップ)。Phase A: tracker pending185件中、approveフラグ0件、条件(ii)(origPrice=null&<¥10万)該当116件。うちライブアラート(編集可)有りは2件のみ=307110281304/307102395145 G-SHOCK×ONE OK ROCK GM-2100TTTR-8AJR(eBay Pre-owned $590.45)。メルカリ現在庫を実確認=最安¥89,000(新品)のみでmaxBuy¥64,992超＆条件不一致→非採算でpending維持。他の該当pendingは現行notice未掲載/別itemIdへ再出品済のため本タスクでは対象外。listed0/pending追加0/alert削除0。直近16:07の同タスク自動実行と同結論。"
+  },
+  {
+    "task": "monodaz-restock-alert (auto)",
+    "date": "2026-08-26",
     "startAt": "2026-08-26 16:07:34",
     "endAt": "2026-08-26 16:26:02",
     "durationMin": 18,
