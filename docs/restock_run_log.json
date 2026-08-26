@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 00:07:13",
+  "endAt": "2026-08-27 00:56:04",
+  "durationMin": 48.9,
+  "listed": 7,
+  "pending": 7,
+  "skipped": 2,
+  "processed": 16,
+  "avgSecPerItem": null,
+  "alertsRemaining": "~361",
+  "note": "Page1 genuine candidates(10)+Page2 top/prev-listed(6). Most pending=supplier cost exceeds 12-14% ceiling; 2 skipped=no valid MERCARI/PayPay supply. Phase A: no approved items; recent pendings already rechecked 08-26."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26",
   "startAt": "2026-08-26 23:07:00",
