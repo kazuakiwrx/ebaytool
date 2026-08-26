@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 13:08:06",
+  "endAt": "2026-08-26 13:29:09",
+  "durationMin": 21,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 1263,
+  "alertsRemaining": 347,
+  "note": "アラート全348件(7ページ)を照合。全itemIdが既存トラッカー登録済みで新規在庫切れ商品は0件のためフェーズBの再出品対象なし。フェーズA: approve済み(i)候補は現行itemsに該当なし(古いapprove_フラグのみ)。(ii)候補(origPrice=null&新仕入<10万)98件中、現行アラートで開けるものは4件。うちEdelgard 1/7(307119324800)を新仕入先メルカリ¥9,444(未使用に近い/送料込)で再出品、利益率13.26%(P$169)、画像を新仕入先に入替、アラート削除。残り3件(Kudryavka一番くじ¥22,699/$196・Macross DX超合金¥32,222/$222・おさげちゃんぬいぐるみ¥50,000/$383)は唯一の一致仕入先が利益ライン(12%)超過のためpending維持。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-26",
   "startAt": "2026-08-26 11:07:59",
