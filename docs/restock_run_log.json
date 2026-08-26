@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (auto)",
+  "date": "2026-08-26",
+  "startAt": "2026-08-26 21:05:00",
+  "endAt": "2026-08-26 21:22:00",
+  "durationMin": 17,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 370,
+  "note": "No-op run. Phase B: 0 new alerts (all 303 unique / 370 total notice alerts already in tracker -> skipped per dedup rule). Phase A: no localStorage approve flags; 98 qualifying pending (origPrice null & new<100k) in tracker but only 4 still have an active alert openable via notice (G-SHOCK ONEOKROCK GM-2100TTTR, HxH Killua TiCTAC watch, Pokemon Gengar Midnight Agent watch, AURA Lumina Magic SII haircream x2). All 4 were already re-checked earlier today (prior run ended 20:40 JST, ~41min before this run) and confirmed unprofitable / condition-mismatch / no matching in-stock supply -> kept pending, no change. ~94 other qualifying pending had no active alert this run. No listings made, no tracker item changes."
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-26",
   "startAt": "2026-08-26 20:08:09",
