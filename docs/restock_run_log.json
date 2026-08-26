@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 06:07:24",
+  "endAt": "2026-08-27 06:36:05",
+  "durationMin": 28.7,
+  "listed": 2,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 2,
+  "avgSecPerItem": 660,
+  "alertsRemaining": 379,
+  "note": "PhaseB new alerts=0 (all 309 already tracked). PhaseA: examined ~9 pending-with-alert; listed 2 (Porco Rosso diorama $527 / Thomas Oliver set $193); 8 remained pending (suppliers too expensive/mismatched). 10 high-value(>=¥100k) + others left pending."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-27",
   "startAt": "2026-08-27 05:08:00",
