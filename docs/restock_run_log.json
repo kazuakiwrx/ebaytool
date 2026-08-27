@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 08:08:11",
+  "endAt": "2026-08-28 08:34:24",
+  "durationMin": 26.2,
+  "listed": 0,
+  "pending": 12,
+  "skipped": 0,
+  "processed": 12,
+  "avgSecPerItem": null,
+  "alertsRemaining": 387,
+  "note": "PhaseB: 0 new (all 152 out-of-stock alerts already in tracker -> duplicates, skipped). PhaseA: 209 pending in tracker; 115 eligible (origPrice null & newPrice<100k); 22 of them present in current notice. Attempted top-12 by value; all remained pending: JP resale supply exceeds 12-14% margin threshold at eBay price, or only variant/incomplete(欠品あり)/no in-stock match, or eBay Books-category shipping-cost cap. 0 listed, 0 alerts deleted. No human approvals (localStorage approve_* = 0)."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
   "startAt": "2026-08-28 07:07:14",
