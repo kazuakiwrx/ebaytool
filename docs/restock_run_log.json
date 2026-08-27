@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 12:19:28",
+  "endAt": "2026-08-27 12:19:28",
+  "durationMin": null,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 367,
+  "note": "新規アラート0件(notice可視の在庫補充143件は全て既存トラッカー処理済:listed38/skipped77/pending28)。フェーズB新規なし。フェーズA:notice可視のpending-eligible22件は全て仕入コストが12-14%利益率上限超で出品不可(本日07:47-08:00の前回実行が既評価)。最小ギャップ2件(FRUIT OF THE LOOM金子恵治ダブルスーツ黒XL$280→黒XL新品タグ付き在庫なし/Baccarat 2023ペア$?→最安¥9,458でも12%上限¥9,350超)を再検索し再確認、pending維持。出品・承認・アラート削除・トラッカー変更なし。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-27",
   "startAt": "2026-08-27 11:06:41",
