@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 18:08:04",
+  "endAt": "2026-08-27 18:16:05",
+  "durationMin": 8.0,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 381,
+  "note": "アラート起点の新規在庫切れ(在庫無し/Qty0/監視終了)対象は0件。notice全8ページ381件(ユニークitemId 313件)を走査し312件は既にトラッカー登録済(重複のため再処理せず)、トラッカー未登録の1件はD:個数改訂(対象外)。フェーズA:approve承認済pendingは0件、(ii)origPrice=null&<10万のpending131件は全て過去実行で調査済(108件=利益率未達で保留/20件=許可フリマに在庫なし)のため自動出品対象なし。出品・要承認・スキップの新規処理なし。トラッカー本体は変更なし。"
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-27",
   "startAt": "2026-08-27 17:06:32",
