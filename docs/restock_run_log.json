@@ -1,6 +1,20 @@
 [
  {
   "task": "monodaz-auto-listing",
+  "date": "2026-08-27 10:34:14",
+  "startAt": "2026-08-27 10:32:14",
+  "endAt": "2026-08-27 10:34:14",
+  "durationMin": 2.0,
+  "listed": 1,
+  "pending": 10,
+  "skipped": 0,
+  "processed": 11,
+  "avgSecPerItem": null,
+  "alertsRemaining": 367,
+  "note": "フェーズB新規アラート=0(全て既存トラッカー記録済)。フェーズA:page1該当18件のうち高額順に11件を実査。1件出品(Beams Arabia Moomin手描きマグ $246/利益率13.54%/画像入替済/アラート削除済)。残り10件は12%達成不可でpending維持(現eBay価格に対し国内最安在庫が閾値超・条件不一致・欠品等)。終盤にブラウザ接続断のため打ち切り。"
+ },
+ {
+  "task": "monodaz-auto-listing",
   "date": "2026-08-27",
   "startAt": "2026-08-27 09:00:00(approx)",
   "endAt": "2026-08-27 09:15:37",
