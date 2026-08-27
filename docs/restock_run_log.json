@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 06:07:08",
+  "endAt": "2026-08-28 06:15:37",
+  "durationMin": 8.5,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 394,
+  "note": "承認(approve_)なし。Phase A: null-origPrice pending 177件は全て08/26-08/27に再評価済みで12-14%利益達成不可/要人手判断のため当日再処理せず(唯一の利益可307139526114はアラート解消済で対象外)。Phase B: アクティブアラート136件は全てトラッカー既存(dedupで除外)、他49件は終了済出品(商品変更不可)で対象外。新規/新規に出品可能な対象なし=出品0。アラート削除なし。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 05:07:27",
   "endAt": "2026-08-28 05:25:55",
   "durationMin": 18,
