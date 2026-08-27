@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 03:14:14",
+  "endAt": "2026-08-28 03:23:29",
+  "durationMin": 9.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 392,
+  "note": "フェーズA:承認済み(approve_)0件・null-origの要出品pendingは全て直近(本日03:08及び08/25-27)に評価済みで在庫無し/maxBuy超/高額要承認のため出品可能なし。フェーズB:notice全392件中、商品変更可能な在庫切れ対象157件は全てitemIdがトラッカーに存在(重複)→全スキップ。新規処理対象0件。直前03:08に別restock実行がキューを処理済み。アラート削除・トラッカー変更なし。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-28",
   "startAt": "2026-08-28 02:08:46",
