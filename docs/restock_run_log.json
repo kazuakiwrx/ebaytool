@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 07:07:14",
+  "endAt": "2026-08-28 07:39:30",
+  "durationMin": 32,
+  "listed": 1,
+  "pending": 7,
+  "skipped": 6,
+  "processed": 14,
+  "avgSecPerItem": 172,
+  "alertsRemaining": 387,
+  "note": "高額上位から処理。実出品はPokemon GO Plus+2個(¥35,000/利益率12.9%)の1件。他は多くがeBay設定価格が旧・格安仕入先基準で、代替仕入先が高くmaxBuy超過→目標利益率未達でpending、または特定バリエーション/セット/汎用輸出品が国内フリマに無くskip。フェーズA(トラッカーpending承認分)は今回未処理。残387件は次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 06:07:08",
   "endAt": "2026-08-28 06:15:37",
   "durationMin": 8.5,
