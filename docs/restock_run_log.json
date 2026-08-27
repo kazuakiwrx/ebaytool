@@ -1,10 +1,24 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 19:07:12",
+  "endAt": "2026-08-27 19:37:30",
+  "durationMin": 30,
+  "listed": 1,
+  "pending": 3,
+  "skipped": 1,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 379,
+  "note": "フェーズA:localStorage承認pendingなし(出品0)。フェーズB:再アラート起点で高単価候補から処理。listed1件(DRAMAtical Murder蒼葉1/7 $757/13.15%/メルカリ¥80,300画像入替・アラート削除)。skipped1件(シュタゲ一番くじメイクイーンfig set 国内在庫なし・アラート削除)。pending3件(Persona4美鶴/とんがり帽子REPRODUCTION SELECTION/HORROR美少女貞子=いずれも国内最安が目標12-14%の仕入上限超で保留・アラート残置)。多くの再アラートは国内相場上昇でeBay価格に対し12-14%未達=価格見直し候補。残り候補は次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-27",
   "startAt": "2026-08-27 18:08:04",
   "endAt": "2026-08-27 18:16:05",
-  "durationMin": 8.0,
+  "durationMin": 8,
   "listed": 0,
   "pending": 0,
   "skipped": 0,
