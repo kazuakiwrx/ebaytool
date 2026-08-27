@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 05:07:27",
+  "endAt": "2026-08-28 05:25:55",
+  "durationMin": 18,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 394,
+  "note": "In-scope alerts(stockNone/watchEnd) sampled 313/394. Dedup vs tracker: 0 new items, 38 pending, 57 listed, 218 skipped already in tracker. 0 approve_ flags. Phase A cond(ii) candidates=27 (origPrice null & <100k); 25/27 evaluated within 0-2 days and documented structurally unprofitable. Live re-check of borderline-best (Baccarat Year Tumbler 2023): cheapest exact-model Mercari supply Y12000 (other 2023 models Y9458-10500) >= ~Y9300 12% ceiling -> still unprofitable. No profitable/valid restock available this run; no listings, no tracker-item changes, no alert deletions."
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-28",
   "startAt": "2026-08-28 03:14:14",
