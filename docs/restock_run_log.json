@@ -1,10 +1,24 @@
 [
  {
   "task": "monodaz-auto-listing",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 11:06:41",
+  "endAt": "2026-08-27 11:26:05",
+  "durationMin": 19,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 367,
+  "note": "Phase B: 0件処理(通知367件=ユニークitemId300件は全て既にトラッカー登録済み→重複ルールで対象外)。Phase A: pending107件中、notice上に商品変更行があるのは14件のみ(残93件はnotice非表示でスキップ)。14件は仕入先が在庫切れ/12%上限超で全て利益率12-14%未達。実地で仕入先在庫を確認した約10件(G-SHOCK ONE OK ROCK, RWBY, DJI Osmo Pocket3, Onkyo黒執事, Alterアグネスタキオン, 呪術五条夏油 等)は全て新規在庫が無い又は割高で赤字。ルール(未達/マイナスは保存しない)に従い損失出品を回避、新規出品0件。トラッカーデータ変更・アラート削除は無し(3サイト完全確認未実施のためskip確定せず)。要対応の残pendingは次回以降に個別モーダルでP確認しながら継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
   "date": "2026-08-27 10:34:14",
   "startAt": "2026-08-27 10:32:14",
   "endAt": "2026-08-27 10:34:14",
-  "durationMin": 2.0,
+  "durationMin": 2,
   "listed": 1,
   "pending": 9,
   "skipped": 0,
