@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-27",
+  "startAt": "2026-08-27 22:13:09",
+  "endAt": "2026-08-27 22:26:55",
+  "durationMin": 13.8,
+  "listed": 0,
+  "pending": 198,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 363,
+  "note": "全135ユニーク在庫切れアラートを全8ページ照合。新規(未トラッカー)0件。フェーズA対象pending29件は全て本日assess済で目標利益率12-14%未達(仕入>maxBuy)または高額>=¥100k要承認/一致無し。最も惜しい307105534217(貞子1/7,maxBuy¥48302)もメルカリ最安¥50,000で依然超過。よって出品0件・アラート削除なし。listed35/skipped71はトラッカー重複でスキップ。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-27",
   "startAt": "2026-08-27 21:06:58",
