@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-alert",
+    "date": "2026-08-29",
+    "startAt": "2026-08-29 04:09:33",
+    "endAt": "2026-08-29 04:23:52",
+    "durationMin": 14.3,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 424,
+    "note": "No-op run (occurred ~1h after 03:00 run). Verified store=yui_chan_store, logged in. 424 alerts, 343 with listing links, 313 restock-type. Cross-checked ALL 313 restock alerts vs tracker: 0 NEW (every alert already in tracker) -> PhaseB empty. PhaseA pending-null pool=201, all already researched & correctly deferred: 172 highval>=Y100k(要承認), remainder loss-margin(supplier>maxBuy)/no-exact-match/condition-mismatch (each has detailed note). Spot-verified top items live: SEIKO YuGiOh Seto Kaiba limited-300 supplier Y300k(要承認); SEIKO Alpinist SBDC211 supplier Y105,555(要承認). Supplier prices unchanged since 03:00 run -> re-processing reconfirms pending. No listings (forcing would breach loss/match guards). No alerts deleted (pending keep alert; tracked items dedup-skipped)."
+  },
+  {
     "task": "monodaz-auto-listing",
     "date": "2026-08-29",
     "startAt": "2026-08-29 03:04",
