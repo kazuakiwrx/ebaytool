@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 16:09:01",
+  "endAt": "2026-08-28 16:33:33",
+  "durationMin": 24,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 1500,
+  "alertsRemaining": 440,
+  "note": "Phase A: 120 pending all pre-analyzed non-viable (loss/unreasonable markup/mismatch/pct>=10), left pending. Phase B: top fresh alerts mostly out-of-stock or above maxBuy (skip/approval). Listed 1: RAH Giorno (original mercari-shops supplier restocked, $309@13%). RAH alert not deleted (item listed, next run dedups)."
+ },
+ {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 15:08:52",
   "endAt": "2026-08-28 15:47:20",
   "durationMin": 38,
