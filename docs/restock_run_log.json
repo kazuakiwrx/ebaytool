@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-29",
+  "startAt": "2026-08-29 00:09:17",
+  "endAt": "2026-08-29 01:06:25",
+  "durationMin": 57,
+  "listed": 9,
+  "pending": 8,
+  "skipped": 0,
+  "processed": 17,
+  "avgSecPerItem": null,
+  "alertsRemaining": 394,
+  "note": "page1の新規アラート17件を処理(重複33件はトラッカー既存でスキップ)。9出品/8要承認。時間制約によりpage1で終了、次回page2以降を継続。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
   "startAt": "2026-08-28 23:05:00",
