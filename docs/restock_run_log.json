@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-29",
+  "startAt": "2026-08-29 06:08:53",
+  "endAt": "2026-08-29 06:14:07",
+  "durationMin": 6,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 418,
+  "note": "フェーズA:approve_フラグ0件・既存pending(230)は元価格不明でも仕入がmargin不成立の赤字リトライのため新規出品なし。フェーズB:notice全418件(target型=在庫無し/Qty0/監視終了)を全9ページ走査したが、全itemIdが既にトラッカー登録済み(重複)のためnewな処理対象0件。listed/pending/skip/アラート削除いずれも発生せず。前回05:07実行で新規分は処理済みと整合。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-29",
   "startAt": "2026-08-29 05:07:05",
   "endAt": "2026-08-29 05:39:10",
   "durationMin": 32,
