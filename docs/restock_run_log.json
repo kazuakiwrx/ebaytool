@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 18:07:11",
+  "endAt": "2026-08-28 18:30:39",
+  "durationMin": 23,
+  "listed": 1,
+  "pending": 1,
+  "skipped": 0,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 441,
+  "note": "アラート起点在庫補充。yui_chan_store確認・ログインOK。アラート全441件(P1の50件中フレッシュ24件)。1件を検証済で再出品(Slow Damage Tシャツ $158.5/13.5%)、1件を要承認(BTS×CKキャップ,真贋/色不確定)。MONODAZ編集モーダルでレンダラ凍結/CDPタイムアウトが頻発し、アラート削除ボタンがレスポンシブDOM重複で自動クリック不発。安全のため検証確実分のみ処理し残りは次回継続。出品済アラートはトラッカー重複防止で管理。"
+ },
+ {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-28",
   "startAt": "2026-08-28 16:09:01",
