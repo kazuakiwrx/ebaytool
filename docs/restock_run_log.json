@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-29",
+  "startAt": "2026-08-29 02:08:08",
+  "endAt": "2026-08-29 03:01:19",
+  "durationMin": 53.2,
+  "listed": 6,
+  "pending": 10,
+  "skipped": 2,
+  "processed": 18,
+  "avgSecPerItem": 211.1,
+  "alertsRemaining": "~429 (deleted 8: 6 listed +2 skipped; pending kept alerts)",
+  "note": "PhaseB: 9 new alerts (5 listed,2 pending,2 skipped). PhaseA: 9 pending-items rechecked (1 listed Hazbin set, 8 re-pending: scarce/over-budget/shops-only/uncertain-match). ~105 phaseA-eligible + deeper notice pages remain for next run."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-29",
   "startAt": "2026-08-29 00:09:17",
   "endAt": "2026-08-29 01:06:25",
   "durationMin": 57,
