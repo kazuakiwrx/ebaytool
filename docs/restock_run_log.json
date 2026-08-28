@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 09:09:23",
+  "endAt": "2026-08-28 09:24:36",
+  "durationMin": 15.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 387,
+  "note": "全アラート(在庫切れ約297件/全387件)は既にトラッカー登録済みで重複のためPhaseBの新規処理対象なし(dedup skip・アラート削除せず)。PhaseA候補=pending138件(criteria: origPrice null & 新仕入<10万)は本日03:08/07:28/07:38の先行runで研究済みで、全件が正当な保留理由(利益率未達73/コンディション不一致/サイズ色不一致/高額/仕入高すぎ)を持ち再出品しても同結果のため据置。最高額候補307109174766($499 Onkyo黒執事イヤホン)を実地検証→メルカリ在庫はUsed(未使用に近い)でeBay=New不一致かつ¥68,000で目標利益率未達→保留維持を確認。唯一の技術失敗保留307139526114(PSVitaメモカ,HTTP500で保存失敗)はnoticeに現在アラート無しのためPhaseA対象外(飛ばし)。出品0件。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 08:08:11",
   "endAt": "2026-08-28 08:34:24",
   "durationMin": 26.2,
