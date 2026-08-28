@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 19:09:22",
+  "endAt": "2026-08-28 19:28:36",
+  "durationMin": 19.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 440,
+  "note": "BLOCKED: MONODAZ item-edit modal '変更する' save did not commit via automation (verified by close/reopen: server unchanged). No alerts deleted, no tracker changes. 1 item fully sourced (307148093568 Oshi no ko Ai watch -> Mercari CLm4B75kJavG6NMbSDPdRH JPY21400 -> USD212, 13% margin) but could not be saved. Also session instability: renderer freezes, screenshot API error, network/console trackers non-functional. Retry next run / check save flow."
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 18:07:11",
   "endAt": "2026-08-28 18:30:39",
   "durationMin": 23,
