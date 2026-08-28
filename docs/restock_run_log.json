@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 21:08:22",
+  "endAt": "2026-08-28 21:51:48",
+  "durationMin": 43.4,
+  "listed": 6,
+  "pending": 3,
+  "skipped": 0,
+  "processed": 9,
+  "avgSecPerItem": null,
+  "alertsRemaining": 433,
+  "note": "Phase A: no localStorage-approved items; 222 pending are documented non-viable (unchanged). Phase B: enumerated 439 alerts, 45 fresh (not in tracker); processed 9 by value/identifiability. Listed 6 (Nendoroid Epel #1988 x2 $233/$242, Chogokin Metal Gear REX $288, Nendoroid Shouko Ieiri $108, SHF Scarlet Witch Endgame $120, Gift Jeanne Alter plush $216) all 12-14% margin, images replaced, alerts deleted. Held 3 pending (FREEing B-Style Geto - not in stock; MHA Deku Last One - ambiguous series; Hazbin 6-set - >50% price cut/variant risk). ~36 fresh remain for next run."
+ },
+ {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-28",
   "startAt": "2026-08-28 20:17:57",
