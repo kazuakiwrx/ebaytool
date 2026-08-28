@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-29",
+  "startAt": "2026-08-29 07:09:10",
+  "endAt": "2026-08-29 07:49:11",
+  "durationMin": 40.0,
+  "listed": 5,
+  "pending": 0,
+  "skipped": 3,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 411,
+  "note": "yui_chan_store. 5 listed (MG WingZero&Epyon $234, Chiikawa Kiramekko $166, Gundam CardGame StorageBox $98, PokemonGOPlus x2 $349, IchibanKuji KH $188). 3 skipped (BLEACH artbook=excluded; Godzilla HeatRay New-supply>maxBuy; Getou B-Style no in-stock supply, left pending). Prior-supplier URLs used for accurate matching. One browser tab-group disconnect mid-run, recovered. Many residual page-1 alerts are niche/underpriced items."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-29",
   "startAt": "2026-08-29 06:08:53",
   "endAt": "2026-08-29 06:14:07",
   "durationMin": 6,
