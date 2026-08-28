@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 20:17:57",
+  "endAt": "2026-08-28 20:28:02",
+  "durationMin": null,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 1,
+  "avgSecPerItem": null,
+  "alertsRemaining": 439,
+  "note": "BLOCKED: MONODAZ item-edit '変更する' save returns HTTP 500 (systemic, same as previous run). yui_chan_store確認・ログインOK・アラート440件。P1フレッシュ23件を高単価順に処理開始。#1 Oshi no Ko星野アイ腕時計($217.5)=有効仕入先なし→skipped+アラート削除。#2 DS狼と香辛料ぼくとホロ限定版($139.49,Very Good)=メルカリ¥8000(未使用に近い・送料込・24日前)一致、利益率13.03%($102.2)まで調整・画像メルカリ差替済だが/itemlist/item/update POSTが500で保存不成立→未出品・アラート保持。保存APIが復旧するまで出品不可のため中断。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
   "startAt": "2026-08-28 19:09:22",
