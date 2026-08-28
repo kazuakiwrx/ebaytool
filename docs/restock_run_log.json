@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 12:07:45",
+  "endAt": "2026-08-28 12:55:54",
+  "durationMin": 48.2,
+  "listed": 10,
+  "pending": 3,
+  "skipped": 1,
+  "processed": 14,
+  "avgSecPerItem": null,
+  "alertsRemaining": "≈362 (deleted 11: 10 listed + 1 skipped; 3 pending kept alert; processed top-value of 38 listed-status alerts, ~24 listed remain for next run)",
+  "note": "Phase B高単価14件処理。仕入先復活/差替で10件再出品(利益率12-14%)、3件要承認、1件スキップ。フェーズAは承認済み0件・null-orig pendingは既評価非妥当のため据置。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 (approx, this session)",
   "endAt": "2026-08-28 11:45:06",
   "durationMin": null,
