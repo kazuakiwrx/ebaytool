@@ -3,15 +3,15 @@
   "task": "monodaz-auto-listing",
   "date": "2026-08-28",
   "startAt": "2026-08-28 23:05:00",
-  "endAt": "2026-08-28 23:41:48",
+  "endAt": "2026-08-28 23:52:00",
   "durationMin": null,
-  "listed": 3,
+  "listed": 5,
   "pending": 2,
-  "skipped": 7,
-  "processed": 12,
+  "skipped": 9,
+  "processed": 16,
   "avgSecPerItem": null,
-  "alertsRemaining": 406,
-  "note": "Phase A: approve_ flags 0. Phase B: page1 高価値優先で12件処理。listed3(DRT VARIALハンドル$443/Palworld TCG 2BOX$174.5/OP プレミアムカードコレクション$148、全て利益率12-14%・画像入替済)、pending2(遊戯王6箱ロット/SEIKO遊戯王海馬時計 高額→要承認・アラート保持)、skipped7(レア/廃番/コンディション不一致/lotで単一URL調達不可: Steins;Gate図,Oshawott 2012,HxHフェイタン時計,ゴジラ×サンリオ,つきものがたりC89,ウマ娘アグネス高騰,ちいかわコンプ高)。skipは全てアラート削除済。startAtは概算。残り時間で継続可( page1以降未処理)。"
+  "alertsRemaining": 403,
+  "note": "Phase A: approve_ flags 0. Phase B: page1の高価値・高調達性を優先し16件処理。listed5(DRT VARIALハンドル$443/Palworld TCG 2BOX$174.5/OP プレミアムカードコレクション$148/S.H.MonsterArts ゴジラ マイナスカラーVer$120/EPOCHサッカー日本代表25-26 SE BOX$171、全て利益率12-14%狙い13%・画像入替済)。pending2(遊戯王6箱ロット/SEIKO遊戯王海馬時計 高額→要承認・アラート保持)。skipped9(レア/廃番/コンディション不一致/年式違い/lot単一URL不可/彫刻特定困難: Steins;Gateセット,Oshawott2012,HxHフェイタン時計,ゴジラ×サンリオ,つきものがたりC89,ウマ娘アグネス高騰,ちいかわコンプ,CODE VEIN2フィギュアCE,ヒロアカデクLastOne)。skipは全てアラート削除済。startAt概算。page1以降は未処理・次回継続。"
  },
  {
   "task": "monodaz-auto-listing",
