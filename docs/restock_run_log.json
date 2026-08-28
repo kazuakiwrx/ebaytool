@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-28",
+  "startAt": "2026-08-28 (approx, this session)",
+  "endAt": "2026-08-28 11:45:06",
+  "durationMin": null,
+  "listed": 4,
+  "pending": 6,
+  "skipped": 10,
+  "processed": 20,
+  "avgSecPerItem": null,
+  "alertsRemaining": 376,
+  "note": "フェーズB高単価順に20件処理。listed4/pending6/skipped10。pendingは仕入高騰で目標利益率(12-14%)未達=要承認、skippedは除外カテゴリ(コミック/トレカ/生カード)・在庫なし・コンディション不一致。次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-28",
   "startAt": "2026-08-28 09:09:23",
   "endAt": "2026-08-28 09:24:36",
   "durationMin": 15.2,
