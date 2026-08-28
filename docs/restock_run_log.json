@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-28",
+  "startAt": "2026-08-28 15:08:52",
+  "endAt": "2026-08-28 15:47:20",
+  "durationMin": 38,
+  "listed": 5,
+  "pending": 12,
+  "skipped": 0,
+  "processed": 17,
+  "avgSecPerItem": 134,
+  "alertsRemaining": 440,
+  "note": "フェーズB(アラート起点)を実行。ページ1中心に17件を評価し利益率12〜14%・鮮度・同一性・高額(¥100k以上要承認)基準で選別。listed5件=Ais figure$167/Pokemonノボリクダリ$447/Fie$254/METAL BUILD EVA02$288/Giant Robo$181(いずれもメルカリ仕入・画像新仕入先入替・アラート削除済)。残りは(a)対象商品がスカーレット等の別版・別キャラで同一性NG、(b)唯一の一致が在庫切れの元仕入先のみで次点が赤字、(c)高額(要承認)、(d)未発売、で非出品。非出品分は誤削除防止のためアラート未削除・pendingとして次回再評価に回した(トラッカーには未記録)。フェーズA(pending要承認)は同一アラートプールから処理、対象のAlter/CODEVEIN等は非採算・未発売でpending維持。時間の都合で全445件は未処理、次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-28",
   "startAt": "2026-08-28 13:54:30",
