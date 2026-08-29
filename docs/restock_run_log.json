@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
+  "startAt": "2026-08-30 06:09:20",
+  "endAt": "2026-08-30 06:58:07",
+  "durationMin": 48.8,
+  "listed": 7,
+  "pending": 1,
+  "skipped": 7,
+  "processed": 15,
+  "avgSecPerItem": null,
+  "alertsRemaining": 403,
+  "note": "アラート起点在庫補充。P1全件+P2一部処理。listed7(うちPhaseA:Thunderbird/Hazbin/YuGiOh playmat)、skipped7(仕入高/在庫無/条件不一致/除外Lorcana)、pending1(Kotobukiya高額)。BTS-CK/BTS-Nike/Polo等クロージングは要承認保留。残アラートの大半は既処理itemの旧アラート(dedup)。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-30",
   "startAt": "2026-08-30 04:08:43",
   "endAt": "2026-08-30 04:39:35",
   "durationMin": 30,
