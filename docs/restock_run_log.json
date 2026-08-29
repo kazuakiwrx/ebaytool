@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-29",
+  "startAt": "2026-08-29 17:07:49",
+  "endAt": "2026-08-29 17:35:25",
+  "durationMin": 27.6,
+  "listed": 1,
+  "pending": 7,
+  "skipped": 0,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 412,
+  "note": "Phase A eligible-pending re-check. Listed: 307137647574 Fate Jeanne Gift plush $181/13.06% (Mercari m28858402944 ¥17699, img swapped, alert deleted). Kept pending (unsourceable/unprofitable/condition or variant mismatch): 307135639419 RAH Raiden(¥77k floor>maxBuy), 307128249109 Snoopy moonphase(black listing vs white avail), 307109176592 Thunderbird RealKit02(not in stock), 307124926850 Hazbin set-of-6(only singles), 307114761877 Yuzuki Yukari plush(only ¥300 minis), 307126709950 Nendoroid Hachune Miku #42(not in stock). Phase B: page-1 alerts all already in tracker (dedup). Run did not traverse all 9 alert pages."
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-29",
   "startAt": "2026-08-29 16:08:03",
