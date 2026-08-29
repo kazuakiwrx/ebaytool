@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-08-29",
+  "startAt": "2026-08-29 19:07:23",
+  "endAt": "2026-08-29 19:19:33",
+  "durationMin": 12.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 412,
+  "note": "yui_chan_store確認・ログインOK。フェーズA:approve_フラグ0件。高単価pending再チェック(高値順):RWBY Ruby Rose 1/8(307121516611,eBay$618.75/Used)→現行仕入先在庫切れ、メルカリ再検索でも同一1/8品は¥76,012(shop)・中古¥83,000のみ=maxBuy¥65,213超で非妥当→pending維持。コトブキヤ桐生一馬フィギュア(307148990560,eBay$446.88/New)→在庫切れ、メルカリ最安¥46,254(shop)>maxBuy¥43,715=12%未達→pending維持。いずれも新規安価在庫の出現なし。フェーズB:notice全412件(9ページ)をfetchで精査、在庫切れ系アラート308件は全てトラッカー既登録=重複スキップ(新規0件)。よって出品0件。アラート削除は重複のため実施せず、残412件。前回(18:07-18:29)実行から1時間・仕入相場変化なしを確認。"
+ },
+ {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-29",
   "startAt": "2026-08-29 18:07:54",
   "endAt": "2026-08-29 18:29:00",
   "durationMin": 21.1,
