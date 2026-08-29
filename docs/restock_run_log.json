@@ -1,6 +1,20 @@
 [
   {
     "task": "monodaz-restock-alert",
+    "date": "2026-08-30",
+    "startAt": "2026-08-30 00:12:56",
+    "endAt": "2026-08-30 00:37:00",
+    "durationMin": 24,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 401,
+    "note": "フェーズB:noticeアラート全401件、1ページ目45件を実照合=全件既存トラッカー(17件listed/残pending/skipped)→新規アラート0件で出品対象なし。フェーズA:適格pending150件(うち新仕入価記録あり<¥45kが85件)。ページ1の適格pending7件を実地再確認:(1)Kotobukiya桐生一馬=New指定だがメルカリ最安¥46,254は未開封見受け中古でNew不一致、New最安¥56,555はmaxBuy≈¥48k超で利益率未達→pending継続 (2)Thunderbird2&4 RealKit02 1/144=該当1/144在庫なし(1/350/DeAgostini等別物のみ)→pending (3)ハズビンホテル全6種コンプ=単一出品のセット在庫なし(個別ブラインド¥1,700〜のみ)でmaxBuy¥7.3k不可→pending (4)KHソラ25th一番くじ=既存listed重複でスキップ。listable無し・前2runと同結論(easyな出品分は08/29 20:56 runで8件消化済)。ブラウザ不安定(レンダラtimeout/接続断)により多数ページ横断は非実施。"
+  },
+  {
+    "task": "monodaz-restock-alert",
     "date": "2026-08-29",
     "startAt": "2026-08-29 23:09:52",
     "endAt": "2026-08-29 23:20:30",
