@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-29",
+  "startAt": "2026-08-29 13:09:17",
+  "endAt": "2026-08-29 13:38:30",
+  "durationMin": 29,
+  "listed": 4,
+  "pending": 5,
+  "skipped": 0,
+  "processed": 9,
+  "avgSecPerItem": null,
+  "alertsRemaining": 392,
+  "note": "フェーズB(新規アラート)=0件(全396アラートは既にトラッカー登録済itemId)。高単価順にアラート起点pending/qty0を再処理。LISTED4: Azur Lane Kaga Plush $460(13.0%)/Fate Astolfo $315(13.7%)/MegaMan X Sigma KP750 $188(12.9%)/DOAX2 Kasumi SP $139(13.5%) 全て供給元メルカリ・画像入替済・アラート削除。PENDING5(相場高騰/目標未達/該当在庫特定できず・アラート維持): Persona3ウォッチ/HotToys DX19/結月ゆかり19cmぬいぐるみ/MaxFactoryシャナ/ハズビン6種コンプ。getsupplyバックエンドが数回失敗→リトライで復帰。フェーズA承認済み(approve_=1)は0件。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-29",
   "startAt": "2026-08-29 12:18:15",
   "endAt": "2026-08-29 12:41:35",
   "durationMin": 23.3,
