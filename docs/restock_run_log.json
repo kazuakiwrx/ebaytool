@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-29",
+  "startAt": "2026-08-29 18:07:54",
+  "endAt": "2026-08-29 18:29:00",
+  "durationMin": 21.1,
+  "listed": 1,
+  "pending": 4,
+  "skipped": 1,
+  "processed": 6,
+  "avgSecPerItem": 600,
+  "alertsRemaining": 412,
+  "note": "yui_chan_store確認・ログインOK。フェーズA:approve_フラグ0件。フェーズB:notice全413件を8ページ精査、要処理163件(在庫無し/監視終了)中162件は既トラッカー登録=重複スキップ、新規1件のみ=307143182903 CITIZEN NB1060-12L(新品即決がメルカリ¥130k/PayPay¥120k〜のみ=¥10万以上高額品→pending・アラート保持)。フェーズA高単価pending再チェック:Neo Blythe Lil Heart(307102396613)に新規安価在庫¥21,900出現→出品Price$226/利益率13.14%/画像新仕入先入替/アラート削除=LISTED。Onkyo黒執事イヤホン(仕入無)・MUJI CPD-4(¥17,500では利益率4%・妥当価格で12%未達)・おさげちゃんぬいぐるみ(¥50,000単品のみ・従来分析通り非妥当)は再チェックもpending維持。Macross VF-31AX(307069464757)はnotice非掲載でPhaseA対象外=skip。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-29",
   "startAt": "2026-08-29 17:07:49",
