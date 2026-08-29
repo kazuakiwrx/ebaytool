@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-30",
+  "startAt": "2026-08-30 07:06:43",
+  "endAt": "2026-08-30 07:38:34",
+  "durationMin": 32,
+  "listed": 4,
+  "pending": 1,
+  "skipped": 4,
+  "processed": 9,
+  "avgSecPerItem": null,
+  "alertsRemaining": 394,
+  "note": "Phase B (alert-based). Page1 new alerts only (40/49 were prior-handled dups). Listed: Yoko BUZZmod $227/13.1%, Luffy metal plate $222/13.6%, MAFEX Mandalorian $168/13.2%, Gamera NightColor $165/13.0%. Skipped: comic(Witch Hat vol12), no-match(Oshawott 2012 plush, MGSV art print), no-action(Nendoroid Bianca stock-restored). Pending: MHA Deku LastOne (ambiguous kuji series). Phase A (113 eligible pending) + remaining ~new alerts on later pages deferred to next runs."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
   "startAt": "2026-08-30 06:09:20",
