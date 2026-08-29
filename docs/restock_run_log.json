@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-29",
+  "startAt": "2026-08-29 10:07:40",
+  "endAt": "2026-08-29 10:29:48",
+  "durationMin": 22.1,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 7,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 404,
+  "note": "高価値・高需要の上位候補を中心に約9件を実調査。全件で有効な即決仕入先が見つからず(売切/別バリエ/コンディション不一致/予算超過=maxBuy超・仕入先在庫が高騰)。config「未達/マイナスは保存しない」に従い赤字出品はせず、有効仕入先無しの7件をskipped+アラート削除。RWBY(¥109,999)・Persona3時計(¥68,800)等は仕入先在庫はあるが予算超過のためpending維持(アラート残置)。残アラート404件は次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-29",
   "startAt": "2026-08-29 09:09:02",
