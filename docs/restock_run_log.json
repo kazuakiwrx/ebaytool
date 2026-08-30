@@ -1,6 +1,20 @@
 [
  {
   "task": "monodaz-auto-listing",
+  "date": "2026-08-31",
+  "startAt": "2026-08-31 00:31:58",
+  "endAt": "2026-08-31 00:48:09",
+  "durationMin": 16,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 628,
+  "alertsRemaining": 2,
+  "note": "Live alerts 3: 1 new listed (JoJo Mista SBSA031 -> mercari m84907415990 ¥70000, P$617/13.11%), 2 dedup-skipped (Miku figure=already skipped, SEIKO Alpinist=already pending). PhaseA: 152 origPrice-null pending all 要承認/marginal/要再調査 with 0 human-approve flags -> left pending per profit guard."
+ },
+ {
+  "task": "monodaz-auto-listing",
   "date": "2026-08-30",
   "startAt": "2026-08-30 22:06:36",
   "endAt": "2026-08-30 22:09:47",
@@ -18,7 +32,7 @@
   "date": "2026-08-30",
   "startAt": "2026-08-30 21:05:00",
   "endAt": "2026-08-30 21:10:00",
-  "durationMin": 5.0,
+  "durationMin": 5,
   "listed": 0,
   "pending": 0,
   "skipped": 0,
