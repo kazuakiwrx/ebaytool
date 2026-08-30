@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
+  "startAt": "2026-08-30 10:07:26",
+  "endAt": "2026-08-30 10:17:34",
+  "durationMin": 10.1,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 387,
+  "note": "フェーズB: 387アラート中 商品変更可能な144件はすべて既にトラッカー登録済み(listed62/pending23/skipped59)でフレッシュ0件のため新規出品なし。フェーズA: 商品変更可能なpendingは24件で全て高仕入原価(最安¥25,500)。代表4件(MTG TMNT $316/初音ミクWorldIsMine $198/CITIZEN NB1060 $1099/シンケンジャー ショドウフォン $212)を実地評価したが、現行相場が maxBuy(12%)を上回る損失、またはCITIZENは仕入¥130,000で高額品(要承認)のため、いずれも出品せずpending据え置き。出品0/要承認変更0/アラート削除0。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-30",
   "startAt": "2026-08-30 09:06:58",
   "endAt": "2026-08-30 09:59:05",
   "durationMin": 52.1,
