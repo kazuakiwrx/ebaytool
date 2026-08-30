@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 03:15:00",
+  "endAt": "2026-08-31 03:59:40",
+  "durationMin": 45,
+  "listed": 5,
+  "pending": 0,
+  "skipped": 10,
+  "processed": 15,
+  "avgSecPerItem": null,
+  "alertsRemaining": 114,
+  "note": "yui_chan_store フェーズB新規15件処理(既存アラートはトラッカー重複でスキップ)。listed5/skipped10。フェーズAは承認フラグ無し・pendingは高額/要承認/不採算のため0件。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 02:12:33",
   "endAt": "2026-08-31 03:06:29",
   "durationMin": 53,
