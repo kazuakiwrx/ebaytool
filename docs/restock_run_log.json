@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
+  "startAt": "2026-08-30 09:06:58",
+  "endAt": "2026-08-30 09:59:05",
+  "durationMin": 52.1,
+  "listed": 6,
+  "pending": 9,
+  "skipped": 0,
+  "processed": 15,
+  "avgSecPerItem": null,
+  "alertsRemaining": 387,
+  "note": "FphaseA: localStorage承認0件・null-origPrice pending194は高額/在庫なし/利益未達で保留のため出品対象なし。PhaseB: フレッシュ在庫切れアラートを上位から処理。listed6(DBZ一番くじ,MoonSwatch Snoopy,ARTFX Jシロナ,KH25thソラリク,AVIOT HE2,ねんどろいどはちゅね)。pending9は高額(≥¥10万)/仕入高すぎ/New条件不一致/バンドル・セット・特定バリアント在庫未確認。時間・トークン予算により15件で終了、残アラートは次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-30",
   "startAt": "2026-08-30 08:06:26",
   "endAt": "2026-08-30 08:30:01",
   "durationMin": 23.6,
