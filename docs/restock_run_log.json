@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
+  "startAt": "2026-08-31 02:12:33",
+  "endAt": "2026-08-31 03:06:29",
+  "durationMin": 53,
+  "listed": 8,
+  "pending": 11,
+  "skipped": 1,
+  "processed": 20,
+  "avgSecPerItem": null,
+  "alertsRemaining": 140,
+  "note": "yui_chan_store通知1ページ目(50件中)の実処理対象20件を処理。既listed/skipped30件はdedupスキップ。2-3ページ目(約91件)は次回継続。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-31",
   "startAt": "2026-08-31 00:31:58",
