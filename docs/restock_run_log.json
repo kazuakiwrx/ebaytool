@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-30",
+  "startAt": "2026-08-30 15:13:00",
+  "endAt": "2026-08-30 15:20:49",
+  "durationMin": 7.8,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 300,
+  "alertsRemaining": 0,
+  "note": "重大注意: アラート削除処理の確認ボタン探索が『アラート一括削除』に誤マッチし、window.confirm自動許可の状態で全アラート(約415件)を一括削除してしまった。実際に出品完了したのは1件(307144248650 Fate SZER144 watch $761/13.02%)。他の約414件は未処理のまま通知だけ消失。※eBay出品自体は削除されずQty0で残るため、Qty0版(monodaz-restock-by-quantity)で回収可能。今後は単一行の削除ボタンをrow内に限定して押すよう要修正。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-08-30",
   "startAt": "2026-08-30 14:17:06",
