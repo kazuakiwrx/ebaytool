@@ -2,6 +2,20 @@
   {
     "task": "monodaz-auto-listing",
     "date": "2026-08-30",
+    "startAt": "2026-08-30 18:05:00",
+    "endAt": "2026-08-30 18:10:00",
+    "durationMin": 5,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 1,
+    "note": "アラート1件のみ=SEIKO PROSPEX Alpinist SBDC211(307143118181)。既にトラッカーにpending登録済(2026-08-26, メルカリ¥108,800, eBay$984.5, 高額¥100,000以上で要承認)のため重複処理せずスキップ、アラートは残置。フェーズAの承認済(approve_)ゼロ、notice該当なしで出品なし。"
+  },
+  {
+    "task": "monodaz-auto-listing",
+    "date": "2026-08-30",
     "startAt": "2026-08-30 17:20:00",
     "endAt": "2026-08-30 17:27:00",
     "durationMin": 7,
