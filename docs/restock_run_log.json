@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 04:06:02",
+  "endAt": "2026-08-31 04:37:00",
+  "durationMin": 31,
+  "listed": 4,
+  "pending": 1,
+  "skipped": 3,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 123,
+  "note": "yui_chan_store フェーズB。全アラート129件中トラッカー新規は8件のみ(他121件は既登録=重複スキップ)。listed4(Uma娘ダイワ$289/WKEX-01$133/シンゴジ覚醒$159/HotToysクワイガン$313 各利益率13%前後・画像入替済)、pending1(Zoids Blade Liger 目標未達)、skipped3(生賴画集追想=在庫無/SEIKO SND409=End出品終了で商品変更不可/Sonic Fangぬいぐるみ=レア在庫無)。フェーズAは承認フラグ0・pendingは高額/不採算のため0件"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 03:15:00",
   "endAt": "2026-08-31 03:59:40",
   "durationMin": 45,
