@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-08-30",
+  "startAt": "2026-08-30 21:05:00",
+  "endAt": "2026-08-30 21:10:00",
+  "durationMin": 5.0,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 1,
+  "note": "notice=1件のみ(SEIKO PROSPEX Alpinist SBDC211,itemId 307143118181,仕入先在庫無し)。当日20:17の前回runで既にpending処理済(要承認:代替在庫は最安メルカリ¥100,000で高額しきい値¥100,000以上→自動出品不可・アラート保持)。フェーズA:承認フラグ0件・当該itemは新仕入価格が¥100,000未満でないため対象外。フェーズB:既にトラッカーに存在=重複のため再処理せず。新規listed/pending/skippedなし・トラッカー変更なし。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-08-30",
   "startAt": "2026-08-30 20:07:25",
   "endAt": "2026-08-30 20:17:04",
   "durationMin": 9.7,
