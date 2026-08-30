@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-30",
+  "startAt": "2026-08-30 16:06:45",
+  "endAt": "2026-08-30 16:12:14",
+  "durationMin": 5.5,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 3,
+  "note": "アラート全3件(全て A:仕入先在庫無し)。3件とも既存トラッカーに存在する重複のため詳細を開かず未処理でスキップ: 307119033050 Steins;Gate一番くじ(本日09:59に別runがpending化・要再調査/許可フリマに該当セット在庫なし), 307111330512 Huanyu電熱ホットナイフ(元Amazon不可・110V米国仕様で許可フリマに在庫なし/連続skip), 307107858386 DAISUKE TAJIMA画集(artbook/既存skip)。フェーズA:approve_フラグ0件、pending118件(rule ii該当)はnoticeに有効アラートが無く商品変更を開けないため全て見送り。※前run(15:13 auto-listing)がアラート一括削除を誤爆し約414件消失済み。今回はnoticeの削除ボタンには一切触れていない。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
   "startAt": "2026-08-30 15:13:00",
