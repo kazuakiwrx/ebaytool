@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-30",
+  "startAt": "2026-08-30 11:06:27",
+  "endAt": "2026-08-30 11:21:14",
+  "durationMin": 14.8,
+  "listed": 0,
+  "pending": 14,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 387,
+  "note": "フェーズB: 全387アラートのうち商品変更可能(Active)な141件はすべて既にトラッカー登録済み(listed51/skipped76/pending14)で、未登録のフレッシュ在庫切れは0件→新規出品なし。フェーズA: 商品変更可能なpendingは14件で、9件が高額品(≥¥100,000:CITIZEN NB1060/SEIKO遊戯王海馬/三幻神セット/POLO RALPH BEAMS/SEIKO Alpinist SBDC211/ウマ娘超特大ぬいぐるみ/Swatch×Omega/HotToys SW)→要承認継続、残り5件はマッチ/利益率不成立(コトブキヤ桐生一馬¥56555最安>maxBuy約¥48k・Neptunia Pyoiin¥39560・BTS×CK/NIKE×BTSアパレル不一致・HxHキルア時計不一致)。代表2件(初音ミクWIM1/8 307114761752/コトブキヤ桐生一馬 307148990560)を実地再検索し仕入価格が前回から不変(margin<12%)を確認。出品0・アラート削除0。前回10:07実行と同一結論。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-30",
   "startAt": "2026-08-30 10:07:26",
   "endAt": "2026-08-30 10:17:34",
   "durationMin": 10.1,
