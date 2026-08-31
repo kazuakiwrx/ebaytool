@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 23:07:22",
+  "endAt": "2026-08-31 23:43:58",
+  "durationMin": 36,
+  "listed": 2,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 119,
+  "note": "listed: Chiikawa×Sanrio Kiramekko 6set $218/13.67% (mercari m55185957891 ¥19999), Robot Spirits SIDE AB Gargoyle $243/13.2% (mercari m41603549833 ¥23000). 画像入替済. 未処理で残し: Guren rare figure(識別不能), Death Note art book(本=除外), Saint Cloth Myth Athena(版ambiguous・¥20k+高額), Pokemon 1/1 plush(¥125k=要承認). ブラウザ接続不安定(freeze/blip多発)でスループット制限."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 22:03:33",
   "endAt": "2026-08-31 22:12:27",
   "durationMin": 9,
