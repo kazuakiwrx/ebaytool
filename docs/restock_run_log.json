@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 10:07:50",
+  "endAt": "2026-08-31 10:19:08",
+  "durationMin": 11.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 113,
+  "note": "フェーズA:承認(approve_)フラグ0件。pending(ii)候補115件中、アクティブなアラート有り(notice経由で開ける)は14件のみで、いずれも直近1〜4日に再確認済みで妥当価格では12-14%利益率に到達不可(仕入高すぎ)と記録済み→再処理せず。フェーズB:noticeアラート全113件(3ページ全件抽出)をトラッカー4981件と突合、全件が既にトラッカー登録済み(listed/skipped/pending)→重複のため全件スキップ。新規アラート0件。出品対象なし。アラート削除は行っていない。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 09:12:00",
   "endAt": "2026-08-31 09:54:09",
   "durationMin": 42,
