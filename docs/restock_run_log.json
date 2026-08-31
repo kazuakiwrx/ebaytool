@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-08-31",
+  "startAt": "2026-08-31 17:07:18",
+  "endAt": "2026-08-31 17:58:09",
+  "durationMin": 50.9,
+  "listed": 9,
+  "pending": 6,
+  "skipped": 5,
+  "processed": 20,
+  "avgSecPerItem": null,
+  "alertsRemaining": 122,
+  "note": "Phase B fresh alerts (page1, no today-entry) processed. 14 alerts deleted (9 listed+5 skipped); 6 pending kept alerts. Notice/mercari tabs became unstable (CDP timeouts, tab-id churn) so run stopped after 20 items; pages 2-3 & remaining page1 fresh left for next run. No Phase A pending items separately listed (today's pendings were re-eval as part of fresh set)."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-31",
   "startAt": "2026-08-31 16:10:00",
