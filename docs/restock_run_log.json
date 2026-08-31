@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 05:07:51",
+  "endAt": "2026-09-01 05:48:00",
+  "durationMin": 40,
+  "listed": 2,
+  "pending": 23,
+  "skipped": 0,
+  "processed": 25,
+  "avgSecPerItem": null,
+  "alertsRemaining": 139,
+  "note": "フェーズB新規2件(1出品/1pending)。フェーズA pending候補23件を再ソース(1出品:DEATH NOTE画集$290/13.18%、22件は仕入高/在庫希少/条件不一致でpending維持)。高額>=Y100k 5件は要承認で未処理。既トラッカー111件はitemId重複でスキップ。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 03:06:44",
   "endAt": "2026-09-01 03:43:00",
   "durationMin": 36,
