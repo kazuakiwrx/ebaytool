@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-01",
+  "startAt": "2026-09-01 03:06:44",
+  "endAt": "2026-09-01 03:43:00",
+  "durationMin": 36,
+  "listed": 5,
+  "pending": 3,
+  "skipped": 5,
+  "processed": 13,
+  "avgSecPerItem": null,
+  "alertsRemaining": 140,
+  "note": "フェーズA:人手承認(approve_)0件。フェーズB:noticeアラート149件中、page1の未トラッカー新規13件を処理(listed5/skipped5/pending3)。既トラッカー重複37件はスキップ。listed/skippedはアラート削除、pendingはアラート残置。残り約127件(重複多数+page2-3)は次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
   "startAt": "2026-09-01 02:10:00",
