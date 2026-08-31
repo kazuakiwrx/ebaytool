@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 22:03:33",
+  "endAt": "2026-08-31 22:12:27",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 121,
+  "note": "Phase B: 全121アラートは既存トラッカー登録済み=新規0件。Phase A: 承認フラグ0件。notice内に残るorigPrice null pending 42件はいずれも既評価の非該当(利益率12-14%未達で大幅値上げ必要/仕入在庫売切・マッチ無し/コンディション不一致New対Used/高額品要人手)につき出品せずpending維持。出品0/要承認0/スキップ0。20:08・21:08の当日既存runと同結論。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 21:08:03",
   "endAt": "2026-08-31 21:18:55",
   "durationMin": 11,
