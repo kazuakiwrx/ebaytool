@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 11:00:00",
+  "endAt": "2026-08-31 11:11:26",
+  "durationMin": 11.4,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 108,
+  "note": "no-op。notice全108アラート(3ページ全抽出)をトラッカー(4981件・itemId 1181種)と突合→全件既存トラッカー登録済みで新規0件。フェーズA:approve_フラグ0件。pending234件中アクティブアラート有りは約30件、いずれも直近1〜4日(08/27〜08/30)に精査済みで(a)仕入コスト>maxBuyで12-14%不可(b)¥100,000以上の高額品で要承認(c)版特定困難で誤マッチ回避、のため据置。出品対象なし。アラート削除は行わず(pending監視継続のため保持)。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 10:07:50",
   "endAt": "2026-08-31 10:19:08",
   "durationMin": 11.3,
