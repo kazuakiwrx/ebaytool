@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 21:08:03",
+  "endAt": "2026-08-31 21:18:55",
+  "durationMin": 11,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 121,
+  "note": "フェーズA:承認フラグ0件。origPrice null pending 172件はいずれも既評価の非該当(条件不一致/確証マッチ無し/12-14%不達/高額¥100k以上要承認)。うちnotice有効アラート付き47件・maxBuy価格可4件も詳細ノート通り非該当。最高額候補ルカリオ($1278)はライブ再確認で新品在庫が¥125,000(=高額要承認)のみ・¥98,599はUsed(eBay=New不一致)を実確認し据置。フェーズB:notice全121件(在庫切れ118)は全てトラッカー既存(新規0件)。新規出品なし・アラート削除なし。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 20:08:17",
   "endAt": "2026-08-31 20:44:25",
   "durationMin": 36,
