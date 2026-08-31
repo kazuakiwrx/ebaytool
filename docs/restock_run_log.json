@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "2026-08-31 14:13:23",
+  "endAt": "2026-08-31 15:12:39",
+  "durationMin": 59.3,
+  "listed": 7,
+  "pending": 4,
+  "skipped": 2,
+  "processed": 13,
+  "avgSecPerItem": 274,
+  "alertsRemaining": 136,
+  "note": "自動実行: フェーズA承認済み無し。フェーズB=全145アラート中、トラッカー既存125件(listed/skipped/pending)は重複でスキップ、新規13件を高単価順に処理。listed7(BASTARD DarkSchneider$513/東方フランドール$413/DxDリアスバニー2nd$590/FF14シチズンDarkness腕時計$476/物語忍野忍ODC$171/リボルテック山口シンビオートSPM$221/嵐FCフォトアルバム$54)、pending4(等身大ルカリオ=高額$1278中古→New懸念/GSCテト吉原ラメント=在庫無/DeathNote画集=eBay割高で大幅値下げ/グレン一瀬=タイトル曖昧)、skipped2(Switch2純正GCコン在庫無/ドラムマニア完品コン在庫無)。listed+skipped=9件アラート削除、pending4はアラート維持。残アラは次回継続"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 13:19:43",
   "endAt": "2026-08-31 13:40:57",
   "durationMin": 21.2,
