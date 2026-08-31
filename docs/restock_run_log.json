@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-08-31",
+  "startAt": "15:17",
+  "endAt": "15:33",
+  "durationMin": 15.6,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 2,
+  "processed": 2,
+  "avgSecPerItem": 468,
+  "alertsRemaining": 136,
+  "note": "フェーズA:承認0・残りpendingは仕入高で目標利益率未達(config利益率ガード)により自動出品対象なし。フェーズB:新規アラート2件のみ(他136件は既にトラッカー登録済でdedupスキップ)、2件とも即決在庫なしでskip・アラート削除。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
   "startAt": "2026-08-31 14:13:23",
   "endAt": "2026-08-31 15:12:39",
   "durationMin": 59.3,
