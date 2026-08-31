@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-08-31",
+  "startAt": "2026-08-31 13:19:43",
+  "endAt": "2026-08-31 13:40:57",
+  "durationMin": 21.2,
+  "listed": 5,
+  "pending": 2,
+  "skipped": 2,
+  "processed": 9,
+  "avgSecPerItem": null,
+  "alertsRemaining": 106,
+  "note": "手動/自動実行: 高単価順に処理。listed5(Pokemon GO Plus+/Death Note Misa RAH/Tamagotchi Uni/SHF Madara/TRAVELERS Notebook)、pending2(Gurren Lagann BluRay・Kotobukiya桐生=仕入高)、skipped2(Nino時計モデル不一致・Saint Cloth Athenaタイトル曖昧)。残アラートは次回継続"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-08-31",
   "startAt": "2026-08-31 11:00:00",
