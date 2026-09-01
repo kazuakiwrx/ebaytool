@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-01",
+  "startAt": "2026-09-01 17:07:06",
+  "endAt": "2026-09-01 17:47:49",
+  "durationMin": 40.7,
+  "listed": 2,
+  "pending": 4,
+  "skipped": 8,
+  "processed": 14,
+  "avgSecPerItem": null,
+  "alertsRemaining": 121,
+  "note": "アラート起点在庫補充・部分実行。承認フラグ0のためフェーズAはnotice経由で処理。上位14件を処理(出品2/要承認4/スキップ8)。残アラートは次回継続。モーダルは再読込前提・予想利益計算に時折レンダラ遅延。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
   "startAt": "2026-09-01 16:07:36",
