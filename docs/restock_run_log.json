@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "11:05",
+  "endAt": "11:35",
+  "durationMin": 30.0,
+  "listed": 2,
+  "pending": 6,
+  "skipped": 2,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 124,
+  "note": "Phase A: approved pending=2(Shimano/PokecenTohoku) notice/itemlistに無く飛ばした; stale approve_key 4件削除。Phase B: 高単価順に10件処理→listed2(MetalBuild$427/13.15%, 一番くじDB$137/13.22%,画像入替済), skipped2(Persona3漫画/FF7カード,アラート削除), pending6(供給枯渇/送料高/コンディション不一致で12-14%未達: PROPLICA月, PG GP01送料¥26398, ねんどろConnor, Sonic Fang在庫無, リゼロRem破損, リカライズ)。残124件は次回継続。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "10:08",
   "endAt": "10:15",
   "durationMin": 7.0,
