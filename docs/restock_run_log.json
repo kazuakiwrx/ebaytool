@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-02",
+  "startAt": "2026-09-02 08:07:51",
+  "endAt": "2026-09-02 08:24:09",
+  "durationMin": 16.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 158,
+  "note": "Aborted before any save: store switched to yui_chan_store OK, rules read, 158 alerts (147 in-scope stock-out; all already tracked -> re-attempt via update). Identified valid restock for 307132840791 Metal Build Destiny SOUL RED (Mercari used Y49000, ~13% at $427) but MONODAZ notice-page edit modal was unreliable this run (renderer froze repeatedly 30-45s, connection dropped, modal populated once then would not repopulate). No listing changes made (0 saves) to avoid corrupting live listings mid-write. Store unmodified."
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-02",
   "startAt": "2026-09-02 07:07:16",
   "endAt": "2026-09-02 07:41:39",
   "durationMin": 27,
