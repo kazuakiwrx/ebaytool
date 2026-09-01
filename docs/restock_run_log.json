@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 14:18",
+  "endAt": "2026-09-01 14:46:08",
+  "durationMin": null,
+  "listed": 3,
+  "pending": 4,
+  "skipped": 3,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 142,
+  "note": "Chrome/DOM操作で10件処理。listed3(One Piece POP Luffy Gear5 $208 / BTS ARIRANGクロップフーディーTokyo Brown XL $242 / ポケモンコンシェルジュ マダツボミLEDライト $319、全て利益率12-14%・画像mercdn入替・アラート削除)。pending4(FREEingダンガンロンパ江ノ島盾子バニー/ウマ娘オグリキャップ キセキの白星1/7/SHF五条悟&夏油傑呪術0セット/PROPLICAセーラームーンCosmosエターナルムーンアーティクル=いずれも現状の最安仕入が高く目標利益率12-14%を妥当価格で満たせず→アラート保持)。skipped3(figma未来少年コナン在庫無/ガンダムCGスリーブ4種コンプ仕入超過/Death Strandingノベライズ本除外)。残アラート約142件は次回以降継続。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 13:07",
   "endAt": "2026-09-01 13:41",
   "durationMin": 34,
