@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 20:08:08",
+  "endAt": "2026-09-01 20:15:31",
+  "durationMin": 7,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 120,
+  "note": "Phase A: no localStorage approve flags; 257 pendings were freshly reasoned in earlier runs (price-divergence/high-value/margin), no new action. Phase B: /notice had 120 alerts (119 unique); ALL already present in tracker by itemId (dedup) -> 0 new to process. No listings. Dup alerts left in place per rule (delete only on processing)."
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 19:09:27",
   "endAt": "2026-09-01 19:20:45",
   "durationMin": 11.3,
