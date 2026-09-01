@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 16:07:36",
+  "endAt": "2026-09-01 16:45",
+  "durationMin": 38,
+  "listed": 3,
+  "pending": 2,
+  "skipped": 5,
+  "processed": 10,
+  "avgSecPerItem": 137,
+  "alertsRemaining": 134,
+  "note": "listed3(Casio Sauna $192/Oguri Cap $320/Junko Bunny $360 全て利益率13%前後・画像入替済), pending2(Casio Ring/Sailor Moon MoonStick=仕入高で要承認), skipped5(在庫なし/オークションのみ)。アラート起点フェーズB。高単価優先で処理。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 15:07:34",
   "endAt": "2026-09-01 15:58:50",
   "durationMin": 51.3,
