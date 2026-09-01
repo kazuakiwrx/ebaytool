@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 15:07:34",
+  "endAt": "2026-09-01 15:58:50",
+  "durationMin": 51.3,
+  "listed": 3,
+  "pending": 3,
+  "skipped": 7,
+  "processed": 13,
+  "avgSecPerItem": null,
+  "alertsRemaining": 139,
+  "note": "145アラートをトラッカー5074件と突合→大半は既処理(重複skip)。実アクション対象は新規約12+pending約11。高単価優先で処理。listed3(コイキングたい焼き$325/12.9%,USJセーラームーン宝石箱$68/12.3%,アメイジングヤマグチWar Machine$251/13.0%)。skip7(仕入>maxBuyや同一性不明,本除外)。pending3(≥¥10万や相場高)。予想利益計算UIが断続的にフリーズし1件あたり負荷大のため上位優先で打ち切り、残りは次回継続。アラート削除はSPAで一部不達の可能性。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 14:18",
   "endAt": "2026-09-01 14:46:08",
   "durationMin": null,
