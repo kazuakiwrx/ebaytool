@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 19:09:27",
+  "endAt": "2026-09-01 19:20:45",
+  "durationMin": 11.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 120,
+  "note": "フェーズB:notice在庫切れアラート110件は全て既にトラッカー登録済み(重複)につき新規処理0。フェーズA:出品対象のpending(origPrice null&<10万)で現行アラート有りは28件だが、いずれも本日09/01の先行実行で再確認済み・非出品理由記録済(margin-fail/no-stock/条件不一致/版特定不可/カテゴリ制限)。代表1件(307152037541 グレンラガンBlu-ray BOX)をメルカリで実地再確認→最安¥26,900で不変、市場30.8では-7.2%・13%には+27%必要で非出品を再確認。新規出品・状態変更・アラート削除なし。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 18:10:51",
   "endAt": "2026-09-01 18:38:52",
   "durationMin": 28,
