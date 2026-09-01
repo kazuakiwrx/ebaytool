@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 13:07",
+  "endAt": "2026-09-01 13:41",
+  "durationMin": 34,
+  "listed": 1,
+  "pending": 5,
+  "skipped": 0,
+  "processed": 6,
+  "avgSecPerItem": null,
+  "alertsRemaining": 116,
+  "note": "Phase B: 0 new (all 117 stock-out alerts already in tracker). Phase A: evaluated 6 pending targets; 1 LISTED (BTS Jung Kook CK cap->Mercari m82877344937 ¥6555, $99, 13.02%, image swapped, alert cleared); 5 stay pending (BUZZmod Mitsuri / PROPLICA Sailor Moon / Nendoroid Jade&Floyd / HxH Feitan Tictac watch / Supercell Miku) due to supply too expensive vs sell price, out of stock, or New-condition unavailable. Remaining pending backlog: ~25 sub-100k + 7 (>=100k, approval) + 2 TCG boosters(skip). Renderer instability (repeated modal freezes) limited throughput; continue next run."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "12:07",
   "endAt": "12:47",
   "durationMin": 40,
