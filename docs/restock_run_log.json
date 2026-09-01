@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-02",
+  "startAt": "2026-09-02 07:07:16",
+  "endAt": "2026-09-02 07:41:39",
+  "durationMin": 27,
+  "listed": 0,
+  "pending": 5,
+  "skipped": 0,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 158,
+  "note": "PhaseB: 現在のアラート157件は全てトラッカー登録済みのため新規処理対象0件(重複ルールでスキップ)。PhaseA: pending(origPrice=null)かつ現アラートに存在する候補40件のうち承認フラグ(approve_)は0件。上位/代表候補5件(Onkyo黒執事イヤホン$499.67/GSC重音テト吉原ラメント$655/FuRyuオーバーロードBiCuteBunnies2体$110.38/PROPLICAセーラームーン$125.81/デレマス夢見りあむ$157.23)を精査したが、いずれも仕入先(送料込)が12%到達に必要な上限額(maxBuy=116×P−出品送料)を超過、または一致する単一出品が無く、共通ルール(利益率12〜14%未達は保存しない)により全てpending維持。出品0・アラート削除0。残り35候補も同構造(日本仕入相場+最低国際送料¥3,500 > eBay出品価格が支える原価)で非現実的と判断。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-02",
   "startAt": "2026-09-02 05:07:55",
   "endAt": "2026-09-02 05:40:59",
   "durationMin": 33.1,
