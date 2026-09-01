@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "10:08",
+  "endAt": "10:15",
+  "durationMin": 7.0,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 120,
+  "note": "Phase B: notice全120アラート(表示128)は全て既トラッカー登録=新規0件で処理無し。Phase A: 適格pending130件は全て既検証の保留(仕入高で12-14%未達/コンディション不一致/真贋懸念)。approve_フラグ2件(Shimano22 BeastMaster9000¥112,080 / Pokecen東北シールセット¥134,999)は仕入≥¥100k・利益不可で継続。今回ライブ再確認2件: MAFEX No.216ベイン=メルカリ最安¥18,980>maxBuy≒¥11,928($133)で不可 / ウマ娘アストンマーチャンぬいぐるみ=一致品¥29,999>maxBuy≒¥25,964($254)、安価¥1,280帯は別フィギュアで不一致。いずれも12-14%不可。今回0出品(全pending据置・アラート削除無し)。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "09:08",
   "endAt": "09:19",
   "durationMin": 10.4,
