@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
+  "startAt": "09:08",
+  "endAt": "09:19",
+  "durationMin": 10.4,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 128,
+  "note": "Phase B: 全120アラート(表示128件)は既にトラッカー登録済み=新規0件で全スキップ。Phase A: approve_フラグはpokecen-tohoku-sticker7(¥134,999)とShimano9000(¥112,080)の2件のみで両者とも¥100k超・利益不可。notice内の適格pending(origPrice=null&<¥100k)36件のうち高額上位を実再ソースで検証: BUZZmod蜜璃$337(メルカリ最安¥80k>maxBuy¥35.4k)/MTG TMNT Collector Box$316(該当BOX在庫なし・単品/Pizza Bundleのみ)/Re:ZERO Rem$376(国際送料¥19.4kでmaxBuy¥24kに対し仕入¥30k+)=いずれも12-14%不可で要承認継続。今回0出品(全pending据置)。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-01",
   "startAt": "2026-09-01 05:07:51",
