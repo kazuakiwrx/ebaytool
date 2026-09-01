@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-01",
+  "startAt": "2026-09-01 18:10:51",
+  "endAt": "2026-09-01 18:38:52",
+  "durationMin": 28,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "avgSecPerItem": 90,
+  "alertsRemaining": 120,
+  "note": "当日先行実行(17:47等)がアラート全49件(notice1ページ目)を既に処理済み=全itemIdトラッカー登録済(listed/要承認保持)。本実行はpending化されていたBUZZmod.甘露寺蜜璃1/12(itemId307150231548)の仕入先が新たに成立(PayPayフリマ¥33,000未使用)したため$320.49/利益率13.3%で新規出品・画像入替・アラート削除。他pendingは先行実行の判断(価格乖離/仕入高)を尊重し保持。ブラウザ描画フリーズ多発でこれ以上の巡回は中断。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-01",
   "startAt": "2026-09-01 17:07:06",
