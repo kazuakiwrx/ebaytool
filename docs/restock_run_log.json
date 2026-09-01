@@ -1,6 +1,20 @@
 [
  {
   "task": "monodaz-restock-alert",
+  "date": "2026-09-02",
+  "startAt": "2026-09-02 04:07:00",
+  "endAt": "2026-09-02 05:04:32",
+  "durationMin": 58,
+  "listed": 9,
+  "pending": 0,
+  "skipped": 4,
+  "processed": 13,
+  "avgSecPerItem": null,
+  "alertsRemaining": 164,
+  "note": "アラート起点在庫補充。フェーズA(pending承認):localStorage承認0件・該当なし。フェーズB:高単価優先で新規(トラッカー未登録)を処理。listed9・skipped4(仕入先/条件不一致)。重複(itemId/タイトル一致)6件はdedupで飛ばした(未処理)。全listedは利益率12-14%・画像新仕入先入替・アラート削除済。時間内処理分をpush、残りは次回継続。"
+ },
+ {
+  "task": "monodaz-restock-alert",
   "date": "2026-09-01",
   "startAt": "2026-09-01 23:12:22",
   "endAt": "2026-09-01 23:56:02",
