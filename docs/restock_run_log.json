@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-02",
+  "startAt": "2026-09-02 05:07:55",
+  "endAt": "2026-09-02 05:40:59",
+  "durationMin": 33.1,
+  "listed": 5,
+  "pending": 2,
+  "skipped": 0,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 158,
+  "note": "Phase A: no approved(i) or eligible(ii) pending candidates. Phase B: of 150 actionable alerts, 142 already in tracker (skipped per dedup), 7 new processed -> 5 listed, 2 pending(target margin not met). Store yui_chan_store confirmed."
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-02",
   "startAt": "2026-09-02 04:07:00",
