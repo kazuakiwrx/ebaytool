@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 23:12:22",
+  "endAt": "2026-09-01 23:56:02",
+  "durationMin": 44,
+  "listed": 1,
+  "pending": 0,
+  "skipped": 7,
+  "processed": 8,
+  "avgSecPerItem": null,
+  "alertsRemaining": 116,
+  "note": "Phase B: 0 new alerts (all 116 already in tracker). Phase A: 30 pending(origNull<100k) candidates; checked 8, relisted 1 (Madoka Popcorn Box 307154146354 -> mercari m90380423480 ¥6222, $87, 13%, img swapped, alert deleted). 7 skipped (supplier > maxBuy or no JP stock): Gojo/Geto set, Kiki LiccaRize, PROPLICA Sailor Moon, Drummania PS2, MTG TMNT box, UTAU Teto, HxH Feitan watch. Remaining pending candidates left as-is for next run. Browser connection unstable (renderer freezes/tab churn)."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 22:05:13",
   "endAt": "2026-09-01 22:57:35",
   "durationMin": 52.4,
