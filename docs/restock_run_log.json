@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-09-01",
+  "startAt": "2026-09-01 21:06:00",
+  "endAt": "2026-09-01 21:15:34",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 120,
+  "note": "フェーズB:notice在庫切れアラート全120件(3ページ全itemId照合)は全てトラッカー登録済みで新規0。フェーズA:localStorage承認フラグ0件・null origPrice pending 231件は高額(仕入¥100k以上=要承認)/目標利益率未達/有効仕入先なしの理由で保持(大半は本日先行実行で再確認済)。出品可能な新規なし=出品0。"
+ },
+ {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-01",
   "startAt": "2026-09-01 20:08:08",
   "endAt": "2026-09-01 20:15:31",
   "durationMin": 7,
