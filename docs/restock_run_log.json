@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-03",
+  "startAt": "2026-09-03 04:07:22",
+  "endAt": "2026-09-03 04:38:00",
+  "durationMin": 31,
+  "listed": 3,
+  "pending": 3,
+  "skipped": 0,
+  "processed": 6,
+  "avgSecPerItem": null,
+  "alertsRemaining": 195,
+  "note": "フェーズB:notice全163アラートは既にトラッカー登録済(listed64/pending71skipped含む)につき重複処理0件。フェーズA:pending要承認165itemIdのうちnoticeにアラートありは35件。利益ギャップの小さい高確度候補を再調査し、在庫復活・値下がりで12-14%達成の3件を再出品(軍儀BG/MG武者ガンダム/METAL BUILDエヴァ零号機改)。3件は条件不一致or仕入過大で継続pending(シルバニアなまけもの海外版=未使用に近い箱痛みでNew不一致/電車でGO2=New在庫¥17500で採算不可Usedは条件不一致/ダンまちヘスティア=Used¥9200が上限超)。承認2件(Shimano/pokecen)はnoticeにアラート無くフローで開けず今回skip。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-03",
   "startAt": "2026-09-03 03:07:34",
   "endAt": "2026-09-03 03:40:51",
   "durationMin": 33,
