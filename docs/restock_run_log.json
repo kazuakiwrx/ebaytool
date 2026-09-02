@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-03",
+  "startAt": "2026-09-03 08:08:22",
+  "endAt": "2026-09-03 08:30:27",
+  "durationMin": 22,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 1,
+  "avgSecPerItem": null,
+  "alertsRemaining": 189,
+  "note": "ブラウザ描画が繰り返しフリーズ(notice/mercari両タブでCDPタイムアウト)。ライブ店舗への不完全な書込みを避けるため一括再出品は中断。仕入先在庫なしのTouhou大型ぬいぐるみ1件のみスキップ&アラート削除。残り189件は次回実行で継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-03",
   "startAt": "2026-09-03 07:07:45",
