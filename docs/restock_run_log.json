@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-03",
+  "startAt": "2026-09-03 07:07:45",
+  "endAt": "2026-09-03 07:32:04",
+  "durationMin": 24.3,
+  "listed": 1,
+  "pending": 1,
+  "skipped": 0,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 190,
+  "note": "Browser renderer highly unstable this run (notice modal repeatedly froze/recreated tabs). Listed 307119033050 (Steins;Gate figure) at $220 / 13.12%. 307143118181 (SEIKO SBDC211) kept pending: cheapest supplier Y102,800 >= Y100,000. Stopped early to avoid mid-save crash risk; ~189 alerts remain for next run."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-03",
   "startAt": "2026-09-03 06:07:16",
