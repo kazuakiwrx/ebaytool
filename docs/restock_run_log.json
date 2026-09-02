@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-02",
+  "startAt": "2026-09-02 09:10:00",
+  "endAt": "2026-09-02 09:28:03",
+  "durationMin": 18,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 2,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 156,
+  "note": "Claude in Chrome拡張が繰り返しフリーズ/切断し安定動作せず、途中で終了。処理済2件はいずれもskip(仕入先が予算内で見つからず):307137646133 Lucoaフィギュア(メルカリ¥49,369>>maxBuy)/307107858386 田島光二BEYOND THE LINES(該当無し)。両件アラート削除済。残156件は次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-02",
   "startAt": "2026-09-02 08:07:51",
   "endAt": "2026-09-02 08:24:09",
   "durationMin": 16.3,
