@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-03",
+  "startAt": "2026-09-03 09:06:46",
+  "endAt": "2026-09-03 09:37:11",
+  "durationMin": 30.4,
+  "listed": 3,
+  "pending": 1,
+  "skipped": 1,
+  "processed": 5,
+  "avgSecPerItem": null,
+  "alertsRemaining": 186,
+  "note": "環境不安定(notice SPAのrenderer凍結・接続断・タブ再生成が頻発)により5件で打切り。listed:CSMアークル$195/13%,Adoハット$90/13.5%,ジブリヒン$103/13.2%(eBay確認済)。pending:SEIKO SBDC211(最安フルウォッチ¥102,800>=10万・要承認,アラート残)。skipped:JBL Horizon3(New条件の仕入先なし,アラート削除不発で残置)。残アラート約186件は次回継続。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-03",
   "startAt": "2026-09-03 08:08:22",
   "endAt": "2026-09-03 08:30:27",
   "durationMin": 22,
