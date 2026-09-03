@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-03",
+  "startAt": "2026-09-03 12:32:31",
+  "endAt": "2026-09-03 12:40:50",
+  "durationMin": 8.3,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 174,
+  "note": "ABORTED: MONODAZ session expired mid-run (login screen). No listings saved, no alerts deleted. Please log in to MONODAZ as yui_chan_store. Store was logged in at start (yui_chan_store 2393) but session dropped after a browser reconnect."
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-03",
   "startAt": "2026-09-03 11:07:22",
   "endAt": "2026-09-03 11:56:20",
   "durationMin": 49,
