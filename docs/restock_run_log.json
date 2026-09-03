@@ -1,10 +1,10 @@
 [
  {
   "task": "monodaz-restock-alert",
-  "date": "/tmp/upd3.",
-  "startAt": "$NOW",
-  "endAt": "/tmp/upd3.js",
-  "durationMin": null,
+  "date": "2026-09-03",
+  "startAt": "2026-09-03 11:07:22",
+  "endAt": "2026-09-03 11:56:20",
+  "durationMin": 49,
   "listed": 5,
   "pending": 1,
   "skipped": 5,
