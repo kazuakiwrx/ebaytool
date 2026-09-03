@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "/tmp/upd3.",
+  "startAt": "$NOW",
+  "endAt": "/tmp/upd3.js",
+  "durationMin": null,
+  "listed": 5,
+  "pending": 1,
+  "skipped": 5,
+  "processed": 11,
+  "avgSecPerItem": null,
+  "alertsRemaining": 174,
+  "note": "yui_chan_store; PhaseA no approvals (0 approve_ keys, SEIKO stays pending high-value); PhaseB processed 11 unique alerts of 149 (5 listed 12-14%, 5 skipped, 1 pending high-value ¥100k+); browser reconnected mid-run twice but state preserved"
+ },
+ {
   "task": "monodaz-restock-alert (monodaz-auto-listing)",
   "date": "2026-09-03",
   "startAt": "2026-09-03 10:07:08",
