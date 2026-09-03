@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (monodaz-auto-listing)",
+  "date": "2026-09-03",
+  "startAt": "2026-09-03 10:07:08",
+  "endAt": "2026-09-03 10:44:30",
+  "durationMin": 37,
+  "listed": 2,
+  "pending": 0,
+  "skipped": 2,
+  "processed": 4,
+  "avgSecPerItem": 360,
+  "alertsRemaining": 184,
+  "note": "Browser Chrome window was HIDDEN (visibilityState=hidden, 0x0 viewport) -> trusted mouse clicks impossible -> alert deletion blocked. Listed 2 restock items via DOM (307128786101 $139.5/13.03%, 307145863795 $215.5/13.17%). Only 307128786101 alert deleted (window briefly visible early). 307145863795 alert NOT deleted. Left pending/unmatched: 304411571148 (Tamagotchi collectible New/unopened - candidates mostly used), 307154523830 (Guren 'rare figure' - no confident match). High-value >=100k left pending. Backlog remains large (177 phase-A candidates). RECOMMEND re-run with Chrome window visible/focused so alert deletion works."
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-03",
   "startAt": "2026-09-03 09:06:46",
