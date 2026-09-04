@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-05",
+  "startAt": "2026-09-05 03:07:00",
+  "endAt": "2026-09-05 03:44:04",
+  "durationMin": 37,
+  "listed": 4,
+  "pending": 3,
+  "skipped": 3,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 245,
+  "note": "アラート版フェーズB(高価格優先)を10件処理。出品4(G-SHOCK$277/五等分Nino$72/LFA$108/ベイブレードX$77 いずれも利益率12-14%)、スキップ3(TIMEX TW5M54300供給無/Madoka中古でNew不一致/一番くじ緑谷 送料高くmaxBuy超)、要承認3(Initial D×AngelClover 新品高値+24%要/DRT VARIAL 中古のみ/MTG TMNT日本語BOX在庫確認できず)。フェーズA:localStorage承認2件(Shimano/pokecenシール)はnoticeに該当アラート無く見送り。時間/トークン都合で残りは次回継続。アラート削除は再描画タイミングで不安定な行あり要再削除。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-05",
   "startAt": "2026-09-05 02:06:00",
   "endAt": "2026-09-05 02:49:03",
   "durationMin": null,
