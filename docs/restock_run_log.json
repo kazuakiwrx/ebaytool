@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-05",
+  "startAt": "2026-09-05 04:05:00",
+  "endAt": "2026-09-05 04:25:00",
+  "durationMin": 20,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 241,
+  "note": "PhaseB: 241アラート中、商品変更可能176件のitemId/タイトルを全件突合→全件トラッカー既存(itemId/タイトル一致)で新規0件。PhaseA: pending138(承認2+origPrice null&<10万137)。承認2件(Shimano Beast Master9000/Pokecen東北ステッカー)は現行アクティブ出品として編集不可(itemID非一致・相場12.3万/13.5万で高額)。アクセス可pending上位を実検証: MGS4雷電RAH(eBay$470 Used vs 最安メルカリ7.7万新品=不一致&maxBuy約5万超), Hot Toys Spider-Man(eBay$373 outship1.04万 maxBuy約3.3万<相場5万)—構造的に利益率12%未達。出品0/アラート削除0(全て重複orマージン不足)。GitHub token経由でrun-logのみ更新。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-05",
   "startAt": "2026-09-05 03:07:00",
