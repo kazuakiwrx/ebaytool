@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-05",
+  "startAt": "2026-09-05 00:09:57",
+  "endAt": "2026-09-05 00:34:49",
+  "durationMin": 25,
+  "listed": 0,
+  "pending": 7,
+  "skipped": 0,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 230,
+  "note": "アラート全230件。target(在庫無/Qty0/監視終了)193件中、トラッカー未登録の新規は2件のみ(五条悟腕時計・初音ミクぬいぐるみ)。残191は既登録。処理=新規2件+アラート有りpending5件(Spider-Man3黒スーツMMS165¥50000/聖闘士神話アテナ/Brave Neptunia/ZAKU F2/Moominマグ)。全件、代替仕入が利益率12-14%に届かず(仕入高・条件不一致・型番特定困難)のため出品0・pending保持。アラート削除なし。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-05",
   "startAt": "2026-09-04 23:21:04",
