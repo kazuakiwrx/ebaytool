@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-05",
+  "startAt": "2026-09-05 02:06:00",
+  "endAt": "2026-09-05 02:49:03",
+  "durationMin": null,
+  "listed": 4,
+  "pending": 0,
+  "skipped": 6,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 250,
+  "note": "Phase A: 承認2件はnoticeにアラート無し→skip。Phase B新規10件処理: listed4(DXF N&ダルマッカ$123/figma Skull$214/ねんどろいど1088アメリカ$192/BE@RBRICK7-11$141),skipped6。既存トラッカー該当181件・在庫復活等はdedupで除外。"
+ },
+ {
   "task": "monodaz-auto-listing (restock-alert)",
   "date": "2026-09-05",
   "startAt": "2026-09-05 01:07:15",
