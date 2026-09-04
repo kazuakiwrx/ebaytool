@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-05",
+  "startAt": "2026-09-05 01:07:15",
+  "endAt": "2026-09-05 01:36",
+  "durationMin": 29,
+  "listed": 1,
+  "pending": 3,
+  "skipped": 2,
+  "processed": 6,
+  "avgSecPerItem": null,
+  "alertsRemaining": 230,
+  "note": "アラート233件を5ページ走査。トラッカー未登録の新規は2件のみ:Madara(出品$144/13.6%・アラート削除)とMikamoNeruバニー(仕入¥32800で利益未達→pending)。残アラートは既登録dedup。フェーズA再確認:CASIOリング(¥23500に上昇)/GSC初音ミクWorldIsMine(¥17900だが未使用に近い=New不一致)いずれもpending継続。未鑑定トレカ2件(遊戯王LIMIT OVER/MTG TMNT)はconfig除外でskipped+アラート削除。承認2件(reel/pokecen)は現行アラート無しで対象外。並行実行(Qty0/別restock)と競合したためrebase後に反映。残pendingは次回継続。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-05",
   "startAt": "2026-09-05 00:09:57",
