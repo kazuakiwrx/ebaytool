@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-05",
+  "startAt": "2026-09-04 23:21:04",
+  "endAt": "2026-09-05 00:06:01",
+  "durationMin": 45,
+  "listed": 8,
+  "pending": 1,
+  "skipped": 6,
+  "processed": 15,
+  "avgSecPerItem": 290,
+  "alertsRemaining": 231,
+  "note": "アラート起点フェーズB。notice1ページ目の新規(未トラッカー)15件を高単価優先で処理。既トラッカー(listed/skipped)は重複回避。フェーズA承認pending2件(Shimano¥112k/Pokemonステッカー¥135k・高額)は今回未処理で次回持越し。"
+ },
+ {
   "task": "monodaz-restock-alert (auto-listing)",
   "date": "2026-09-04",
   "startAt": "2026-09-04 22:07:05",
