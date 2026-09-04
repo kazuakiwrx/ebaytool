@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert (auto-listing)",
+  "date": "2026-09-04",
+  "startAt": "2026-09-04 22:07:05",
+  "endAt": "2026-09-04 23:17:24",
+  "durationMin": 70,
+  "listed": 5,
+  "pending": 1,
+  "skipped": 4,
+  "processed": 10,
+  "avgSecPerItem": null,
+  "alertsRemaining": 244,
+  "note": "Phase A: 0 approved (approve_ flag=0); 未承認pendingは全て過去の目標未達/高額除外のため自動出品対象なし。Phase B: 新規アラート10件処理(page1)。序盤ブラウザ接続不安定(フリーズ/2ブラウザ検出)でBrowser2へ再接続後は安定。残りは次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-03",
   "startAt": "2026-09-03 12:32:31",
