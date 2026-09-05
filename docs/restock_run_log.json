@@ -3758,5 +3758,19 @@
     "avgSecPerItem": null,
     "alertsRemaining": 385,
     "note": "アラート起点在庫補充。フェーズB高単価優先でページ1の対象19件を処理。出品2件: どこでも真島コンプ6種($303/13.16%,mercari m75851181187 ¥31999), 遊戯王センチュリオンDuelSet YCSJ($101.93/13.00%,mercari m15557680656 ¥8499)。要承認12件(¥100k超高額/仕入高すぎ/同一性不確実/カテゴリ送料上限)。スキップ5件(即決清潔仕入なし2/除外カテゴリ本・トレカ3)。アラート削除7件(出品2+スキップ5)。残りページ2-8は次回継続。"
+  },
+  {
+    "task": "monodaz-restock-qty0",
+    "date": "2026-09-05",
+    "startAt": "2026-09-05 22:01",
+    "endAt": "2026-09-05 23:16",
+    "durationMin": 75.1,
+    "listed": 4,
+    "pending": 2,
+    "skipped": 22,
+    "processed": 28,
+    "avgSecPerItem": 160.9,
+    "alertsRemaining": null,
+    "note": "Qty0版実行。出品4件: listed Qty0版 $445 13%; listed Qty0版 $253 13%; Miku DIVA Controller Mercari m4145718706; Persona 5 Joker Ichiban Kuji Mercari m21。スキップ22件(OOS多数/除外カテゴリ/getsupply技術障害)。要承認2件(¥10万超等)。タブfreezeと再接続問題でgetsupplyが不安定。非同期XHR上書きで改善確認済み。"
   }
 ]
