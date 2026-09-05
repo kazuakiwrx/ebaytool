@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-06",
+  "startAt": "2026-09-06 01:09:32",
+  "endAt": "2026-09-06 01:42:11",
+  "durationMin": 32.6,
+  "listed": 1,
+  "pending": 4,
+  "skipped": 0,
+  "processed": 5,
+  "avgSecPerItem": 600,
+  "alertsRemaining": 225,
+  "note": "MONODAZ Mercariの仕入先取得が不調(buyprice=0/『仕入先が取得出来ませんでした』)。Mercari依存の候補は出品不可のためpending据置。Yahoo経由のBig Zam(MA-08)1件のみlisted。フェーズA:Brachiosaurus(Prime1で高額不成立)/Mikuぬいぐるみ(該当商品なし)/Mikamoネル(Mercari取得不可・Yahooは高送料で保存時エラー)/五条悟腕時計(Mercariのみ・取得不可)はpending据置。モーダル切替はページ再読込が必要だった。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-06",
   "startAt": "2026-09-06 00:07:34",
   "endAt": "2026-09-06 00:58:37",
   "durationMin": 51.1,
