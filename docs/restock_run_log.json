@@ -2,6 +2,18 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-06",
+  "startAt": "2026-09-06 07:05:00",
+  "endAt": "2026-09-06 07:43:40",
+  "listed": 1,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 1,
+  "alertsRemaining": 251,
+  "note": "PhaseA/B: 1件出品成功=Jujutsu Kaisen Geto plush keychain(307148095472) メルカリm14981274459 ¥5950→$91 粗利¥1839 約13% 画像入替済。ただしChromeウィンドウが最小化(viewport 0x0)状態で、アラート削除は信頼済みクリックが要るため実行不可(トラッカーは更新済push)。以降の処理はSPAモーダルが0x0で不安定&アラート削除不能のため中断。要対応: Chromeウィンドウを最大化/復元、またはスケジュールタスク設定でChromeをcomputer-use許可アプリに追加。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-06",
   "startAt": "2026-09-06 06:07:26",
   "endAt": "2026-09-06 06:34:45",
   "durationMin": 27.3,
