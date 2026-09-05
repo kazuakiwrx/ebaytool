@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-alert",
+    "date": "2026-09-06",
+    "startAt": "2026-09-06 02:06:00",
+    "endAt": "2026-09-06 02:59:03",
+    "durationMin": 53.0,
+    "listed": 7,
+    "pending": 2,
+    "skipped": 2,
+    "processed": 11,
+    "avgSecPerItem": null,
+    "alertsRemaining": 261,
+    "note": "Phase B page1の新規(未トラッカー)11件を高単価順に処理。listed7/pending2(要承認:Monchhichi Wedding同定不可, Tamagotchi Fantasy相場高騰¥48k)/skipped2(PokeCafe茶器New在庫なし, Teto AHS限定一致なし)。page1の他35件は既トラッカーでdedupスキップ。page2-6は次回。価格は保存ガード12-14%(狙い13%)順守。"
+  },
+  {
     "runDate": "2026-09-06 09:30",
     "task": "monodaz-restock-qty0",
     "store": "yui_chan_store",
