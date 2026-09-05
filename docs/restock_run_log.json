@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-05",
+  "startAt": "2026-09-05 12:07:32",
+  "endAt": "2026-09-05 12:15:57",
+  "durationMin": 8.4,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 228,
+  "note": "Phase B: 全アラート228件(ユニークeBay ID 199件)は全て既にトラッカーに存在→新規処理0(dedup)。Phase A: pending(rule ii)でアラートにも存在する候補19件は全て仕入価格が高く12-14%到達不可/不一致/要承認(当日11:47の再確認済み)。利益ガードにより出品0。pending backlog 271件・alert 228件は据え置き。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-05",
   "startAt": "2026-09-05 11:24:47",
