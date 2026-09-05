@@ -3831,5 +3831,109 @@
     "tries": 1,
     "workDate": "2026-09-05T16:44:17.390932Z",
     "note": "仕入先なし maxBuy¥5,883以下なし 元supplier売切 Qty0版"
+  },
+  {
+    "id": "qty0_307159144434",
+    "ebayUrl": "https://www.ebay.com/itm/307159144434",
+    "ebayTitle": "Seiko 5 Sports SBSA229 Automatic Watch",
+    "status": "listed",
+    "supplierUrl": "https://paypayfleamarket.yahoo.co.jp/item/m1218694862",
+    "supplierName": "PayPayフリマ",
+    "supplierPrice": 34500,
+    "price": 337,
+    "profitRate": 13,
+    "tries": 1,
+    "workDate": "2026-09-06T10:00:00.000Z",
+    "note": "PayPay m1218694862 ¥34,500 $337 13% 画像入替済 Qty0版"
+  },
+  {
+    "id": "qty0_307162940175",
+    "ebayUrl": "https://www.ebay.com/itm/307162940175",
+    "ebayTitle": "8BitDo KOF97 Arcade Stick",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:05:00.000Z",
+    "note": "元supplier=Amazon禁止サイト 代替なし Qty0版"
+  },
+  {
+    "id": "qty0_307162957670",
+    "ebayUrl": "https://www.ebay.com/itm/307162957670",
+    "ebayTitle": "Korg D1600 Digital Recording Studio",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:10:00.000Z",
+    "note": "仕入先なし 在庫なし Qty0版"
+  },
+  {
+    "id": "qty0_307164665087",
+    "ebayUrl": "https://www.ebay.com/itm/307164665087",
+    "ebayTitle": "Soul Eater Earphones",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:15:00.000Z",
+    "note": "元supplier削除済 代替高すぎ Qty0版"
+  },
+  {
+    "id": "qty0_307164665831",
+    "ebayUrl": "https://www.ebay.com/itm/307164665831",
+    "ebayTitle": "Hot Toys Amazing Spider-Man 2",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:20:00.000Z",
+    "note": "元supplier売切 代替なし Qty0版"
+  },
+  {
+    "id": "qty0_307159143421",
+    "ebayUrl": "https://www.ebay.com/itm/307159143421",
+    "ebayTitle": "Madoka Magica Figure",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:30:00.000Z",
+    "note": "条件不一致 used supplier vs New eBay condId1000 Qty0版"
+  },
+  {
+    "id": "qty0_307160947800",
+    "ebayUrl": "https://www.ebay.com/itm/307160947800",
+    "ebayTitle": "Rice Shower Uma Musume Plush",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:35:00.000Z",
+    "note": "元supplier4日前売切 代替全てused vs New condId1000 Qty0版"
+  },
+  {
+    "id": "qty0_307159141916",
+    "ebayUrl": "https://www.ebay.com/itm/307159141916",
+    "ebayTitle": "Kamen Rider Ryuki Dragreder",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:40:00.000Z",
+    "note": "supplier状態不良(全体的に状態が悪い) Qty0版"
+  },
+  {
+    "id": "qty0_307160944682",
+    "ebayUrl": "https://www.ebay.com/itm/307160944682",
+    "ebayTitle": "BABYMETAL LIVE AT WEMBLEY THE ONE Blu-ray",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:45:00.000Z",
+    "note": "元supplier削除済 代替なし Qty0版"
+  },
+  {
+    "id": "qty0_307160943838",
+    "ebayUrl": "https://www.ebay.com/itm/307160943838",
+    "ebayTitle": "Zootopia 2 Nick Wilde Tuxedo Figure Happy Kuji",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:50:00.000Z",
+    "note": "元supplier削除済 代替¥7000→13%達成に17%値下必要pending対象だがスキップ Qty0版"
+  },
+  {
+    "id": "qty0_307160941599",
+    "ebayUrl": "https://www.ebay.com/itm/307160941599",
+    "ebayTitle": "Transformers The Headmasters TF Encore 21 Sound Blaster",
+    "status": "skipped",
+    "tries": 1,
+    "workDate": "2026-09-06T10:55:00.000Z",
+    "note": "元supplier売切(購入日2026-06-06) 代替なし Qty0版"
   }
 ]
