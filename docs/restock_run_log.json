@@ -2,6 +2,20 @@
  {
   "task": "monodaz-restock-alert",
   "date": "2026-09-05",
+  "startAt": "2026-09-05 15:52:19",
+  "endAt": "2026-09-05 16:22:32",
+  "durationMin": 30.2,
+  "listed": 3,
+  "pending": 3,
+  "skipped": 0,
+  "processed": 6,
+  "avgSecPerItem": 436.7,
+  "alertsRemaining": 241,
+  "note": "アラート全244件中、未処理(トラッカー未登録)の新規は6件のみ(他158件は既処理でスキップ)。新規6件を処理:出品3(MonHunエコバッグセット$136/NIKKEラピ1/7$417/ヒプマイ飴村乱数1/8$196、いずれも利益率12-14%・画像入替・アラート削除)、要承認3(ブラキオPCF・色違いエンテイ・コードギアスR2、高額/良品一致なしでpending・アラート保持)。フェーズA承認(approve_)は0件。"
+ },
+ {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-05",
   "startAt": "2026-09-05 12:07:32",
   "endAt": "2026-09-05 12:15:57",
   "durationMin": 8.4,
