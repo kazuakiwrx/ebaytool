@@ -1,6 +1,20 @@
 [
  {
   "task": "monodaz-auto-listing",
+  "date": "2026-09-07",
+  "startAt": "2026-09-07 07:58:00",
+  "endAt": "2026-09-07 08:33:11",
+  "durationMin": null,
+  "listed": 2,
+  "pending": 0,
+  "skipped": 12,
+  "processed": 14,
+  "avgSecPerItem": null,
+  "alertsRemaining": 255,
+  "note": "Phase B alert restock. 14 alerts processed (2 listed: G-Flag175 $116/13.5%, Seiko SZSB006 $573/13.1%; 12 skipped: mostly premium/limited items where JP resale > maxBuy, or condition/parts mismatch, 1 ungraded card excluded). Phase A(pending approvals) not processed this run - deferred. Effort-limited single session; remainder continues next run."
+ },
+ {
+  "task": "monodaz-auto-listing",
   "date": "2026-09-06",
   "startAt": "2026-09-06 23:07:12",
   "endAt": "2026-09-06 23:17:46",
