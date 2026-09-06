@@ -2,6 +2,20 @@
   {
     "task": "monodaz-auto-listing (restock-alert)",
     "date": "2026-09-06",
+    "startAt": "2026-09-06 11:07:24",
+    "endAt": "2026-09-06 11:33:51",
+    "durationMin": 26,
+    "listed": 1,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 1,
+    "avgSecPerItem": 480,
+    "alertsRemaining": 229,
+    "note": "フェーズB: notice全183ユニークアラートは全てトラッカー既存itemId→重複でスキップ(新規処理0). フェーズA: pending283件(承認approve_フラグ0). アクティブアラート付き・origPrice null候補40件を高単価順に評価。出品1件=Hatsune Miku Fuwapuchi Dodeka Jumbo Plush(307132450158): メルカリm74877349488 ¥22,665 New, Price$249 利益計¥5100=13.15%, 画像はmercdnへ自動入替, Shipping226~250ドル, アラート削除済. 他評価6件は全て要承認維持: Citizen AT8385(¥139,800≥¥100k), Entei Pokedoll($1890/該当仕入先なし), MTG TMNT box($316/密封BOX一致せず), Jurassic Park Brachiosaurus($185/廉価一致なし・プレミア像), Bishoujo ReMIX Miku 1/7($237/一致¥39,980で利益率未達), MHA Deku Glove($986高額). 残りpending候補は次回継続。"
+  },
+  {
+    "task": "monodaz-auto-listing (restock-alert)",
+    "date": "2026-09-06",
     "startAt": "2026-09-06 10:08:16",
     "endAt": "2026-09-06 10:38:25",
     "durationMin": 30,
