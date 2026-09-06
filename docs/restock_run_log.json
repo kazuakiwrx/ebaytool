@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-06",
+  "startAt": "2026-09-06T10:07:50Z",
+  "endAt": "2026-09-06T10:26:15.918509+00:00",
+  "durationMin": 18.4,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 2,
+  "processed": 2,
+  "avgSecPerItem": null,
+  "alertsRemaining": 234,
+  "note": "Phase A pending処理: 2件検証しいずれも仕入不可でskip+alert削除 (Spider-Man MMS727=仕入高すぎ, Shiny Entei Pokedoll=在庫なし). ブラウザ拡張が不安定(CDPタイムアウト/接続断/重いtracker描画のフリーズ)のため安全側で少数バッチで打ち切り。残りpending多数は次回継続。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-06 17:56:01",
   "startAt": null,
