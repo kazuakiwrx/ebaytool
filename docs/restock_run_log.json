@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-qty0",
+    "date": "2026-09-08",
+    "startAt": "2026-09-08T02:49:34",
+    "endAt": "2026-09-08T03:16:50",
+    "durationMin": 27.3,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 4,
+    "processed": 4,
+    "avgSecPerItem": 409,
+    "alertsRemaining": null,
+    "note": "4件処理・全スキップ(高額代替/禁止仕入先/売切). context上限で早期終了."
+  },
+  {
     "task": "monodaz-auto-listing (restock-alert)",
     "date": "2026-09-08",
     "startAt": "2026-09-08 02:06:00",
