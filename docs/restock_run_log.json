@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-07",
+  "startAt": "18:33:18",
+  "endAt": "18:41:01",
+  "durationMin": 7.7,
+  "listed": 0,
+  "pending": 3,
+  "skipped": 0,
+  "processed": 3,
+  "avgSecPerItem": null,
+  "alertsRemaining": 224,
+  "note": "フェーズB新規在庫切れアラート0件(未登録の新規はitemId307145863064のみだが種別D:販売後個数改訂で在庫切れ対象外)。フェーズA:notice上にアラートが残る要承認3件(307132747584/307128245724/307109174766)を再確認したが、いずれも最安仕入がmaxBuy超で12-14%不可のため要承認維持・アラート保持。出品0件。他84件の要承認候補はnotice上にアラートが無く対象外。アラート削除なし。"
+ },
+ {
   "runId": "2026-09-07T18:21:00",
   "type": "alert",
   "store": "yui_chan_store",
