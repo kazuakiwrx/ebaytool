@@ -4223,5 +4223,20 @@
 "avgSecPerItem": null,
 "alertsRemaining": null,
 "note": "Qty0版(コンテキスト継続run3)。出品3件: Stronger86 Lena 1/7 $850 13% m96391392054; ARTFX J Black Deku $875 13% m80517164267; Seiko TiCTAC SZSB006 $590 15% m62416318485。スキップ2件: Beyblade Wizard Rod Gold tournament(仕入先不足), Pilot Capless 2026 Shareholder(仕入先不足)。クールダウン21+件。"
+},
+{
+"task": "monodaz-auto-listing",
+"date": "2026-09-07",
+"startAt": "2026-09-07 09:40",
+"endAt": "2026-09-07 10:10",
+"durationMin": 30,
+"listed": 5,
+"pending": 32,
+"skipped": 4,
+"excluded": 0,
+"processed": 41,
+"avgSecPerItem": null,
+"alertsRemaining": 241,
+"note": "アラート版。フェーズB新規NEW8件(出品1:KBプロゼリー$69 / スキップ4 / 要承認2) + フェーズA pending33件処理(出品4:Levi生足バニー1/4$434, コトブキヤ初音ミクReMIX1/7$213, Myethos初音ミク韶華1/7$128, DX超合金YF-29オズマ$203 / 残りは高額品(≥¥100k)・在庫なし・同一性不明・編集不可等で要承認維持)。出品計5件は全て利益率12-14%・画像を新仕入先入替。要承認多数は仕入先が¥100k超または品薄のため人手確認向け。"
 }
 ]
