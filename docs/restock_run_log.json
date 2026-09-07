@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
+  "startAt": "2026-09-08 08:07:32",
+  "endAt": "2026-09-08 08:23:42",
+  "durationMin": 16.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 251,
+  "note": "アラート251件(全5ページ)を全走査。actionable=pending(origPrice null)は約16件のみで、いずれも高額(¥100,000以上→要承認)または現状の国内相場で利益率12-14%未達(例:Seiko SSEH026 メルカリ¥48,500のみ/Baccarat Aria set/DX超合金VF-31AX本体在庫なし/アルティメットまどか1/8該当なし)。新規(未トラッカー)在庫切れアラートは0件。よって新規出品0・要承認は既存pending維持・アラート削除なし。承認フラグ(approve_)も0件。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
   "startAt": "2026-09-08 06:05:00",
   "endAt": "2026-09-08 06:20:00",
   "durationMin": 15,
