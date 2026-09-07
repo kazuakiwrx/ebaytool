@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-auto-listing",
+    "date": "2026-09-07",
+    "startAt": "2026-09-07 20:05",
+    "endAt": "2026-09-07 20:25",
+    "durationMin": 20,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 223,
+    "note": "dedup: 223件のアラート(ユニーク160商品)のうち159商品は既にトラッカー登録済のためスキップ。トラッカー未登録は1商品のみ(Identity V 5th, itemId 307145863064)だが在庫切れ系でなく『D:販売後個数改訂(1個追加)』のためフェーズB対象外。フェーズA: notice内のpending該当は14商品、うち出品対象(origPrice null&<10万円)は4商品(Seiko SSEH026/Tamagotchi Sanrio DX/Brave Neptunia Pyoiin/MUJI CPD-4)。いずれも本日18:40-19:27の前回実行で再評価済みで、仕入>目標マージン(12-14%)不可またはeBay¥10万以上の高額要承認のため要承認維持。代表としてSeiko SSEH026をメルカリ再確認(最安¥48,500・未使用で変化なし→出品不可)。新規出品0件。"
+  },
+  {
     "task": "monodaz-restock-by-quantity",
     "date": "2026-09-07",
     "startAt": "2026-09-07 19:41:44",
