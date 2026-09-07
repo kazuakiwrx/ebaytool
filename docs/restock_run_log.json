@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-auto-listing (restock-alert)",
+    "date": "2026-09-08",
+    "startAt": "2026-09-08 02:06:00",
+    "endAt": "2026-09-08 02:29:43",
+    "durationMin": 23,
+    "listed": 2,
+    "pending": 0,
+    "skipped": 5,
+    "processed": 7,
+    "avgSecPerItem": null,
+    "alertsRemaining": 264,
+    "note": "フェーズA:承認フラグ(approve_<id>=1)付きpendingは0件のため自動出品対象なし(origPrice null pendingは既評価の利益率未達で保留維持、アラートキューでの再確認に委譲)。フェーズB:notice全271件のうちpage1(47件)を確認、37件は既トラッカーで重複スキップ、新規10件のうち高単価順に7件処理→listed2/skipped5。listed:トヨタ チェイサーFCT-08コーナーランプ$186(12.89%)、カシオ フロッグマンGW-8200TPF-1JR$630(13.12%)。skipped5件は一致在庫なし(セイコー進化論ダイバー/シャンデラLED/ホットトイズ トロン サムフリン/ネオブライスTea for Two/ポケセン ポットデス3点セット)でアラート削除。page2-4(約221件)+未処理page1(3件:Taruka cards/King Crimson/Geto)+pending再確認は次回に継続。仕入検索はメルカリ主体。時刻は概算。"
+  },
+  {
     "task": "monodaz-auto-listing (alert restock)",
     "date": "2026-09-08",
     "startAt": "2026-09-08 01:07:39",
