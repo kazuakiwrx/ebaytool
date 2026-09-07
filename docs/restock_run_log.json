@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
+  "startAt": "2026-09-08 06:05:00",
+  "endAt": "2026-09-08 06:20:00",
+  "durationMin": 15,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 251,
+  "note": "アラート全251件・在庫切れ対象164 distinct itemIdはすべて既にトラッカー登録済み(itemId一致)→フェーズB全件dedupスキップ・アラート削除なし。フェーズA:approve_=1の承認0件。(ii)適格pending89件は当日05:23/前日18:40の再確認で妥当価格12-14%不可の判定済み。最良候補307132747584(Neptunia)も再確認済でmaxBuy約¥25,011<仕入¥39,560で非妥当。新規出品対象なし。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
   "startAt": "2026-09-08 05:07:21",
   "endAt": "2026-09-08 05:24:01",
   "durationMin": 16.7,
