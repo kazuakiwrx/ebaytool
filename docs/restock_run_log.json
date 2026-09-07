@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (alert restock)",
+  "date": "2026-09-07",
+  "startAt": "2026-09-07 22:08:16",
+  "endAt": "2026-09-07 22:21:29",
+  "durationMin": 13.2,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 223,
+  "note": "アラート全223件のうち一意160件を照合。1件(307145863064)を除き全てトラッカー既存(listed52/skipped95/pending12)。唯一の未登録は在庫切れ以外のD:販売後個数改訂通知(対象外)。フェーズB net-new在庫切れアラート=0。フェーズA:notice上で開けるpending候補5件は本日18:21-20:25の直近runで既に処理済(listed/skipped/高額品¥100k以上でapproval保留/相場超で利益率12-14%未達)。承認フラグ(approve_)=0。よって今回出品0。既処理listed/skippedの残存アラートは重複判定により未削除・未処理。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-07",
   "startAt": "2026-09-07 21:07:53",
