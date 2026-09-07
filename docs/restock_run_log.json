@@ -2,6 +2,20 @@
   {
     "task": "monodaz-restock-alert",
     "date": "2026-09-07",
+    "startAt": "2026-09-07 14:12:00",
+    "endAt": "2026-09-07 14:31:14",
+    "durationMin": 19,
+    "listed": 1,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 1,
+    "avgSecPerItem": null,
+    "alertsRemaining": 263,
+    "note": "NEW stockout alerts essentially exhausted (only 1 listable found & listed: MTG Double Masters 2022 box @ $334, 12.77%). Most notice alerts already in tracker (deferred to qty0/supplier-audit). Aged Phase A pendings triaged (Brachiosaurus, Shiny Entei, Monchhichi, MTG TMNT box) but suppliers too expensive to hit 12-14% at reasonable price -> left pending. Identity V (307145863064) is D-type qty-revision + high-value -> out of scope."
+  },
+  {
+    "task": "monodaz-restock-alert",
+    "date": "2026-09-07",
     "startAt": "2026-09-07 13:07:36",
     "endAt": "2026-09-07 13:22:36",
     "durationMin": 15,
