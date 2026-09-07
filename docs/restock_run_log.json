@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-auto-listing",
+    "date": "2026-09-07",
+    "startAt": "2026-09-07 15:07:21",
+    "endAt": "2026-09-07 15:37:50",
+    "durationMin": 30.5,
+    "listed": 7,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 7,
+    "avgSecPerItem": null,
+    "alertsRemaining": 258,
+    "note": "フェーズA:承認フラグ0件・出品対象なし。フェーズB:高値の再発火(旧仕入先OOS)listed商品を単価高い順に7件再出品(全て利益率12-14%,狙い13%)。¥100k以上pendingは要承認で据置。時間/コンテキスト予算で7件処理し残りは次回継続。"
+  },
+  {
     "task": "monodaz-restock-alert",
     "date": "2026-09-07",
     "startAt": "2026-09-07 14:12:00",
