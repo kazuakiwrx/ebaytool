@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-auto-listing",
+    "date": "2026-09-08",
+    "startAt": "2026-09-08 03:06:46",
+    "endAt": "2026-09-08 03:34:30",
+    "durationMin": 28,
+    "listed": 3,
+    "pending": 1,
+    "skipped": 9,
+    "processed": 13,
+    "avgSecPerItem": null,
+    "alertsRemaining": 252,
+    "note": "Phase A: no human-approved(approve_) pending items. Phase B: processed 13 alerts (3 listed / 9 skipped / 1 pending). Listed: Guren mensHdge No.23 $334, Beyblade X CX-00 Valkyrie Volt $269, Medicom Ultimate Buzz Lightyear $778 (all 12-14% margin, images swapped). Skips mostly due to supplier cost > maxBuy or no matching in-stock item. ~252 alerts remain for next runs."
+  },
+  {
     "task": "monodaz-restock-qty0",
     "date": "2026-09-08",
     "startAt": "2026-09-08T02:49:34",
