@@ -14,6 +14,20 @@
     "note": "Qty0版 出品2/要承認5(高額品>¥100k)/スキップ8(除外2コミック+トレカ,仕入先なし3,利益不足1,Rakuten不可1,在庫なし+価格高1) cooldown省略(初回実行)"
   },
   {
+    "task": "monodaz-auto-listing",
+    "date": "2026-09-07",
+    "startAt": "2026-09-07 11:19:07",
+    "endAt": "2026-09-07 11:19",
+    "durationMin": null,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 2,
+    "processed": 2,
+    "avgSecPerItem": 42,
+    "alertsRemaining": 239,
+    "note": "notice全239件分類(ユニーク154件)。NEW未登録アラート=0。フェーズA適格pending12件を再検証も全て高額(要承認)/仕入コスト>目標利益ライン/一致在庫なしで新規出品不可(据置)。フェーズB新規=0。skipped登録済で再発の2件(色違いエンテイ ポケドール / とんがり帽子のアトリエ12巻特装版)は在庫再確認のうえアラート削除。新規出品0件。"
+  },
+  {
     "task": "monodaz-restock-alert",
     "date": "2026-09-07",
     "startAt": "2026-09-07 10:13:00",
