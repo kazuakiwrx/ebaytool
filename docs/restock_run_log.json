@@ -4599,5 +4599,17 @@
     "cooldown": 96,
     "carryover": 23,
     "note": "Qty0版: all 7 processed items skipped (no valid suppliers on mercari/yahoo/paypay within budget). 23 items carryover."
+  },
+  {
+    "runId": "qty0-20260908-restock",
+    "runType": "qty0",
+    "runAt": "2026-09-07T19:18:44+00:00",
+    "store": "yui_chan_store",
+    "listed": 4,
+    "pending": 0,
+    "skipped": 3,
+    "cooldown": 18,
+    "carryover": 0,
+    "note": "コンテキスト分割実行。listed 4: Digimon Accel $250 13%, PIKMIN Vase $168 13%, TRAVELERS Card 20th 307167657585 $136 14%, TRAVELERS Card 20th 307167657674 $136 13%(new supplier m29016097169). skipped 3: ONE PIECE コミック除外, Norwegian Wood 2冊セット代替なし, Hololive Mio New在庫なし. cooldown 18件. 画像入替は全件500エラーで失敗."
   }
 ]
