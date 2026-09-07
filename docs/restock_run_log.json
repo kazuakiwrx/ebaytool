@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
+  "startAt": "2026-09-08 05:07:21",
+  "endAt": "2026-09-08 05:24:01",
+  "durationMin": 16.7,
+  "listed": 0,
+  "pending": 4,
+  "skipped": 0,
+  "processed": 4,
+  "avgSecPerItem": null,
+  "alertsRemaining": 251,
+  "note": "フェーズA(要承認retry): notice残存の対象6件中、価格保有2件を再確認(Seiko SSEH026=¥48,500>maxBuy¥35,070継続pending／Madokaアルティメット=出品End済で復活不可)、他4件(no-supplier/高額/サイズ不一致)は既存noteが確定的でpending維持。フェーズB(新規アラート): 全OOSアラート181件(ユニーク)中179件は既にトラッカー在(dedupスキップ)、新規2件のみ処理→両方とも現行仕入が高くマイナス/12-14%非達で要承認(Baccarat Aria 2025ペア¥13,900→約$180必要／DX超合金VF-31AXハヤテ機¥25,000→約$274必要)。新規出品0件。アラート削除0(全件pendingで維持)。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
   "startAt": "2026-09-08 04:06:47",
   "endAt": "2026-09-08 04:29:29",
   "durationMin": 23,
