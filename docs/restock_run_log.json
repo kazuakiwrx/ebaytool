@@ -2,6 +2,20 @@
  {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
+  "startAt": "2026-09-08 19:10:27",
+  "endAt": "2026-09-08 19:17:57",
+  "durationMin": 7,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 263,
+  "note": "全263アラート(6ページ)を走査。トラッカー未登録の新規は3件のみで全てD:販売後個数改訂(非対象・放置)。在庫切れ(A/監視終了)の新規はゼロ、既存は全て重複でスキップ。フェーズA:承認フラグ0件。retryable1件(307162955365 バーキン第2形態)をPayPay(z628314412)フルURL+ID両形式で仕入先取得を再試行→依然失敗(MONODAZ×PayPay恒常制約)でpending継続。borderline約50件/stuck約40件は前回runの仕入未達/在庫無/一致不明が現存し自動出品対象なし→listed0。"
+ },
+ {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
   "startAt": "2026-09-08 17:07:27",
   "endAt": "2026-09-08 17:22:00",
   "durationMin": 14,
