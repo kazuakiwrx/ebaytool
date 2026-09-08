@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
+  "startAt": "2026-09-08 15:11:20",
+  "endAt": "2026-09-08 15:42:36",
+  "durationMin": 31.3,
+  "listed": 1,
+  "pending": 2,
+  "skipped": 0,
+  "processed": 3,
+  "avgSecPerItem": 360,
+  "alertsRemaining": 264,
+  "note": "フェーズA:承認0・pending337は前回runの利益未達/在庫無/高額理由が現存し自動出品対象なし。フェーズB:全アラート265→重複除外後の新規在庫切れ3件を処理。listed1(トラベラーズノート20周年 $138/13.05%)。pending2=バーキンG第2形態(PayPay良品¥5,980あるがMONODAZのPayPay仕入先取得が買値取得に失敗)・ルコアバニー1/4(Used一致在庫無し/候補は新品かつFREEing同一性不確実の$515高額)。"
+ },
+ {
   "task": "monodaz-restock-alert",
   "date": "2026-09-08",
   "startAt": "2026-09-08 14:07:31",
