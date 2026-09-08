@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-restock-alert",
+  "date": "2026-09-08",
+  "startAt": "2026-09-08 12:06:23",
+  "endAt": "2026-09-08 12:14:58",
+  "durationMin": 9,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 0,
+  "processed": 0,
+  "avgSecPerItem": null,
+  "alertsRemaining": 240,
+  "note": "フェーズA:localStorage承認0件・origPrice null pending 235件は6月〜9月の歴史的滞留(大半が利益率未達/高額で過去に見送り)のため今回は強制再出品せず。フェーズB:notice全240件走査→restock対象(在庫無し/Qty0/監視終了)193件すべて既にトラッカー登録済み(本日04:29・11:23の既存run処理分)につき重複処理なし。新規0件=出品/要承認/新規スキップ0。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
   "startAt": "2026-09-08 11:06:40",
