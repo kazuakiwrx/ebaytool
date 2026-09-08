@@ -378,6 +378,9 @@ function copyApproved(){
 {"ebayUrl":"https://www.ebay.com/itm/307157357875","ebayTitle":"Demon Slayer ANNA SUI Butterfly Necklace Kanae Kocho Kanao","status":"skipped","suppliername":null,"suppval":null,"buyprice":null,"tries":1,"workDate":"2026-09-08T15:00:00","note":"最安15000>maxBuy13668 Qty0版"},
 {"ebayUrl":"https://www.ebay.com/itm/307159142178","ebayTitle":"The Big O figma 102 R Dorothy Wayneright Max Factory Figure","status":"listed","suppliername":"メルカリShops","suppval":"f45EwLjZiiEhNoh3ie6tQZ","buyprice":11400,"tries":1,"workDate":"2026-09-08T15:00:00","note":"メルカリShops f45EwLjZiiEhNoh3ie6tQZ ¥11,400 利益率約20% Qty0版"},
 {"ebayUrl":"https://www.ebay.com/itm/307157353488","ebayTitle":"Uma Musume Cinderella Gray Vol.1-23 Full Set Manga","status":"skipped","suppliername":null,"suppval":null,"buyprice":null,"tries":1,"workDate":"2026-09-08T15:00:00","note":"コミック禁止 Qty0版"}
+,
+{"id":"qty0-307159144933-skip1","ebayUrl":"https://www.ebay.com/itm/307159144933","itemId":"307159144933","ebayTitle":"MERCEDES Benz Original Wrist Watch Black","status":"skipped","tries":1,"workDate":"2026-09-08 12:00","note":"利益計算API失敗・Mercari仕入先取得不可(m38806238307)・Qty0版"},
+{"id":"qty0-307159143906-skip1","ebayUrl":"https://www.ebay.com/itm/307159143906","itemId":"307159143906","ebayTitle":"Ichiban kuji HUNTERxHUNTER Neferpitou MASTERLISE Figure Prize E","status":"skipped","tries":1,"workDate":"2026-09-08 12:00","note":"仕入先なし(E賞7800円で利益率約8%・目標未達)・Qty0版"}
 ]; if(it.status==="pending" && lsGet("approve_"+it.id)){ a.push({id:it.id,title:it.ebayTitle,newUrl:it.newUrl,newPrice:it.newPrice}); } }
   var txt = JSON.stringify(a,null,2);
   if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(function(){ alert(a.length?a.length+"件の出品許可済みをコピーしました。":"出品許可済みの商品はありません。"); }, function(){ alert(txt); }); }
