@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing(restock-alert)",
+  "date": "2026-09-08",
+  "startAt": "2026-09-08 16:07:48",
+  "endAt": "2026-09-08 16:29:35",
+  "durationMin": 21.8,
+  "listed": 0,
+  "pending": 3,
+  "skipped": 4,
+  "processed": 7,
+  "avgSecPerItem": null,
+  "alertsRemaining": 265,
+  "note": "アラート先頭付近の実処理分。全て希少/高額/版一致不明で12-14%不成立: skip4(ヒロアカ展BOX x2/ジョルノRAH/エマ1/7)、pending3(ヘタリアねんどろ1088 x2=完品¥22,000でmaxBuy超/イーブイたまごっち=本体のみ版一致要確認)。listedなし。モーダルの連続切替とアラート削除の自動化が本環境で不安定なため、トラッカー記録で状態保持(dedupで再処理防止)。残バックログはアラート約260件+pending約339件、次回以降継続。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-08",
   "startAt": "2026-09-08 15:11:20",
