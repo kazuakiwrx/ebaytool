@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing",
+  "date": "2026-09-08",
+  "startAt": "2026-09-08 17:07:27",
+  "endAt": "2026-09-08 17:22:00",
+  "durationMin": 14,
+  "listed": 0,
+  "pending": 0,
+  "skipped": 1,
+  "processed": 1,
+  "avgSecPerItem": 540,
+  "alertsRemaining": 263,
+  "note": "アラート全264件中189ユニーク。185件は既にトラッカーにあり重複スキップ。新規4件=うち3件はD:販売後個数改訂(非対象で放置)、1件(307157357966 Lad Weather Tritium Master VI)がA:仕入先在庫無し→3サイト検索でNEW青の妥当価格(maxBuy¥19,091)一致なし→skipped+アラート削除。フェーズA:承認フラグ0件、要承認pending157件は全て仕入高騰/曖昧一致/コンディション不一致等で妥当価格未達のため自動出品対象外(save-guardで却下)→出品0。"
+ },
+ {
   "task": "monodaz-auto-listing(restock-alert)",
   "date": "2026-09-08",
   "startAt": "2026-09-08 16:07:48",
