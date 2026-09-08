@@ -2,6 +2,20 @@
   {
     "task": "monodaz-auto-listing",
     "date": "2026-09-08",
+    "startAt": "2026-09-08 09:06:57",
+    "endAt": "2026-09-08 09:13:18",
+    "durationMin": 6.3,
+    "listed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "processed": 0,
+    "avgSecPerItem": null,
+    "alertsRemaining": 251,
+    "note": "フェーズA/B実行。承認フラグ(localStorage approve_)=0件。フェーズB: notice全4ページ(アラート251件/実ユニーク商品155件)を走査。在庫切れ系(仕入先在庫無し/Qtyを0/監視終了)アラート153商品は全てトラッカー既登録(itemId一致)につき重複処理せずスキップ。未トラッカーの2件(307156480713 まどかマギカ ポップコーン, 307145863064 IdentityV Offline Pack)はアラート種別が「D:販売後個数改訂(+1個)」で在庫切れ対象外。よって新規出品0/新規要承認0/新規スキップ0、アラート削除なし。フェーズA: 承認0件・null-origPrice pending(約306件)は既存ノート上いずれも高額(要承認)または利益率12-14%未達で出品不可、新規listedなし。"
+  },
+  {
+    "task": "monodaz-auto-listing",
+    "date": "2026-09-08",
     "startAt": "2026-09-08 08:07:32",
     "endAt": "2026-09-08 08:23:42",
     "durationMin": 16.2,
@@ -4669,15 +4683,15 @@
     "note": "コンテキスト分割実行。listed 4: Digimon Accel $250 13%, PIKMIN Vase $168 13%, TRAVELERS Card 20th 307167657585 $136 14%, TRAVELERS Card 20th 307167657674 $136 13%(new supplier m29016097169). skipped 3: ONE PIECE コミック除外, Norwegian Wood 2冊セット代替なし, Hololive Mio New在庫なし. cooldown 18件. 画像入替は全件500エラーで失敗."
   },
   {
-    "runId": "qty0-20260908-004122",
+    "runId": "qty0-20260908-004215",
     "runType": "qty0",
-    "runAt": "2026-09-08T00:41:22+00:00",
+    "runAt": "2026-09-08T00:42:15+00:00",
     "store": "yui_chan_store",
     "listed": 0,
     "pending": 4,
     "skipped": 10,
     "cooldown": 0,
     "carryover": 16,
-    "note": "Qty0版コンテキスト続行実行。pending 4: Seiko collab watches (307130020257/307138725226/307126708678) + item 307139525853 全て仕入先¥100k超。skipped 10: Pioneer DJ・Used watches 有効仕入先なし、Beyblade 307128245319はラチェットパーツのみ商品不一致。未処理16件(items 5,6,9,14-18,20-21,23-25,28-30)は次回実行で継続。"
+    "note": "Qty0版続行実行。pending 4: Seiko collab watches 307130020257/307138725226/307126708678/307139525853 全て仕入先¥100k超要承認。skipped 10: Pioneer DJ・Used watches 有効仕入先なし、Beyblade 307128245319ラチェットパーツのみ商品不一致。未処理16件は次回継続。"
   }
 ]
