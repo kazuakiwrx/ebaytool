@@ -5006,5 +5006,46 @@
     "avgSecPerItem": 600,
     "alertsRemaining": null,
     "note": "listed: figma Laios($149/13%) PayPayフリマz661706766 画像入替済. skip: ungraded TCG, DragonBall set(outship¥10041), ChainMan BiCute(2pc set), FusionWorldBOX(TCG除外), NanoFemiras(New条件なし), SailorNeptune(¥10440>maxBuy), ONEPIECE vol333(コミック除外), SumoAutograph(MONODAZ404). 307169205298は500エラーで未処理(次回再チェック)"
+  },
+  {
+    "runDate": "2026-09-11T04:20:01.984Z",
+    "type": "qty0",
+    "listed": 0,
+    "pending": 0,
+    "skipped": 6,
+    "cooldown": 16,
+    "note": "コンテキスト引き継ぎ実行。モーダル取得エラーによりLukeSkywalker含む計6件処理。",
+    "details": [
+      {
+        "itemId": "307160947743",
+        "status": "skipped",
+        "note": "SEIKO FGO SZER082 在庫なし"
+      },
+      {
+        "itemId": "307166137954",
+        "status": "skipped",
+        "note": "Date A Live Kotori 仕入先削除"
+      },
+      {
+        "itemId": "307160946244",
+        "status": "skipped",
+        "note": "Might Gaine Seiko 楽天仕入先不可"
+      },
+      {
+        "itemId": "307166138645",
+        "status": "skipped",
+        "note": "Azur Lane NJ 売切れ超過予算"
+      },
+      {
+        "itemId": "307166627741",
+        "status": "skipped",
+        "note": "RE2 Collectors 仕入先削除"
+      },
+      {
+        "itemId": "307172342669",
+        "status": "skipped",
+        "note": "Luke Skywalker モーダル取得エラー"
+      }
+    ]
   }
 ]
