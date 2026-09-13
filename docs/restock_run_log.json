@@ -239,5 +239,16 @@
     "pending": 0,
     "total": 30,
     "notes": "Seiko book duplicates (20), comics excluded (2), no supplier (7), 1 listed Shinkenger Shodo-Phone @$203 13%"
+  },
+  {
+    "runDate": "2026-09-13T11:53:57.757Z",
+    "taskType": "qty0-restock",
+    "listed": 2,
+    "pending": 0,
+    "skipped": 10,
+    "cooldownSkip": 41,
+    "candidatesProcessed": 5,
+    "holdover": 54,
+    "note": "2-session run (context resume). Listed: 307175740136(Paw Patrol→m71412364346¥4000), 307175740060(Pokemon Mew earrings→z642889608¥7700). Browser/tab issues caused delays."
   }
 ]
