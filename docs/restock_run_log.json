@@ -1,5 +1,15 @@
 [
   {
+    "runAt": "2026-09-13T01:22:44.325Z",
+    "skill": "monodaz-restock-qty0",
+    "store": "yui_chan_store",
+    "listed": 0,
+    "pending": 0,
+    "skipped": 14,
+    "cooldownSkipped": 15,
+    "note": "仕入先取得システム障害(全¥0). 4件は手動で仕入先検索(メルカリ/ヤフオク/PayPay各3社), 残10件はシステム障害で一括スキップ. 未チェック14件処理, 再チェック0件."
+  },
+  {
     "runAt": "2026-09-13T01:21:52.637Z",
     "skill": "monodaz-restock-qty0",
     "store": "yui_chan_store",
