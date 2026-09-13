@@ -289,5 +289,14 @@
         "note": "NARUTO Sakura 既存仕入先売切"
       }
     ]
+  },
+  {
+    "runDate": "2026-09-14T09:00:00.000Z",
+    "type": "qty0",
+    "listed": 0,
+    "pending": 0,
+    "skipped": 27,
+    "cooldown": 57,
+    "notes": "27件チェック: p2x7(仕入先売切/Amazon不可)+p3x10(404/削除/Amazon不可)+p4x10(404/削除). 全スキップ."
   }
 ]
