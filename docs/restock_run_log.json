@@ -1,5 +1,19 @@
 [
   {
+    "runDate": "2026-09-13 14:36",
+    "task": "monodaz-restock-qty0",
+    "store": "yui_chan_store",
+    "listed": 0,
+    "pending": 0,
+    "skipped": 12,
+    "excluded": 0,
+    "cooldown": 0,
+    "overflow": 0,
+    "unchecked": 12,
+    "rechecked": 0,
+    "notes": "Qty0版: 12件全スキップ。仕入先売切・予算不足・コンディション不一致。"
+  },
+  {
     "runAt": "2026-09-13T01:22:44.325Z",
     "skill": "monodaz-restock-qty0",
     "store": "yui_chan_store",
