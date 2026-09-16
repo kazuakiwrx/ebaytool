@@ -1,5 +1,19 @@
 [
   {
+    "task": "monodaz-restock-alert",
+    "date": "2026-09-16",
+    "startAt": "2026-09-17T07:12:00.000Z",
+    "endAt": "2026-09-16T22:43:51.000Z",
+    "durationMin": null,
+    "listed": 0,
+    "pending": 1,
+    "skipped": 6,
+    "processed": 7,
+    "avgSecPerItem": null,
+    "alertsRemaining": 614,
+    "note": "アラート起点在庫補充。フェーズA:承認0件・出品対象なし(pending81件は全て高額/利益未達/コンディション不一致の既知ブロッカー)。フェーズB:page1(50件)triage→カテゴリ除外6件skip&アラート削除(TCG/BOX×4,書籍×2),figma KAITO 1件は仕入高騰で要承認。listedなし。ブラウザ拡張が繰返しフリーズ/切断し出品モーダル操作継続不能のため中断・残りは次回継続。トラッカーは破損した.htmlには触れずitems.jsonのみ追記。"
+  },
+  {
     "task": "monodaz-restock-by-quantity",
     "date": "2026-09-14",
     "startAt": "2026-09-14T00:37:57.691Z",

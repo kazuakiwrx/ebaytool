@@ -1,5 +1,70 @@
 [
   {
+    "id": "307180875634",
+    "ebayTitle": "figma KAITO Action Figure Hobby Vocaloid 192 2013 Max Factory Good Smile Company",
+    "ebayUrl": "https://www.ebay.com/itm/307180875634",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "pending",
+    "note": "在庫補充(アラート版)。eBay Used $172.5。旧仕入m13797049697売切。メルカリ一致中古figma KAITO最安¥26,021(次¥26,415/¥29,783)。maxBuy≒¥15,337を大幅超過・$172.5では利益率12-14%未達→要承認・アラート残す",
+    "newSite": "メルカリ",
+    "newPrice": 26021
+  },
+  {
+    "id": "307176239771",
+    "ebayTitle": "UNION ARENA Chainsaw Man UA53BT Sealed Booster Box Japanese 16 packs",
+    "ebayUrl": "https://www.ebay.com/itm/307176239771",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。TCG封入ブースターBOX=鑑定なしトレカ除外ルール(トラッカー既存慣行と一致)→スキップ・アラート削除"
+  },
+  {
+    "id": "307175031218",
+    "ebayTitle": "JoJo's Bizarre Adventure manga art exhibition 2025-2026 First Edition Cover",
+    "ebayUrl": "https://www.ebay.com/itm/307175031218",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。原画展/画集(書籍)=本・コミック出品禁止→スキップ・アラート削除"
+  },
+  {
+    "id": "307144640183",
+    "ebayTitle": "Sealed Yugioh IP Masquerena & SP Little Knight Duel Set YCSJ",
+    "ebayUrl": "https://www.ebay.com/itm/307144640183",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。遊戯王シールドDuel Set=鑑定なしトレカ除外→スキップ・アラート削除"
+  },
+  {
+    "id": "307144640182",
+    "ebayTitle": "Sealed Yugioh IP Masquerena & SP Little Knight Duel Set YCSJ (dup)",
+    "ebayUrl": "https://www.ebay.com/itm/307144640182",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。307144640183の重複。TCG除外→スキップ・アラート削除"
+  },
+  {
+    "id": "307167470438",
+    "ebayTitle": "Super Dragon Ball Heroes UGM1-SCP Complete Set 6 Cards",
+    "ebayUrl": "https://www.ebay.com/itm/307167470438",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。SDBHトレカ6枚(鑑定なし生カード)除外→スキップ・アラート削除"
+  },
+  {
+    "id": "307170838408",
+    "ebayTitle": "Demon Slayer Tanjiro Animation Original Picture Collection",
+    "ebayUrl": "https://www.ebay.com/itm/307170838408",
+    "origPrice": null,
+    "workDate": "2026-09-16T22:43:51.000Z",
+    "status": "skipped",
+    "note": "在庫補充(アラート版)。原画集(書籍)=本・コミック出品禁止→スキップ・アラート削除"
+  },
+  {
     "id": "307076337205",
     "ebayTitle": "Higurashi no Naku Koro ni Kai: Hanyu Wave DreamTech Figure",
     "ebayUrl": "https://www.ebay.com/itm/307076337205",
