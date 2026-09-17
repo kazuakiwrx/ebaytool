@@ -2,6 +2,20 @@
   {
     "task": "monodaz-restock-alert",
     "date": "2026-09-17",
+    "startAt": "2026-09-17 12:06:00",
+    "endAt": "2026-09-17 13:14:00",
+    "durationMin": 68,
+    "listed": 2,
+    "pending": 0,
+    "skipped": 1,
+    "processed": 3,
+    "avgSecPerItem": null,
+    "alertsRemaining": 605,
+    "note": "env unstable (frequent renderer freezes, supplier-fetch races, image-swap failures). Listed 2 (Digimon COLOR set $207/13.4%, NIKKE Soda figure $158/13.3%), skipped 1 (Hot Toys Flash - no supply within margin). Item4 (Iwatani FW-FS01-BK) attempted but abandoned: image would not swap; alert left intact. ~604 out-of-stock alerts remain unprocessed (large backlog)."
+  },
+  {
+    "task": "monodaz-restock-alert",
+    "date": "2026-09-17",
     "startAt": "2026-09-17 11:07:28",
     "endAt": "2026-09-17 11:48:40",
     "durationMin": 41.2,
