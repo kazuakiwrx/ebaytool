@@ -1,5 +1,19 @@
 [
  {
+  "task": "monodaz-auto-listing (restock-alert)",
+  "date": "2026-09-17",
+  "startAt": "2026-09-17T21:07:09",
+  "endAt": "2026-09-17T22:02:58",
+  "durationMin": 55.8,
+  "listed": 6,
+  "pending": 3,
+  "skipped": 6,
+  "processed": 15,
+  "avgSecPerItem": null,
+  "alertsRemaining": 581,
+  "note": "PhaseA:全pendingは目標未達で新規出品なし/承認フラグなし。PhaseB:page1新規15件(出品6/要承認3/スキップ6)。tracker=JSONL append方式。"
+ },
+ {
   "task": "monodaz-auto-listing",
   "date": "2026-09-17",
   "startAt": "2026-09-17T20:06:59",
