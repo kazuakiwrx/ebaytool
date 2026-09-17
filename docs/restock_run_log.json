@@ -1,5 +1,19 @@
 [
 {
+"task": "monodaz-restock-alert",
+"date": "2026-09-17",
+"startAt": "2026-09-17T09:00:00+09:00",
+"endAt": "2026-09-17T09:37:00+09:00",
+"durationMin": 37,
+"listed": 1,
+"pending": 0,
+"skipped": 0,
+"processed": 1,
+"avgSecPerItem": null,
+"alertsRemaining": 612,
+"note": "環境不安定(レンダラー45sフリーズ多発・モーダル開閉不整合)で1件でリスト化を打ち切り。listed:307169206971 METAL BUILD Kamen Rider Zero-One $197/13.2%。次候補307177451318(ガルパン ケイ ¥57000→$538/13.29%)は仕入先再取得直後にモーダルが不意に閉じ保存未完→アラート保持し次回継続。フェーズA承認案件0件(approve_フラグ無し)。"
+},
+{
 "task": "monodaz-auto-listing",
 "date": "2026-09-17",
 "startAt": "2026-09-17T08:07:22+09:00",
