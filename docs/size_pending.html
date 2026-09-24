@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>商品サイズ確認待ちリスト</title>
+<title>在庫補充トラッカー - 商品サイズ確認待ちリスト</title>
 <style>
-  :root{--bg:#f5f6f8;--card:#fff;--line:#e3e6ea;--text:#1f2733;--muted:#6b7480;--blue:#2f6fed;--amber:#e08a00;}
+  :root{--bg:#f5f6f8;--card:#fff;--line:#e3e6ea;--text:#1f2733;--muted:#6b7480;--blue:#2f6fed;--amber:#e08a00;--green:#1a8a4a;}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;padding:20px}
   h1{font-size:20px;margin:0 0 4px}
@@ -13,6 +13,10 @@
   .lead b{color:var(--text)}
   .count{font-size:14px;margin:10px 0;color:var(--muted)}
   .count b{font-size:22px;color:var(--amber)}
+  .tokenbox{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:12px 0;font-size:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .tokenbox input[type=password]{flex:1;min-width:220px;padding:6px 8px;border:1px solid #ced4da;border-radius:4px;font-size:13px}
+  .tokenbox button{padding:6px 12px;border:1px solid var(--blue);background:var(--blue);color:#fff;border-radius:4px;font-size:12px;cursor:pointer}
+  .tokenbox .ok{color:var(--green);font-weight:600}
   table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-size:13px}
   th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
   th{background:#eef1f5;font-size:12px;color:var(--muted);white-space:nowrap}
@@ -21,43 +25,162 @@
   .mut{color:var(--muted);font-size:12px}
   .store{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;background:#e8f0fe;color:#1a56c4;white-space:nowrap}
   .empty{padding:30px;text-align:center;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:8px}
+  .thumb{width:56px;height:56px;object-fit:cover;border-radius:4px;border:1px solid var(--line);display:block}
+  .noimg{width:56px;height:56px;border:1px dashed #ced4da;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--muted);text-align:center}
+  .sizeform{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+  .sizeform input{width:52px;padding:4px 5px;border:1px solid #ced4da;border-radius:4px;font-size:12px}
+  .sizeform button{padding:5px 10px;border:1px solid var(--blue);background:var(--blue);color:#fff;border-radius:4px;font-size:12px;cursor:pointer}
+  .sizeform button:disabled{opacity:.5;cursor:not-allowed}
+  .savedmsg{color:var(--green);font-size:12px;font-weight:600}
+  .errmsg{color:#c0392b;font-size:12px}
 </style>
 </head>
 <body>
-<h1>商品サイズ確認待ちリスト</h1>
+<h1>在庫補充トラッカー ／ 商品サイズ確認待ちリスト</h1>
 <div class="lead">
   Claude（在庫補充などのスキル）がメーカー公式サイト・Amazonを調べても<b>梱包サイズを特定できなかった商品</b>の一覧です。
   この商品はサイズが入るまで出品復帰（quantity=1）しません。<br>
-  <b>やること:</b> 商品の寸法・重量を確認し、KOETEC（http://localhost:8000）の<b>商品変更画面 →「梱包サイズ・重さ」欄</b>に
-  梱包サイズ（箱・緩衝材込み。商品サイズそのままにしない。目安: 各辺+2〜5cm／+100〜300g）を記入して、
-  記入者は<b>「人が確認」</b>を選んで保存してください。kazkamの商品はKOETECでストアを切り替えてから開くこと。<br>
-  記入が済んだ商品は、次回の在庫補充タスクの実行時に自動でこのリストから消えます（手で消す必要はありません）。
+  <b>やること:</b> 商品の梱包後の重さ・外寸（箱・緩衝材込み。商品そのもののサイズにしない。
+  目安: 各辺+2〜5cm／+100〜300g）を、この一覧の入力欄に直接書いて保存してください。
+  重さだけ、または縦・横・高さの3つだけ、どちらでも保存できます。<br>
+  保存すると、次回の在庫補充スキルの実行時に自動でKOETECに反映されて、このリストからも消えます
+  （KOETECを開く必要はありません）。
+</div>
+<div class="tokenbox" id="tokenbox">
+  <span>保存には自分のGitHubトークン（このリポジトリへの書き込み権限があるもの）が必要です:</span>
+  <input type="password" id="pat" placeholder="ghp_...">
+  <button id="patset">有効にする</button>
+  <span id="patstate" class="mut">未設定（閲覧のみ可能）</span>
 </div>
 <div class="count">確認待ち: <b id="n">-</b> 件 <span class="mut" id="upd"></span></div>
 <div id="out"></div>
 <script>
+var REPO = "kazuakiwrx/ebaytool";
+var PATH = "docs/size_pending.json";
+var API = "https://api.github.com/repos/" + REPO + "/contents/" + PATH;
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
-fetch('./size_pending.json?_='+Date.now()).then(function(r){return r.json();}).then(function(d){
+function pat(){return sessionStorage.getItem("size_pending_pat")||"";}
+
+(function(){
+  var saved = pat();
+  if(saved){document.getElementById("patstate").innerHTML='<span class="ok">設定済み（このタブの間だけ有効）</span>';}
+  document.getElementById("patset").onclick=function(){
+    var v=(document.getElementById("pat").value||"").trim();
+    if(!v){return;}
+    sessionStorage.setItem("size_pending_pat", v);
+    document.getElementById("pat").value="";
+    document.getElementById("patstate").innerHTML='<span class="ok">設定済み（このタブの間だけ有効）</span>';
+  };
+})();
+
+function b64encodeUtf8(str){
+  return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(_, p){return String.fromCharCode('0x'+p);}));
+}
+function b64decodeUtf8(str){
+  return decodeURIComponent(Array.prototype.map.call(atob(str), function(c){
+    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+  }).join(''));
+}
+
+function ghGet(){
+  return fetch(API + "?_=" + Date.now(), {headers:{"Accept":"application/vnd.github+json"}})
+    .then(function(r){ if(!r.ok) throw new Error("読み込み失敗 HTTP "+r.status); return r.json(); })
+    .then(function(j){ return {data: JSON.parse(b64decodeUtf8(j.content)), sha: j.sha}; });
+}
+function ghPut(data, sha, message, token){
+  var body = {message: message, sha: sha, content: b64encodeUtf8(JSON.stringify(data, null, 2) + "\n")};
+  return fetch(API, {
+    method: "PUT",
+    headers: {"Authorization": "token " + token, "Accept": "application/vnd.github+json", "Content-Type": "application/json"},
+    body: JSON.stringify(body)
+  }).then(function(r){
+    if(r.status===200 || r.status===201) return r.json();
+    return r.json().then(function(j){ throw new Error((j && j.message) || ("HTTP "+r.status)); });
+  });
+}
+
+function saveSize(itemId, row, btn, statusEl){
+  var token = pat();
+  if(!token){ statusEl.innerHTML = '<span class="errmsg">先に上のトークンを設定してください</span>'; return; }
+  var g = row.querySelector('[data-f="g"]').value.trim();
+  var l = row.querySelector('[data-f="l"]').value.trim();
+  var w = row.querySelector('[data-f="w"]').value.trim();
+  var h = row.querySelector('[data-f="h"]').value.trim();
+  var hasG = g !== "" && !isNaN(parseFloat(g)) && parseFloat(g) > 0;
+  var hasDims = [l,w,h].every(function(v){ return v!=="" && !isNaN(parseFloat(v)) && parseFloat(v)>0; });
+  if(!hasG && !hasDims){
+    statusEl.innerHTML = '<span class="errmsg">重さ、または縦・横・高さ全部を入れてください</span>';
+    return;
+  }
+  btn.disabled = true;
+  statusEl.textContent = "保存中…";
+  function attempt(triesLeft){
+    ghGet().then(function(res){
+      var data = res.data, sha = res.sha;
+      var it = (data.items||[]).find(function(x){ return String(x.itemId)===String(itemId); });
+      if(!it){ throw new Error("このリポジトリ上の一覧から見つかりませんでした（別の端末で先に処理された可能性）"); }
+      if(hasG) it.pack_g = parseFloat(g);
+      if(hasDims){ it.dims_l_cm = parseFloat(l); it.dims_w_cm = parseFloat(w); it.dims_h_cm = parseFloat(h); }
+      it.sizeFilledAt = new Date().toISOString().slice(0,10);
+      it.sizeFilledBy = "人（在庫補充トラッカー）";
+      return ghPut(data, sha, "size_pending: " + itemId + " にサイズを記入（トラッカーから）", token);
+    }).then(function(){
+      statusEl.innerHTML = '<span class="savedmsg">保存しました。次回の在庫補充で反映されます</span>';
+      row.querySelectorAll("input").forEach(function(el){ el.disabled = true; });
+    }).catch(function(e){
+      if(String(e.message||e).indexOf("409")>=0 && triesLeft>0){ attempt(triesLeft-1); return; }
+      statusEl.innerHTML = '<span class="errmsg">保存できませんでした: ' + esc(String(e.message||e)) + '</span>';
+      btn.disabled = false;
+    });
+  }
+  attempt(3);
+}
+
+ghGet().then(function(res){
+  var d = res.data;
   var items=(d.items||[]).filter(function(x){return (x.status||'waiting')==='waiting';});
   document.getElementById('n').textContent=items.length;
   var out=document.getElementById('out');
   if(!items.length){out.innerHTML='<div class="empty">確認待ちの商品はありません 🎉</div>';return;}
   items.sort(function(a,b){return String(a.addedAt||'').localeCompare(String(b.addedAt||''));});
-  var h='<table><tr><th>追加日</th><th>ストア</th><th>商品</th><th>仕入先</th><th>特定できなかった理由</th><th>KOETECで開く</th></tr>';
+  var h='<table><tr><th></th><th>追加日</th><th>ストア</th><th>商品</th><th>仕入先</th><th>特定できなかった理由</th><th>重さ・サイズを入力</th></tr>';
   items.forEach(function(x){
     var edit='http://localhost:8000/item/edit?item_id='+encodeURIComponent(x.itemId||'');
-    h+='<tr><td class="mut">'+esc(x.addedAt)+'</td>'
+    var already = x.pack_g || (x.dims_l_cm && x.dims_w_cm && x.dims_h_cm);
+    var img = x.image ? ('<img class="thumb" src="'+esc(x.image)+'">') : '<div class="noimg">画像<br>なし</div>';
+    h+='<tr data-item="'+esc(x.itemId)+'">'
+      +'<td>'+img+'</td>'
+      +'<td class="mut">'+esc(x.addedAt)+'</td>'
       +'<td><span class="store">'+esc(x.store||'')+'</span></td>'
       +'<td>'+(x.ebayUrl?('<a href="'+esc(x.ebayUrl)+'" target="_blank" rel="noopener">'+esc(x.title||x.itemId)+'</a>'):esc(x.title||x.itemId))
       +'<br><span class="mut">'+esc(x.itemId||'')+(x.addedBy?(' ／ 記載: '+esc(x.addedBy)):'')+'</span></td>'
       +'<td>'+(x.supplierUrl?('<a href="'+esc(x.supplierUrl)+'" target="_blank" rel="noopener">'+esc(String(x.supplierUrl).slice(0,40))+'…</a>'):'<span class="mut">-</span>')+'</td>'
       +'<td class="mut">'+esc(x.reason||'')+'</td>'
-      +'<td><a href="'+edit+'" target="_blank" rel="noopener">商品変更画面</a></td></tr>';
+      +'<td>'
+      +(already
+        ? '<span class="savedmsg">入力済み（次回の在庫補充で反映されます）</span>'
+        : ('<div class="sizeform">'
+           +'重<input data-f="g" placeholder="g">g '
+           +'縦<input data-f="l" placeholder="cm"> '
+           +'横<input data-f="w" placeholder="cm"> '
+           +'高<input data-f="h" placeholder="cm"> '
+           +'<button type="button">保存</button>'
+           +'</div><div class="status mut" style="margin-top:4px"></div>'))
+      +'<div class="mut" style="margin-top:4px"><a href="'+edit+'" target="_blank" rel="noopener">KOETECの商品変更画面で開く</a></div>'
+      +'</td></tr>';
   });
   h+='</table>';
   out.innerHTML=h;
+  out.querySelectorAll("tr[data-item]").forEach(function(row){
+    var btn = row.querySelector(".sizeform button");
+    if(!btn) return;
+    var statusEl = row.querySelector(".status");
+    btn.addEventListener("click", function(){
+      saveSize(row.getAttribute("data-item"), row, btn, statusEl);
+    });
+  });
   if(d.updated){document.getElementById('upd').textContent='（最終更新 '+esc(d.updated)+'）';}
-}).catch(function(e){document.getElementById('out').innerHTML='<div class="empty">読み込みに失敗しました: '+esc(e)+'</div>';});
+}).catch(function(e){document.getElementById('out').innerHTML='<div class="empty">読み込みに失敗しました: '+esc(String(e.message||e))+'</div>';});
 </script>
 </body>
 </html>
