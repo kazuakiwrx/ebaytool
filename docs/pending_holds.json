@@ -8,7 +8,8 @@
       "supplierUrl": "",
       "reason": "テスト承認確認",
       "addedAt": "2026-09-25",
-      "status": "waiting"
+      "status": "approved",
+      "approvedAt": "2026-09-25"
     }
   ]
 }
