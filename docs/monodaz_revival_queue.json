@@ -301,7 +301,7 @@
       "supplierUrl": "https://item.rakuten.co.jp/yellowsubmarine/4535123846694/",
       "sizeKnown": false,
       "dbInStockHint": 1,
-      "status": "pending"
+      "status": "size_pending"
     },
     {
       "itemId": "307114766954",
