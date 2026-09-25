@@ -44,12 +44,12 @@
   目安: 各辺+2〜5cm／+100〜300g）を、この一覧の入力欄に直接書いて保存してください。
   重さだけ、または縦・横・高さの3つだけ、どちらでも保存できます。<br>
   保存すると、次回の在庫補充スキルの実行時に自動でKOETECに反映されて、このリストからも消えます
-  （KOETECを開く必要はありません）。
+  （KOETECを開く必要はありません。トークンは最初にこの端末で1回設定すれば、以降は自動で使われます）。
 </div>
 <div class="tokenbox" id="tokenbox">
-  <span>保存には自分のGitHubトークン（このリポジトリへの書き込み権限があるもの）が必要です:</span>
+  <span id="patlabel">保存には自分のGitHubトークン（このリポジトリへの書き込み権限があるもの）が必要です（最初の1回だけ）:</span>
   <input type="password" id="pat" placeholder="ghp_...">
-  <button id="patset">有効にする</button>
+  <button id="patset">保存してこの端末で覚える</button>
   <span id="patstate" class="mut">未設定（閲覧のみ可能）</span>
 </div>
 <div class="count">確認待ち: <b id="n">-</b> 件 <span class="mut" id="upd"></span></div>
@@ -59,17 +59,35 @@ var REPO = "kazuakiwrx/ebaytool";
 var PATH = "docs/size_pending.json";
 var API = "https://api.github.com/repos/" + REPO + "/contents/" + PATH;
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
-function pat(){return sessionStorage.getItem("size_pending_pat")||"";}
+function pat(){
+  try{ return localStorage.getItem("size_pending_pat") || ""; }catch(e){ return ""; }
+}
 
 (function(){
   var saved = pat();
-  if(saved){document.getElementById("patstate").innerHTML='<span class="ok">設定済み（このタブの間だけ有効）</span>';}
+  if(saved){
+    document.getElementById("patstate").innerHTML='<span class="ok">設定済み（この端末で保存中）</span>';
+    document.getElementById("patlabel").style.display="none";
+    document.getElementById("pat").style.display="none";
+    document.getElementById("patset").textContent="変更する";
+  }
   document.getElementById("patset").onclick=function(){
     var v=(document.getElementById("pat").value||"").trim();
+    if(document.getElementById("pat").style.display==="none"){
+      // 「変更する」を押した→入力欄を出す
+      document.getElementById("patlabel").style.display="";
+      document.getElementById("pat").style.display="";
+      document.getElementById("pat").value="";
+      document.getElementById("patset").textContent="保存してこの端末で覚える";
+      return;
+    }
     if(!v){return;}
-    sessionStorage.setItem("size_pending_pat", v);
+    try{ localStorage.setItem("size_pending_pat", v); }catch(e){}
     document.getElementById("pat").value="";
-    document.getElementById("patstate").innerHTML='<span class="ok">設定済み（このタブの間だけ有効）</span>';
+    document.getElementById("patstate").innerHTML='<span class="ok">設定済み（この端末で保存中）</span>';
+    document.getElementById("patlabel").style.display="none";
+    document.getElementById("pat").style.display="none";
+    document.getElementById("patset").textContent="変更する";
   };
 })();
 
