@@ -163,7 +163,7 @@ ghGet().then(function(res){
   items.sort(function(a,b){return String(a.addedAt||'').localeCompare(String(b.addedAt||''));});
   var h='<table><tr><th></th><th>追加日</th><th>ストア</th><th>商品</th><th>仕入先</th><th>特定できなかった理由</th><th>重さ・サイズを入力</th></tr>';
   items.forEach(function(x){
-    var edit='http://localhost:8000/item/edit?item_id='+encodeURIComponent(x.itemId||'');
+    var edit='https://app.koetec.jp/item/edit?item_id='+encodeURIComponent(x.itemId||'');
     var already = x.pack_g || (x.dims_l_cm && x.dims_w_cm && x.dims_h_cm);
     var img = x.image ? ('<img class="thumb" src="'+esc(x.image)+'">') : '<div class="noimg">画像<br>なし</div>';
     h+='<tr data-item="'+esc(x.itemId)+'">'
