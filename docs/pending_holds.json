@@ -1,3 +1,14 @@
 {
-  "items": []
+  "items": [
+    {
+      "itemId": "TEST999999",
+      "store": "yui_chan_store",
+      "title": "テスト2",
+      "ebayUrl": "https://www.ebay.com/itm/TEST999999",
+      "supplierUrl": "",
+      "reason": "テスト承認確認",
+      "addedAt": "2026-09-25",
+      "status": "waiting"
+    }
+  ]
 }
