@@ -1318,7 +1318,7 @@
       "supplierUrl": null,
       "sizeKnown": false,
       "dbInStockHint": null,
-      "status": "pending"
+      "status": "dead_skipped"
     },
     {
       "itemId": "307137650691",
