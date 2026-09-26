@@ -1345,7 +1345,7 @@
       "supplierUrl": "https://auctions.yahoo.co.jp/jp/auction/l1207012975",
       "sizeKnown": false,
       "dbInStockHint": 1,
-      "status": "pending"
+      "status": "excluded"
     },
     {
       "itemId": "307137651085",
