@@ -1048,7 +1048,7 @@
       "supplierUrl": "https://www.amazon.co.jp/dp/B0GFLZTCYR",
       "sizeKnown": false,
       "dbInStockHint": null,
-      "status": "pending"
+      "status": "hold"
     },
     {
       "itemId": "307136447802",
