@@ -1156,7 +1156,7 @@
       "supplierUrl": "https://jp.mercari.com/item/m68362650307",
       "sizeKnown": false,
       "dbInStockHint": 1,
-      "status": "pending"
+      "status": "size_pending"
     },
     {
       "itemId": "307137645531",
