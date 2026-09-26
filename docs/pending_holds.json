@@ -120,6 +120,17 @@
       "addedAt": "2026-09-26",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307135639906",
+      "store": "yui_chan_store",
+      "title": "LACOSTE + GODZILLA  T-Shirt Size 6  Navy Japan Limited Godzilla Rare",
+      "ebayUrl": "https://www.ebay.com/itm/307135639906",
+      "supplierUrl": "https://jp.mercari.com/item/m59245150102",
+      "reason": "eBay側のItem Specifics(Size=6, Size Type=XL)が無効値でrevise失敗（エラー21920468）。Specifics修正が必要なため保留。",
+      "addedAt": "2026-09-26",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
