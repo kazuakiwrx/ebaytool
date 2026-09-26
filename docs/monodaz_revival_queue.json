@@ -1390,7 +1390,7 @@
       "supplierUrl": null,
       "sizeKnown": false,
       "dbInStockHint": null,
-      "status": "pending"
+      "status": "excluded"
     },
     {
       "itemId": "307137651674",
