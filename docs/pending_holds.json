@@ -142,6 +142,17 @@
       "addedAt": "2026-09-26",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307136427298",
+      "store": "yui_chan_store",
+      "title": "CHRONO TRIGGER Original Soundtrack Vinyl LP Box YASUNORI MITSUDA Analog NEW",
+      "ebayUrl": "https://www.ebay.com/itm/307136427298",
+      "supplierUrl": "https://www.amazon.co.jp/dp/B0GFLZTCYR",
+      "reason": "仕入先取得が「判定不能/画像0枚」でbuy_jpy=4180のまま(実際はAmazon公式価格¥19,640。ページ内の別商品CDの価格を誤取得したと思われる)。手動での上書きはしず人の確認待ち",
+      "addedAt": "2026-09-26",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
