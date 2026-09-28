@@ -67,18 +67,6 @@
       "addedAt": "2026-09-27",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
-    },
-    {
-      "itemId": "307175739660",
-      "store": "yui_chan_store",
-      "title": "MIZUNO V1GA2317 Volleyball Shoes Wave Momentum 3 MID Club Activities Indoor Wide",
-      "ebayUrl": "https://www.ebay.com/itm/307175739660",
-      "supplierUrl": "https://www.amazon.co.jp/dp/B0BQXF49CF",
-      "image": "",
-      "reason": "gemini処理。サイズ根拠はバレーボールシューズ（ミズノ Wave Momentum 3 MID）ですが、タイトル上に靴サイズの記載がなくサイズ特定が必要なためsize_pending判定。靴箱（約32×21×12cm）に対し梱包後の外寸目安は約35×25×15cm/約1100g（80サイズ）。",
-      "addedAt": "2026-09-28",
-      "addedBy": "KOETEC商品変更画面",
-      "status": "waiting"
     }
   ]
 }
