@@ -31,7 +31,8 @@
       "reason": "仕入額(送料込み)¥399,999で¥100,000超のため要承認",
       "addedAt": "2026-09-26",
       "addedBy": "KOETEC商品変更画面",
-      "status": "waiting"
+      "status": "approved",
+      "approvedAt": "2026-09-29"
     },
     {
       "itemId": "304448350384",
