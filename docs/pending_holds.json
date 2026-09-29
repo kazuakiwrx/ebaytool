@@ -308,6 +308,17 @@
       "addedAt": "2026-09-29",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "397976715939",
+      "store": "kazkam",
+      "title": "",
+      "ebayUrl": "https://www.ebay.com/itm/397976715939",
+      "supplierUrl": "",
+      "reason": "eBay側でDiscover errorとなりタイトル・画像・Condition取得不可。出品終了/削除の可能性、人による確認が必要。",
+      "addedAt": "2026-09-29",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
