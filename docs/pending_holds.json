@@ -538,6 +538,17 @@
       "addedAt": "2026-10-01",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "304462069974",
+      "store": "yui_chan_store",
+      "title": "SEGA Hatsune Miku of Nobody Project Sekai Plush doll Vocaloid Colorful Stage",
+      "ebayUrl": "https://www.ebay.com/itm/304462069974",
+      "supplierUrl": "https://jp.mercari.com/shops/product/2JMn57pjwQXG7dxP39U8bq",
+      "reason": "仕入先はメルカリShops(¥1,880)で確定・保存済みだが、画面の不具合で価格($95→目標$45)と数量(0→1)の変更が繰り返し保存されない。仕入先情報のみ保存し、価格・数量の反映は次回以降に持ち越し。",
+      "addedAt": "2026-10-01",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
