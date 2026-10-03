@@ -604,6 +604,17 @@
       "addedAt": "2026-10-03",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307160944682",
+      "store": "yui_chan_store",
+      "title": "[W/Bandana] BABYMETAL LIVE AT WEMBLEY THE ONE Limited Edition Blu-ray + 2CD 2016",
+      "ebayUrl": "https://www.ebay.com/itm/307160944682",
+      "supplierUrl": "https://jp.mercari.com/item/m97516006844",
+      "reason": "eBay保存時にガードエラー：Invalid ShippingServiceCost（Shipping service cost exceeds Standard Shipping from outside US maximum allowed for selected category.）。梱包重量2.3kgのためカテゴリー上限を超過し、価格$252.00・数量1への保存が繰り返し弾かれた（自動(最安)／FedEx International Connect Plus 両方の発送方法で試行済み）。仕入先URL・仕入価格・画像・梱包サイズは保存済み。出品再開には配送ポリシー/カテゴリーの見直しが必要。",
+      "addedAt": "2026-10-03",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
