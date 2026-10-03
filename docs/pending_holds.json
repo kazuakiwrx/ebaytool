@@ -615,6 +615,17 @@
       "addedAt": "2026-10-03",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307166627741",
+      "store": "yui_chan_store",
+      "title": "Resident Evil 2 COLLECTOR'S EDITION Play Station4",
+      "ebayUrl": "https://www.ebay.com/itm/307166627741",
+      "supplierUrl": "https://jp.mercari.com/item/m96865331467",
+      "reason": "新仕入先(メルカリ m96865331467, ¥50,000, 未使用に近い)は確認済み。梱包サイズをAIモード(amazon.jp出典)で特定: 37.6×25.4×24.8cm/3.08kg。これを入力し価格$481(利益率10.8%、目標レンジ内)で保存したところ、eBayが出品更新を拒否: \"Invalid ShippingServiceCost: Shipping service cost exceeds Standard Shipping from outside US maximum allowed for selected category\"。発送方法は自動(最安)のままでも同エラー。価格・数量の調整では解決しないため、送料ポリシー/発送サービスの選定について人の判断が必要。仕入先・梱包サイズ情報は保存済み（数量・価格は変更せず現状維持）。",
+      "addedAt": "2026-10-04",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
