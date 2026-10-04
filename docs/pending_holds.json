@@ -670,6 +670,17 @@
       "addedAt": "2026-10-04",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307174055233",
+      "store": "yui_chan_store",
+      "title": "Age13+ Street Fighter V Ryu 1/6 Scale Figure Champion Edition Iconiq Studios",
+      "ebayUrl": "https://www.ebay.com/itm/307174055233",
+      "supplierUrl": "https://jp.mercari.com/shops/product/2JUNZPkGGsxZWSs6NLhmS5",
+      "reason": "代替候補あり(目視確認済み): https://jp.mercari.com/shops/product/2JUNZPkGGsxZWSs6NLhmS5 ¥75,600 在庫1点 同一商品(リュウ ストリートファイターV チャンピオンエディション ICONIQ STUDIO 1/6)。ただし仕入先取得が繰り返しエラー(JSONパースエラー)で失敗し画像・在庫データを自動取得できず(5回リトライ済み)。要・手動確認またはスクレイパー調査。",
+      "addedAt": "2026-10-05",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
