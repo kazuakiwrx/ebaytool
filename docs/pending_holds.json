@@ -9,7 +9,8 @@
       "reason": "梱包サイズ不明。「サイズ確認待ちリストに登録」ボタンを数回押したが反映されないため、人の確認待ちとして保留。",
       "addedAt": "2026-09-25",
       "addedBy": "KOETEC商品変更画面",
-      "status": "waiting"
+      "status": "approved",
+      "approvedAt": "2026-10-05"
     },
     {
       "itemId": "304370943815",
