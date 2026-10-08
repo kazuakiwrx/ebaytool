@@ -693,6 +693,17 @@
       "addedAt": "2026-10-08",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307218302271",
+      "store": "yui_chan_store",
+      "title": "MEDICOM TOY Soul Eater 1/8 Figure Maka Albarn SQUARE ENIX Japan Boxed",
+      "ebayUrl": "https://www.ebay.com/itm/307218302271",
+      "supplierUrl": "https://jp.mercari.com/item/m11769719609",
+      "reason": "仕入先取得で在庫あり確認。仕入価格¥139,999が¥100,000を超えるため要承認。",
+      "addedAt": "2026-10-08",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
