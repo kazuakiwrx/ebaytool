@@ -781,6 +781,17 @@
       "addedAt": "2026-10-10",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307136122008",
+      "store": "yui_chan_store",
+      "title": "Kotobukiya Bishoujo Transformers Optimus Prime 1/7 PVC Figure",
+      "ebayUrl": "https://www.ebay.com/itm/307136122008",
+      "supplierUrl": "https://jp.mercari.com/shops/product/2JUPeDayUj4rULH64T5pAt",
+      "reason": "代替仕入先(メルカリShops タイムセール品)の自動取得が実売価格を誤認識したため価格のみ手修正(¥18,590、利益率13.1%)して保存。画像は自動取得が0枚で失敗し、旧仕入先時代の画像のまま。新仕入先の写真への入替が未完了のため要人確認。",
+      "addedAt": "2026-10-10",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
