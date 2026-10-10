@@ -737,6 +737,17 @@
       "addedAt": "2026-10-10",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307178919238",
+      "store": "yui_chan_store",
+      "title": "BANDAI Soul of Chogokin Mazinger Z Boss Borot GX-10R Action Figure JAPAN New",
+      "ebayUrl": "https://www.ebay.com/itm/307178919238",
+      "supplierUrl": "https://jp.mercari.com/item/m79223507474",
+      "reason": "ガードブロック: eBay更新がエラー21919309「Theme should contain only one value」で弾かれる（Item Specifics の Theme フィールドが原因、数量0・価格据え置きでも同エラー）。新仕入先はメルカリ m79223507474（ポケ…ではなくBANDAI超合金魂GX-10R未使用品 ¥22,999、価格$220.8で利益率11%・梱包26x23x11cm/900g算出済み）。Theme項目の修正後に再試行要。",
+      "addedAt": "2026-10-10",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
