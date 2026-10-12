@@ -858,6 +858,17 @@
       "addedAt": "2026-10-12",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307144225315",
+      "store": "yui_chan_store",
+      "title": "Pokemon Detective Pikachu Life Size Doll Limited Plush Toy MegaHouse JP NO BOX",
+      "ebayUrl": "https://www.ebay.com/itm/307144225315",
+      "supplierUrl": "https://jp.mercari.com/item/m71288223475",
+      "reason": "価格を目標利益率(8%)の271.76に設定し保存したが、guardの書き込みログには「数量／画像7枚」のみ記録され、価格変更が送信された記録がない（2回試行・2回とも「eBayへ送る変更はありません」）。利益率は65.0%のまま未達の疑い。数量・画像は既にeBayへ反映済み(出品復帰済み)。価格のみ人による確認が必要。",
+      "addedAt": "2026-10-12",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
