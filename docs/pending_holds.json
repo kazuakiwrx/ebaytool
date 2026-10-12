@@ -869,6 +869,17 @@
       "addedAt": "2026-10-12",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307144072642",
+      "store": "yui_chan_store",
+      "title": "PlayStation Portal Remote Player 30th Anniversary Limited Edition Japan version",
+      "ebayUrl": "https://www.ebay.com/itm/307144072642",
+      "supplierUrl": "https://www.amazon.co.jp/dp/B0DHTWZJZQ",
+      "reason": "8%目標まで値下げするとeBayがエラー21916260（Invalid ShippingServiceCost：このカテゴリのStandard Shipping from outside US上限を配送ポリシーの送料が超過）で保存を拒否。数量は1に復帰済み・画像も現状のまま変更なしだが、価格は旧価格（利益率25.3%、目標7-15%を超過）のまま据え置き。カテゴリに合う配送ポリシー（送料上限の低いもの）を人が選び直すか、上限上げの要否を判断してほしい。",
+      "addedAt": "2026-10-12",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
