@@ -935,6 +935,17 @@
       "addedAt": "2026-10-16",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307144979277",
+      "store": "yui_chan_store",
+      "title": "Nintendo GameCube Tales of Symphonia Symphonic Green Limited Console Japan",
+      "ebayUrl": "https://www.ebay.com/itm/307144979277",
+      "supplierUrl": "https://jp.mercari.com/item/m80346542858",
+      "reason": "eBayが「Invalid ShippingServiceCost: Shipping service cost exceeds Standard Shipping from outside US maximum allowed for selected category」で保存を拒否（カテゴリ Video Game Consoles の海外送料上限超過）。利益率13%になる$430への値下げでも同エラー。仕入先(メルカリ ¥44,800・在庫あり)は確認・保存済み。シッピングポリシーの見直しが必要。",
+      "addedAt": "2026-10-16",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
