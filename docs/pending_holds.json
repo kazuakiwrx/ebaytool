@@ -1255,6 +1255,17 @@
       "addedAt": "2026-10-28",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307225864400",
+      "store": "yui_chan_store",
+      "title": "Miku Hatsune Project DIVA Future Tone DX Dedicated Controller for Playstation4",
+      "ebayUrl": "https://www.ebay.com/itm/307225864400",
+      "supplierUrl": "https://jp.mercari.com/item/m71470900129",
+      "reason": "ガードに弾かれた: eBay更新エラー Invalid ShippingServiceCost（Shipping service cost exceeds Standard Shipping from outside US maximum）。新仕入先(HORI製 通常版コントローラー PS4-161、¥59,090)は本体3.5kg・梱包後約10kgと重量があり、価格$605・利益率11.5%で複数の送料区分（$62.5区分・従来の送料上限$20区分）を試したがいずれもeBay側の国際標準配送の送料上限を超過し保存失敗。仕入先URL・仕入価格・梱包サイズは保存済み。配送方法や送料区分の見直しが必要。",
+      "addedAt": "2026-10-29",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
