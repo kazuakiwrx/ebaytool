@@ -1442,6 +1442,17 @@
       "addedAt": "2026-10-31",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307251700782",
+      "store": "yui_chan_store",
+      "title": "Metal Gear Solid Integral Sony PlayStation 1 PS1 Japan Import New Sealed FS JP",
+      "ebayUrl": "https://www.ebay.com/itm/307251700782",
+      "supplierUrl": "https://jp.mercari.com/item/m36910254924",
+      "reason": "eBay保存時にガードブロック：Invalid ShippingServiceCost（21916260）。Video Games & Consolesカテゴリで海外標準配送料の上限規定があり、目標価格$407.13/送料$42.5だと上限超過でeBay側に弾かれる。送料上限ありポリシー（$20上限）を選んでも同じエラーで保存不可。価格を下げて送料を上限内に収める調整、または別のshippingポリシー選定が必要。仕入先・原価・梱包サイズは確定済みのため保存済み（qty/price未変更）。",
+      "addedAt": "2026-11-01",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
