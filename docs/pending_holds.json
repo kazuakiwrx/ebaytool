@@ -1519,6 +1519,17 @@
       "addedAt": "2026-11-02",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307257787535",
+      "store": "yui_chan_store",
+      "title": "Gyakuten Baribariverse Bariba verse coin Third Turn x 30 in Box Bandai",
+      "ebayUrl": "https://www.ebay.com/itm/307257787535",
+      "supplierUrl": "https://jp.mercari.com/item/m19739636127",
+      "reason": "元の仕入先ページは完全に削除済み(404)のため、英語タイトル(Gyakuten Baribariverse Bariba verse coin Third Turn x 30 in Box)をGoogle検索し、実商品名を逆引き特定(BANDAI「逆転バリバリバース バリバコイン 第3弾/第3転」30個入box)。新仕入先候補はメルカリ m19739636127(¥14,980, 新品未使用, 30個入box, セラー評価5/5・493件)で商品一致を確認済み。しかしKOETECの仕入先取得ツールが繰り返し失敗(「仕入先ページの取得がタイムアウトしました(90秒)」等、10回以上リトライも全て失敗。巡回中でないことも確認済みでロック競合ではない)。画像・梱包サイズの自動取得ができないため保留。仕入先URL・仕入価格(¥14,980)のみ手動で保存済み。",
+      "addedAt": "2026-11-02",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
