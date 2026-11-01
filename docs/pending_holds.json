@@ -1530,6 +1530,17 @@
       "addedAt": "2026-11-02",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307257787737",
+      "store": "yui_chan_store",
+      "title": "Ado STADIUM LIVE 2026 Ao Official Reversible Bucket Hat Blue New",
+      "ebayUrl": "https://www.ebay.com/itm/307257787737",
+      "supplierUrl": "https://jp.mercari.com/item/m83503918621",
+      "reason": "元の仕入先(メルカリ m51243138003)は売り切れ。同一商品(Ado STADIUM LIVE 2026 Ao 日焼けしたくないね リバーシブルハット)の新候補としてメルカリ m83503918621(¥3,500, 出品者評価5/5)を特定し説明文で商品一致を確認済み(コンディションは「目立った傷や汚れなし」、現行Newとは異なるため要確認)。しかしKOETECの仕入先取得ツールが本件でも「仕入先ページの取得がタイムアウトしました(90秒)」で失敗(items 14,15に続き3件目の同一症状。巡回中でないことも確認済みでロック競合ではなく、ツール自体の障害と判断)。画像・梱包サイズの自動取得ができないため保留。仕入先URL・仕入価格(¥3,500)のみ手動で保存済み。",
+      "addedAt": "2026-11-02",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
