@@ -1508,6 +1508,17 @@
       "addedAt": "2026-11-02",
       "addedBy": "KOETEC商品変更画面",
       "status": "waiting"
+    },
+    {
+      "itemId": "307257786433",
+      "store": "yui_chan_store",
+      "title": "BLEACH Thousand Year Blood War Animation Works Cover Limited Edition Book",
+      "ebayUrl": "https://www.ebay.com/itm/307257786433",
+      "supplierUrl": "https://jp.mercari.com/item/m20644434417",
+      "reason": "新仕入先候補は特定済み(メルカリ m20644434417, ¥11,599, 新品未使用に近い・同一商品の表紙デザイン確認済み。別候補m32121478730 ¥9,999でも試行)だが、KOETECの仕入先取得ツールが両URLとも90秒タイムアウトで繰り返し失敗(計8回超リトライ、巡回は未実行で競合なしを確認済み)。価格・画像の自動取得と梱包サイズ未確定のため保留。次回ツールが正常化すれば上記URLで再取得して出品復帰可能。",
+      "addedAt": "2026-11-02",
+      "addedBy": "KOETEC商品変更画面",
+      "status": "waiting"
     }
   ]
 }
